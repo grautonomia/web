@@ -1,12 +1,10 @@
 {
-  "name": "metalsmith-i18n",
+  "name": "gra-web",
   "version": "0.1.0",
-  "description": "Testing i18n in metasmith",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "private": true,
+  "description": "GRA Website",
+  "main": "build.js",
+  "author": "GRA",
   "license": "ISC",
   "dependencies": {
     "jade": "^1.11.0",
@@ -16,5 +14,8 @@
     "metalsmith-pandoc": "^0.1.2",
     "metalsmith-permalinks": "^0.4.0",
     "metalsmith-templates": "^0.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
