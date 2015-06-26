@@ -1,0 +1,18 @@
+{
+  "name": "metalsmith-i18n",
+  "version": "0.1.0",
+  "description": "Testing i18n in metasmith",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "lodash": "^3.9.3",
+    "metalsmith": "^1.7.0",
+    "metalsmith-pandoc": "^0.1.2",
+    "metalsmith-templates": "^0.7.0"
+  }
+}
