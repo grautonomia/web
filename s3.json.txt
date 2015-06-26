@@ -1,0 +1,6 @@
+{
+    "access": "",
+    "secret": "",
+    "bucket": "",
+    "region": ""
+}

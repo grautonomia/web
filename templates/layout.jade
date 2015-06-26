@@ -11,11 +11,11 @@ html(lang="es")
             |  – #{'gra_full'} (GRA)
 
         //- link(rel="alternate" type="application/rss+xml" title="RSS" href="http://doup.illarra.com/rss.xml")
-        //- link(href="/#{fingerprint['assets/main.css']}" rel="stylesheet" type="text/css")
+        link(href="/#{fingerprint['assets/main.css']}" rel="stylesheet" type="text/css")
         //- link(rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/github.min.css")
         //- Typekit
         script(src="//use.typekit.net/kyl0rkz.js")
-        script try{Typekit.load();}catch(e){}
+        script try { Typekit.load(); } catch(e) {}
         //- Roost
         script(src="//cdn.goroost.com/roostjs/235b91d617b947b1847790b414b9efae" async)
 
@@ -34,14 +34,12 @@ html(lang="es")
         .header
             .row
                 .large-12.columns
-                    h1.title: a(href="#{'path_homepage'}") GRA
+                    h1.title: a(href="#{'path_homepage_localized'}") GRA
                     ul.locales
                         if locale != 'es'
                             li: a(href="/#{altFiles.es.path}") Castellano
                         if locale != 'ca'
                             li: a(href="/#{altFiles.ca.path}") Català
-                            | #{altFiles.ca.title}
-                            | #{altFiles.ca}
                     ul.menu
                         li: a(href="/") #{'menu_index'}
                         li: a(href="#" data-reveal-id="aboutModal" data-track="{{ {'category': 'about', 'action': 'view'}|json_encode() }}") #{'menu_about'}

@@ -1,0 +1,292 @@
+.homepage {
+    .cta-reforma-revolucio {
+        $height: 80px;
+
+        margin: -2em 0 2em 0;
+        border-bottom: 1px solid #ddd;
+        line-height: $height;
+        height: $height;
+        display: block;
+        width: 100%;
+
+        .reforma {
+            width: 120px;
+            height: $height;
+            display: inline-block;
+            padding: 0 1em;
+            background: #222 url(/assets/events/ror/reforma-tiny.png) center 49% no-repeat;
+            text-indent: -999em;
+        }
+
+        .revolucio {
+            width: 120px;
+            height: $height;
+            display: inline-block;
+            padding: 0 1em;
+            background: transparent url(/assets/events/ror/revolucio-tiny.png) center 47% no-repeat;
+            text-indent: -999em;
+        }
+
+        .description {
+            margin-left: 3em;
+            text-transform: uppercase;
+            font-family: $header-font-family;
+            font-weight: 300;
+        }
+
+        a {
+            float: right;
+            height: $height;
+            display: inline-block;
+            line-height: $height;
+            padding: 0 1em;
+            font-family: $header-font-family;
+            text-transform: uppercase;
+        }
+    }
+}
+
+body.reforma-revolucio {
+    $section-spacing: 8em;
+
+    background: #fff url(/assets/events/ror/bg.png) 0 -120px repeat-x;
+
+    .header {
+        $color:       #666;
+        $color-hover: #eee;
+
+        background-color: #222;
+
+        li {
+            border-right-width: 0;
+        }
+
+        a {
+            color: $color;
+
+            &:hover {
+                color: $color-hover;
+            }
+        }
+
+        .menu a, .locales a {
+            &:hover {
+                border-bottom: 5px solid #333;
+            }
+        }
+    }
+
+    .intro {
+        font-size: 16px;
+        font-style: italic;
+        letter-spacing: 2px;
+        color: #555;
+        border-bottom: 4px solid #fafafa;
+        padding-bottom: 1em;
+    }
+
+    hr {
+        margin: 0 auto;
+        height: 4px;
+        width: 30%;
+        border: 0;
+        background-color: #fafafa;
+    }
+
+    .section {
+        padding-top: $section-spacing / 2;
+        padding-bottom: $section-spacing / 2;
+
+        h2 {
+            text-transform: uppercase;
+            margin-bottom: 1.5em;
+            font-style: italic;
+        }
+    }
+
+    .section.debats {
+        .debat {
+            margin-bottom: 1em;
+
+            h3 {
+                margin-bottom: 0;
+            }
+
+            .actions {
+                float: right;
+
+                a {
+                    font-size: 0.9em;
+                    margin-left: .25em;
+                    font-family: $header-font-family;
+                    padding: 0px 5px;
+                    border-radius: 2px;
+                    background-color: #b63984;
+                    color: #fefafc;
+                }
+            }
+
+            .date {
+                font-family: $header-font-family;
+                font-weight: 300;
+                text-transform: uppercase;
+                border-bottom: 1px solid #eee;
+                margin-bottom: 1em;
+                padding-bottom: 0.25em;
+            }
+
+            .content {
+                p {
+                    text-indent: 2em;
+                    text-align: justify;
+                    margin-bottom: 0.25em;
+                }
+
+                p:first-child {
+                    text-indent: 0;
+                }
+            }
+        }
+    }
+
+    .section.lectures {
+        .documents {
+            font-size: 1.05em;
+
+            li {
+                list-style: none;
+                background: transparent url(/assets/events/ror/file-icon.png) 0px 5px no-repeat;
+                padding-left: 20px;
+
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .notice, .info {
+            font-weight: 300;
+            padding: 1em;
+            font-size: 1.2em;
+            font-family: $header-font-family;
+            background-color: #fffae5;
+            color: #615621;
+        }
+
+        .info {
+            background-color: #fafafa;
+        }
+    }
+
+    .section.on {
+        padding-bottom: $section-spacing;
+
+        .timetable {
+            font-size: 1.1em;
+
+            li {
+                list-style: none;
+                padding-left: 115px;
+                text-indent: -58px;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 0.25em;
+                margin-bottom: 0.25em;
+            }
+
+            li:last-child {
+                border-bottom: none;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+
+            .dim {
+                color: #777;
+            }
+
+            span {
+                font-weight: 300;
+                font-family: $header-font-family;
+                display: inline-block;
+                width: 55px;
+            }
+        }
+
+        .note {
+            font-family: $header-font-family;
+            font-weight: 300;
+            color: #777;
+        }
+
+        .place {
+            background-color: #fafafa;
+            padding: 1em;
+            border-bottom: 1px solid #ddd;
+
+            ul {
+                margin-bottom: 0;
+
+                li {
+                    list-style: none;
+                    font-family: $header-font-family;
+                    font-weight: 300;
+                    font-size: 1.25em;
+                }
+            }
+        }
+    }
+
+    .sticky {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        border-top: 0;
+    }
+
+    .submenu {
+        text-align: center;
+        height: 90px;
+        background: transparent url(/assets/events/ror/submenu-gradient.png) repeat-x;
+        padding-top: 20px;
+        font-family: $header-font-family;
+        text-transform: uppercase;
+
+        li {
+            list-style: none;
+            display: inline-block;
+
+            .active {
+                background-color: #fef2f8;
+            }
+
+            a {
+                display: inline-block;
+                border-color: #eee;
+                border-style: solid;
+                border-width: 1px 0px 1px 1px;
+
+                background-color: #fefafc;
+                line-height: 45px;
+                padding: 0 1em;
+
+                &:hover {
+                    background-color: #fef2f8;
+                }
+            }
+        }
+
+        li:first-child {
+            a {
+                border-radius: 6px 0px 0px 6px;
+            }
+        }
+
+        li:last-child {
+            a {
+                border-radius: 0px 6px 6px 0px;
+                border-right: 1px solid #eee;
+            }
+        }
+    }
+}

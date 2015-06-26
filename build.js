@@ -2,12 +2,16 @@
 
 var Metalsmith   = require('metalsmith');
 var branch       = require('metalsmith-branch');
+var drafts       = require('metalsmith-drafts');
 var fileMetadata = require('metalsmith-filemetadata');
+var fingerprint  = require('metalsmith-fingerprint');
+var ignore       = require('metalsmith-ignore');
 var pandoc       = require('metalsmith-pandoc');
 var permalinks   = require('metalsmith-permalinks');
+var sass         = require('metalsmith-sass');
 var templates    = require('metalsmith-templates');
 
-function i18n(ops) {
+function locales(ops) {
     var extname = require('path').extname;
 
     var pattern = RegExp('.*_('+ ops.locales.join('|') +')(?:\..*)?$');
@@ -72,20 +76,42 @@ function i18n(ops) {
     };
 }
 
-Metalsmith(__dirname)
-    .use(i18n({ default: 'ca', locales: ['ca', 'es'] }))
-    .use(pandoc())
-    .use(fileMetadata([
-        { pattern: 'articles/*', preserve: true, metadata: { template: 'article.jade' } }
-    ]))
-    .use(branch('articles/*')
-        .use(permalinks({
-            pattern: ':locale/:slug'
-        }))
-    )
-    .use(templates('jade'))
-    .build(function (err, files) {
-        if (err) {
-            throw err;
+function showDrafts(show) {
+    return function (files, ms, done) {
+        if (show) {
+            for (var file in files) {
+                files[file].draft = false;
+            }
         }
-    });
+
+        done();
+    };
+}
+
+module.exports = function (isDebug, cb) {
+module.exports = function (isDebug, done) {
+    Metalsmith(__dirname)
+        .use(showDrafts(isDebug))
+        .use(drafts())
+        .use(ignore(['.DS_Store', '*/.DS_Store', 'assets/images/*']))
+        .use(sass({
+            outputDir:    'assets/',
+            includePaths: ['bower_components/foundation/scss']
+        }))
+        .use(fingerprint({
+            pattern: 'assets/main.css'
+        }))
+        .use(ignore(['assets/main.css']))
+        .use(locales({ default: 'ca', locales: ['ca', 'es'] }))
+        .use(pandoc())
+        .use(fileMetadata([
+            { pattern: 'articles/*', preserve: true, metadata: { template: 'article.jade' } }
+        ]))
+        .use(branch('articles/*')
+            .use(permalinks({
+                pattern: ':locale/:slug'
+            }))
+        )
+        .use(templates('jade'))
+        .build(done);
+};

@@ -7,13 +7,24 @@
   "author": "GRA",
   "license": "ISC",
   "dependencies": {
+    "browser-sync": "^2.7.12",
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-awspublish": "^2.0.2",
+    "gulp-awspublish-router": "^0.1.1",
+    "gulp-image-resize": "^0.6.0",
+    "gulp-imagemin": "^2.3.0",
     "jade": "^1.11.0",
     "metalsmith": "^1.7.0",
     "metalsmith-branch": "0.0.4",
+    "metalsmith-drafts": "0.0.1",
     "metalsmith-filemetadata": "0.0.4",
+    "metalsmith-fingerprint": "^1.0.2",
+    "metalsmith-ignore": "^0.1.2",
     "metalsmith-pandoc": "^0.1.2",
     "metalsmith-permalinks": "^0.4.0",
-    "metalsmith-templates": "^0.7.0"
+    "metalsmith-sass": "^1.2.1",
+    "metalsmith-templates": "^0.7.0",
+    "minimist": "^1.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
