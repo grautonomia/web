@@ -1,10 +1,14 @@
 ---
+meta:     'test'
+
 title:    Últim comunicat del GADI Catalunya
-subtitle: Cessem la intervenció política i ens focalitzem en la formació, la reflexió i la refundació durant un any
+subtitle: Cessem la intervenció política i ens focalitzem en la formació,
+          la reflexió i la refundació durant un any
 slug:     gadi-cessem-intervencio-politica
-excerpt:  Últim comunicat del GADI Catalunya on anuncia i explica la seva desvinculació del projecte de la Democràcia Inclusiva i la pausa d'activitat pública.
+excerpt:  Últim comunicat del GADI Catalunya on anuncia i explica la seva
+          desvinculació del projecte de la Democràcia Inclusiva i la pausa
+          d'activitat pública.
 keywords: ["Democràcia Inclusiva", GADI, Reflexió]
-meta:     Some meta data
 ---
 
 ##Introducció
@@ -54,5 +58,3 @@ En aquests temps de decadència sistèmica en què vivim, alhora que la credibil
     GADI Catalunya / GRA<br/>
     Novembre de 2012
 </p>
-
-###Notes

@@ -1,5 +1,4 @@
 ---
-title: Whatever
+title:    Index
+template: index.jade
 ---
-Aupa patxi
-==========

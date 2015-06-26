@@ -1,0 +1,81 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="utf-8")
+        meta(name="author" content="Asier Illarramendi")
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+        title
+            block title
+                | GRA
+            |  – #{'gra_full'} (GRA)
+
+        //- link(rel="alternate" type="application/rss+xml" title="RSS" href="http://doup.illarra.com/rss.xml")
+        //- link(href="/#{fingerprint['assets/main.css']}" rel="stylesheet" type="text/css")
+        //- link(rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/github.min.css")
+        //- Typekit
+        script(src="//use.typekit.net/kyl0rkz.js")
+        script try{Typekit.load();}catch(e){}
+        //- Roost
+        script(src="//cdn.goroost.com/roostjs/235b91d617b947b1847790b414b9efae" async)
+
+    body(class="")
+        //- FACEBOOK
+        #fb-root
+        script.
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+        .header
+            .row
+                .large-12.columns
+                    h1.title: a(href="#{'path_homepage'}") GRA
+                    ul.locales
+                        if locale != 'es'
+                            li: a(href="/#{altFiles.es.path}") Castellano
+                        if locale != 'ca'
+                            li: a(href="/#{altFiles.ca.path}") Català
+                            | #{altFiles.ca.title}
+                            | #{altFiles.ca}
+                    ul.menu
+                        li: a(href="/") #{'menu_index'}
+                        li: a(href="#" data-reveal-id="aboutModal" data-track="{{ {'category': 'about', 'action': 'view'}|json_encode() }}") #{'menu_about'}
+
+        block body
+
+        .footer
+            .row
+                .large-6.columns
+                    div
+                        a(href="http://democraciainclusiva.org/phplist/" target="_blank" class="secondary small radius button wide") #{'subscribe_news'}
+                    .row
+                        .large-6.columns
+                            p #{'footer.contact'}
+                            p: a(href="mailto:gra@pimienta.org") gra@pimienta.org
+                        .large-6.columns
+                            p #{'footer.cc'}
+                .large-6.columns
+                    p
+                        | #{'last_articles'}:<br/>
+                        each article in []
+                            a(href="#") &raquo; article_title (YYYY-MM-DD)
+            .row.foot
+                .large-12.columns
+                    p 2012–#{(new Date()).getFullYear()}, Barcelona, #{'gra_full'}
+
+        #aboutModal.small.reveal-modal.about-modal
+            a.close-reveal-modal &#215;
+            h3 #{'menu_about'}
+            | #{'gra_intro_markdown'}
+
+        script.
+            if (!$('html').hasClass('no-js')) {
+                $(document).foundation().foundation('reveal', {
+                    animation: 'fade'
+                });
+            }

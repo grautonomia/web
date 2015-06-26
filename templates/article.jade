@@ -1,0 +1,120 @@
+extends ./layout.jade
+
+block body
+    .row.content.vanilla
+        .large-8.columns.article
+            if subtitle
+                h1.with-subtitle= title
+                h2.subtitle= subtitle
+            else
+                h1.no-subtitle= title
+
+            div.body!= contents
+
+            //- DISQUS
+            //-
+            //- Usamos el mismo Disqus para los dos idiomas, si se
+            //- quieren tener los comentarios separados por idiomas
+            //- hay que meter el idioma en "disqus_identifier".
+            //-
+            //- app.request.locale
+
+            if allow_comments
+                hr
+                #disqus_thread.comments
+                script.
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname  = 'grautonomia'; // required: replace example with your forum shortname
+                    var disqus_identifier = '{{ data._id }}';
+                    var disqus_title      = '{{ data.get('title', 'ca') }}';
+                    var disqus_url        = '{{ url(data._id~'_ca') }}';
+                    var disqus_config     = function () {
+                        var locales = {
+                            'ca': 'ca_ES',
+                            'es': 'es_ES'
+                        };
+
+                        this.language = locales["{{ app.request.locale }}"];
+                    };
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                noscript Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments</a>.
+
+            //- /DISQUS
+
+        .large-4.columns.sidebar(data-ovni-sidebar)
+            h4 #{'share'}
+            //- {% include 'share_buttons.html.twig' %}
+
+            //- {% if data.has('files') and data.files|length > 0 %}
+            //-     <hr />
+            //-     <h4>{{ 'downloads'|trans }}</h4>
+            //-     <ul class="files">
+            //-         {% for file in data.files %}
+            //-             <li><a href="/assets{{ file.path }}" data-track="{{ {'category': 'pdf', 'action': 'download', 'label': file.path}|json_encode() }}">&#11015; {{ file.name }}</a></li>
+            //-         {% endfor %}
+            //-     </ul>
+            //- {% endif %}
+
+            //- {% if data.allow_comments %}
+            //-     <hr />
+            //-     <div class="row collapse comments">
+            //-         <div class="large-9 columns">
+            //-             <a class="small wide radius button" href="#" data-href="#disqus_thread" data-track="{{ {'category': 'comments', 'action': 'view'}|json_encode }}">{{ 'view_comments'|trans }}</a>
+            //-         </div>
+            //-         <div class="large-3 columns">
+            //-             <div class="nipple-box">
+            //-                 <a class="small wide radius button" data-disqus-identifier="{{ data._id }}" href="#disqus_thread" data-track="{{ {'category': 'comments', 'action': 'view'}|json_encode }}">¿?</a>
+            //-                 <span class="nipple"></span>
+            //-             </div>
+            //-         </div>
+            //-     </div>
+
+            //-     <script type="text/javascript">
+            //-     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            //-     var disqus_shortname = 'grautonomia'; // required: replace example with your forum shortname
+            //-     var disqus_config    = function () {
+            //-         var locales = {
+            //-             'ca': 'ca_ES',
+            //-             'es': 'es_ES'
+            //-         };
+
+            //-         this.language = locales["{{ app.request.locale }}"];
+            //-     };
+
+            //-     /* * * DON'T EDIT BELOW THIS LINE * * */
+            //-     (function () {
+            //-     var s = document.createElement('script'); s.async = true;
+            //-     s.type = 'text/javascript';
+            //-     s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+            //-     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+            //-     }());
+            //-     </script>
+            //- {% endif %}
+
+            //- <hr />
+            //- <div class="articles">
+            //-     <h4>{{ 'last_articles'|trans }}</h4>
+            //-     <ul>
+            //-     {% if data.allow_comments %}
+            //-         {% set lastArticlesCount = 5 %}
+            //-     {% else %}
+            //-         {% set lastArticlesCount = 7 %}
+            //-     {% endif %}
+            //-     {% for article in datastore.lastArticles(lastArticlesCount) %}
+            //-         {% if data._id != article._id %}
+            //-             <li><a href="{{ path(article._id ~'_'~ app.request.locale) }}">&raquo; {{ article.title }}</a></li>
+            //-         {% endif %}
+            //-     {% endfor %}
+            //-     </ul>
+            //- </div>
+
+            //- <hr />
+            //- <div>
+            //-     <a href="http://democraciainclusiva.org/phplist/" target="_blank" class="small radius button wide">{{ 'subscribe_news' | trans }}</a>
+            //- </div>

@@ -10,9 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "jade": "^1.11.0",
-    "lodash": "^3.9.3",
     "metalsmith": "^1.7.0",
+    "metalsmith-branch": "0.0.4",
+    "metalsmith-filemetadata": "0.0.4",
     "metalsmith-pandoc": "^0.1.2",
+    "metalsmith-permalinks": "^0.4.0",
     "metalsmith-templates": "^0.7.0"
   }
 }
