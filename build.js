@@ -2,6 +2,7 @@
 
 var Metalsmith   = require('metalsmith');
 var branch       = require('metalsmith-branch');
+var concat       = require('metalsmith-concat');
 var drafts       = require('metalsmith-drafts');
 var fileMetadata = require('metalsmith-filemetadata');
 var fingerprint  = require('metalsmith-fingerprint');
@@ -10,6 +11,8 @@ var pandoc       = require('metalsmith-pandoc');
 var permalinks   = require('metalsmith-permalinks');
 var sass         = require('metalsmith-sass');
 var templates    = require('metalsmith-templates');
+var uglify       = require('metalsmith-uglify');
+var wordcount    = require('metalsmith-word-count');
 
 function locales(ops) {
     var extname = require('path').extname;
@@ -45,6 +48,8 @@ function locales(ops) {
     }
 
     return function (files, ms, done) {
+        ms.locales = ops;
+
         for (file in files) {
             if (pattern.test(file)) {
                 var base = getBaseFilename(file);
@@ -88,22 +93,90 @@ function showDrafts(show) {
     };
 }
 
-module.exports = function (isDebug, cb) {
+function generateIds() {
+    var extname = require('path').extname;
+
+    function idFromFilename(file, locales) {
+        var ext = extname(file);
+
+        return file.replace('/', '_')
+                   .replace(ext, '')
+                   .replace(RegExp('_('+ locales.join('|') +')$'), '');
+    }
+
+    return function (files, ms, done) {
+        for (var file in files) {
+            files[file].id = idFromFilename(file, ms.locales.locales);
+        }
+
+        done();
+    };
+}
+
+function includeFiles(includes) {
+    var readFileSync = require('fs').readFileSync;
+    var path         = require('path');
+
+    return function (files, ms, done) {
+        for (var i = 0; i < includes.length; i++) {
+            var include = includes[i];
+            files[include] = { contents: readFileSync(path.join(__dirname, include)) }
+        }
+
+        done();
+    };
+}
+
+/*
+.use(function (files, ms, done) {
+    //console.log(files);
+    done();
+})
+*/
+
 module.exports = function (isDebug, done) {
+    var vendors = [
+        'bower_components/foundation/js/vendor/jquery.js',
+        'bower_components/foundation/js/vendor/fastclick.js',
+        'bower_components/foundation/js/foundation/foundation.js',
+        'bower_components/foundation/js/foundation/foundation.reveal.js',
+        'node_modules/unorphan/index.js',
+        'node_modules/hypher/dist/jquery.hypher.js'
+    ];
+
     Metalsmith(__dirname)
+        // Drafts handling
         .use(showDrafts(isDebug))
         .use(drafts())
+
+        // CSS
         .use(ignore(['.DS_Store', '*/.DS_Store', 'assets/images/*']))
         .use(sass({
             outputDir:    'assets/',
             includePaths: ['bower_components/foundation/scss']
         }))
-        .use(fingerprint({
-            pattern: 'assets/main.css'
+
+        // JS
+        .use(includeFiles(vendors))
+        .use(concat({
+            files: vendors.concat([
+                'js/main.js',
+            ]),
+            output: 'assets/main.js'
         }))
-        .use(ignore(['assets/main.css']))
+        .use(uglify({
+            removeOriginal: true
+        }))
+
+        // Fingerprint CSS/JS
+        .use(fingerprint({ pattern: ['assets/main.css', 'assets/main.min.js'] }))
+        .use(ignore(['assets/main.css', 'assets/main.min.js']))
+
+        // Content
         .use(locales({ default: 'ca', locales: ['ca', 'es'] }))
+        .use(generateIds())
         .use(pandoc())
+        .use(wordcount())
         .use(fileMetadata([
             { pattern: 'articles/*', preserve: true, metadata: { template: 'article.jade' } }
         ]))

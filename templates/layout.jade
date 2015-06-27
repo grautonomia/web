@@ -1,5 +1,5 @@
 doctype html
-html(lang="es")
+html(lang="#{locale}")
     head
         meta(charset="utf-8")
         meta(name="author" content="Asier Illarramendi")
@@ -71,9 +71,4 @@ html(lang="es")
             h3 #{'menu_about'}
             | #{'gra_intro_markdown'}
 
-        script.
-            if (!$('html').hasClass('no-js')) {
-                $(document).foundation().foundation('reveal', {
-                    animation: 'fade'
-                });
-            }
+        script(src="/#{fingerprint['assets/main.min.js']}")

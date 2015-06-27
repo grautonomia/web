@@ -1,0 +1,16 @@
+---
+title:    ¡Volvemos a la actividad pública!
+slug:     volvemos-actividad-publica
+excerpt:  Comunicado del GRA en el que anunciamos que retomamos la actividad
+          pública después del tiempo de pausa.
+keywords: [GRA, Actividad pública]
+---
+Hace un año emitimos un [comunicado](http://democracia-inclusiva.blogspot.com.es/2012/11/cesamos-la-intervencion-politica-y-nos.html) explicando nuestra decisión de hacer un paréntesis en la intervención política y focalizarnos en la formación, la reflexión y la refundación. Desde el Grupo de Reflexión para la Autonomía nos complace anunciar que estamos iniciando una nueva etapa en la que, aun manteniendo nuestro proceso de formación y reflexión interna, retomaremos progresivamente la actividad pública con energía e ideas renovadas.
+
+Después de analizar profundamente y evaluar sosegadamente nuestra intervención política del período 2010-2012 como [Grupo de Acción de Democracia Inclusiva (GADI) de Cataluña](http://democracia-inclusiva.blogspot.com.es), vemos la conveniencia de incorporar a nuestra propuesta de creación de un movimiento global por la emancipación una visión más amplia que la ofrecida por la [Democracia Inclusiva](http://www.democraciainclusiva.org). En particular, los aspectos que nos parecen más importantes de ampliar son los referidos a la ética y a los valores. Consideramos necesario el trabajo personal de autoconstrucción como personas virtuosas y revolucionarias, en paralelo a la transformación de los valores predominantes en la sociedad. En este sentido, hemos encontrado aportaciones muy interesantes de diversos autores, algunos de los cuales se engloban en el marco de la [Revolución Integral](http://integrarevolucio.net), concepción a la que también nos sentimos afines. La experiencia de los últimos años también nos ha hecho ver la necesidad de otorgar mayor peso a las prácticas convivenciales y de reintegración con la naturaleza, es decir, nos ha hecho profundizar en la sinergia entre experimentación y reflexión.
+
+Queremos volver a incidir públicamente mediante la promoción del diálogo entorno al cambio sistémico; con tal objetivo, organizaremos algunos debates públicos y realizaremos intervenciones en cuestiones de actualidad. El primer tema en el que nos ha parecido adecuado intervenir es el de la "Consulta por la independencia de Cataluña". Consideramos crucial reivindicar el proyecto revolucionario integral para hacer frente a los efectos de fortalecimiento del sistema actual que implica esta falsa dicotomía entre dos opciones aparentemente opuestas, Estado catalán o Estado español, en realidad idénticas en su esencia estatista. Esperamos que el ["Manifiesto por el No-Sí: ¡la revolución, sin Estado-nación, es la solución!"](/es/manifiesto-por-el-no-si) sea de vuestro interés y que, si lo veis conveniente, nos ayudéis a difundirlo.
+
+Próximamente anunciaremos las fechas y el programa de unas jornadas que estamos preparando sobre otra dicotomía aún más trascendental: "¿Reforma o Revolución?". En ellas habrá varias sesiones de debate y reflexión colectiva, una de ellas entorno a las ideas del ["Manifiesto por el No-Sí"](/es/manifiesto-por-el-no-si).
+
+Aprovechamos para desearos cordialmente un 2014 muy bueno, ¡en otras palabras, muy revolucionario!
