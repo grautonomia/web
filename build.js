@@ -145,12 +145,13 @@ module.exports = function (isDebug, done) {
     ];
 
     Metalsmith(__dirname)
+        .use(ignore(['.DS_Store', '*/.DS_Store', 'assets/images/*', 'templates/*']))
+
         // Drafts handling
         .use(showDrafts(isDebug))
         .use(drafts())
 
         // CSS
-        .use(ignore(['.DS_Store', '*/.DS_Store', 'assets/images/*']))
         .use(sass({
             outputDir:    'assets/',
             includePaths: ['bower_components/foundation/scss']
@@ -168,7 +169,7 @@ module.exports = function (isDebug, done) {
             removeOriginal: true
         }))
 
-        // Fingerprint CSS/JS
+        // Add hash to CSS/JS filename for cache invalidation
         .use(fingerprint({ pattern: ['assets/main.css', 'assets/main.min.js'] }))
         .use(ignore(['assets/main.css', 'assets/main.min.js']))
 
@@ -185,6 +186,9 @@ module.exports = function (isDebug, done) {
                 pattern: ':locale/:slug'
             }))
         )
-        .use(templates('jade'))
+        .use(templates({
+            engine:    'jade',
+            directory: 'src/templates'
+        }))
         .build(done);
 };
