@@ -14,7 +14,7 @@ var templates    = require('metalsmith-templates');
 var uglify       = require('metalsmith-uglify');
 var wordcount    = require('metalsmith-word-count');
 
-function locales(ops) {
+function multiLanguage(ops) {
     var extname = require('path').extname;
 
     var pattern = RegExp('.*_('+ ops.locales.join('|') +')(?:\..*)?$');
@@ -48,7 +48,7 @@ function locales(ops) {
     }
 
     return function (files, ms, done) {
-        ms.locales = ops;
+        ms.metadata().locales = ops;
 
         for (file in files) {
             if (pattern.test(file)) {
@@ -93,6 +93,28 @@ function showDrafts(show) {
     };
 }
 
+function i18n(ops) {
+    var i18n = require('i18n');
+
+    i18n.configure({
+        defaultLocale: ops.default,
+        locales:       ops.locales,
+        directory:     ops.directory
+    });
+
+    function __(str, data) {
+        return i18n.__({ phrase: str, locale: this.locale }, data || {});
+    }
+
+    return function (files, ms, done) {
+        for (var file in files) {
+            files[file].__ = __.bind(files[file]);
+        }
+
+        done();
+    };
+}
+
 function generateIds() {
     var extname = require('path').extname;
 
@@ -106,7 +128,7 @@ function generateIds() {
 
     return function (files, ms, done) {
         for (var file in files) {
-            files[file].id = idFromFilename(file, ms.locales.locales);
+            files[file].id = idFromFilename(file, ms.metadata().locales.locales);
         }
 
         done();
@@ -135,6 +157,8 @@ function includeFiles(includes) {
 */
 
 module.exports = function (isDebug, done) {
+    var locale  = 'ca';
+    var locales = ['ca', 'es'];
     var vendors = [
         'bower_components/foundation/js/vendor/jquery.js',
         'bower_components/foundation/js/vendor/fastclick.js',
@@ -145,7 +169,7 @@ module.exports = function (isDebug, done) {
     ];
 
     Metalsmith(__dirname)
-        .use(ignore(['.DS_Store', '*/.DS_Store', 'assets/images/*', 'templates/*']))
+        .use(ignore(['.DS_Store', '*/.DS_Store', 'assets/images/*', 'templates/*', 'translations/*']))
 
         // Drafts handling
         .use(showDrafts(isDebug))
@@ -174,10 +198,15 @@ module.exports = function (isDebug, done) {
         .use(ignore(['assets/main.css', 'assets/main.min.js']))
 
         // Content
-        .use(locales({ default: 'ca', locales: ['ca', 'es'] }))
+        .use(multiLanguage({ default: locale, locales: locales }))
+        .use(i18n({
+            default:   locale,
+            locales:   locales,
+            directory: 'src/translations'
+        }))
         .use(generateIds())
         .use(pandoc())
-        .use(wordcount())
+        .use(wordcount({ raw: true }))
         .use(fileMetadata([
             { pattern: 'articles/*', preserve: true, metadata: { template: 'article.jade' } }
         ]))

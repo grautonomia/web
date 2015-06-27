@@ -52,7 +52,7 @@ block body
             //- /DISQUS
 
         .large-4.columns.sidebar(data-ovni-sidebar)
-            h4 #{'share'}
+            h4= __('share')
             .row
                 .large-4.columns
                     .fb-share-button(data-type="button_count")
@@ -65,7 +65,7 @@ block body
 
             if files
                 hr
-                h4= 'downloads'
+                h4= __('downloads')
                 ul.files
                     each file in files
                         li: a(href="/assets{{ file.path }}" data-track="{{ {'category': 'pdf', 'action': 'download', 'label': file.path}|json_encode() }}") &#11015; #{file.name}
@@ -75,7 +75,7 @@ block body
                 hr
                 .row.collapse.comments
                     .large-9.columns
-                        a.small.wide.radius.button(href="#" data-href="#disqus_thread" data-track="{{ {'category': 'comments', 'action': 'view'}|json_encode }}") #{'view_comments'}
+                        a.small.wide.radius.button(href="#" data-href="#disqus_thread" data-track="{{ {'category': 'comments', 'action': 'view'}|json_encode }}")= __('view_comments')
                     .large-3.columns
                         .nipple-box
                             a.small.wide.radius.button(data-disqus-identifier="{{ data._id }}" href="#disqus_thread" data-track="{{ {'category': 'comments', 'action': 'view'}|json_encode }}") ¿?
@@ -109,7 +109,7 @@ block body
                 else
                     - var lastArticlesCount = 7
 
-                h4 #{'last_articles'}
+                h4= __('last_articles')
                 ul
                     each article in []
                         if id != article.id
@@ -118,4 +118,4 @@ block body
             hr
 
             div
-                a.small.radius.button.wide(href="http://democraciainclusiva.org/phplist/" target="_blank") #{'subscribe_news'}
+                a.small.radius.button.wide(href="http://democraciainclusiva.org/phplist/" target="_blank")= __('subscribe_news')

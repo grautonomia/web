@@ -8,7 +8,7 @@ html(lang="#{locale}")
         title
             block title
                 | GRA
-            |  – #{'gra_full'} (GRA)
+            |  – #{__('gra_full')} (GRA)
 
         //- link(rel="alternate" type="application/rss+xml" title="RSS" href="http://doup.illarra.com/rss.xml")
         link(href="/#{fingerprint['assets/main.css']}" rel="stylesheet" type="text/css")
@@ -41,8 +41,8 @@ html(lang="#{locale}")
                         if locale != 'ca'
                             li: a(href="/#{altFiles.ca.path}") Català
                     ul.menu
-                        li: a(href="/") #{'menu_index'}
-                        li: a(href="#" data-reveal-id="aboutModal" data-track="{{ {'category': 'about', 'action': 'view'}|json_encode() }}") #{'menu_about'}
+                        li: a(href="/")= __('menu_index')
+                        li: a(href="#" data-reveal-id="aboutModal" data-track='{ "category": "about", "action": "view" }')= __('menu_about')
 
         block body
 
@@ -50,25 +50,25 @@ html(lang="#{locale}")
             .row
                 .large-6.columns
                     div
-                        a(href="http://democraciainclusiva.org/phplist/" target="_blank" class="secondary small radius button wide") #{'subscribe_news'}
+                        a(href="http://democraciainclusiva.org/phplist/" target="_blank" class="secondary small radius button wide")= __('subscribe_news')
                     .row
                         .large-6.columns
-                            p #{'footer.contact'}
+                            p= __('footer.contact')
                             p: a(href="mailto:gra@pimienta.org") gra@pimienta.org
                         .large-6.columns
-                            p #{'footer.cc'}
+                            p!= __('footer.cc')
                 .large-6.columns
-                    p
-                        | #{'last_articles'}:<br/>
+                    p= __('last_articles') + ':'
+                    ul
                         each article in []
-                            a(href="#") &raquo; article_title (YYYY-MM-DD)
+                            li: a(href="#") &raquo; article_title (YYYY-MM-DD)
             .row.foot
                 .large-12.columns
-                    p 2012–#{(new Date()).getFullYear()}, Barcelona, #{'gra_full'}
+                    p 2012–#{(new Date()).getFullYear()}, Barcelona, #{__('gra_full')}
 
         #aboutModal.small.reveal-modal.about-modal
             a.close-reveal-modal &#215;
-            h3 #{'menu_about'}
-            | #{'gra_intro_markdown'}
+            h3= __('menu_about')
+            div!= __('gra_intro')
 
         script(src="/#{fingerprint['assets/main.min.js']}")
