@@ -167,7 +167,7 @@ module.exports = function (isDebug, done) {
         'bower_components/foundation/js/vendor/fastclick.js',
         'bower_components/foundation/js/foundation/foundation.js',
         'bower_components/foundation/js/foundation/foundation.reveal.js',
-        'node_modules/unorphan/index.js',
+        'bower_components/unorphan/index.js',
         'node_modules/hypher/dist/jquery.hypher.js'
     ];
 

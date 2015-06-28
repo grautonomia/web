@@ -13,6 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "foundation": "5.*"
+    "foundation": "5.*",
+    "unorphan": "~1.0.1"
   }
 }
