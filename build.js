@@ -179,10 +179,13 @@ function includeFiles(includes) {
     var path         = require('path');
 
     return function (files, ms, done) {
-        for (var i = 0; i < includes.length; i++) {
-            var include = includes[i];
+        includes.forEach(function (include) {
             files[include] = { contents: readFileSync(path.join(__dirname, include)) }
-        }
+        });
+
+        done();
+    };
+}
 
         done();
     };
