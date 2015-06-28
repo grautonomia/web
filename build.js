@@ -4,6 +4,7 @@ var Metalsmith   = require('metalsmith');
 var branch       = require('metalsmith-branch');
 var collections  = require('metalsmith-collections');
 var concat       = require('metalsmith-concat');
+var filenameDate = require('metalsmith-date-in-filename');
 var drafts       = require('metalsmith-drafts');
 var fileMetadata = require('metalsmith-filemetadata');
 var fingerprint  = require('metalsmith-fingerprint');
@@ -200,6 +201,7 @@ module.exports = function (isDebug, done) {
         .use(ignore(['assets/main.css', 'assets/main.min.js']))
 
         // Content
+        .use(filenameDate())
         .use(multiLanguage({ default: locale, locales: locales }))
         .use(i18n({
             default:   locale,
@@ -218,7 +220,7 @@ module.exports = function (isDebug, done) {
         .use(snippet())
         .use(wordcount({ raw: true }))
         .use(fileMetadata([
-            { pattern: 'articles/*', preserve: true, metadata: { template: 'article.jade' } }
+            { pattern: 'articles/*', preserve: true, metadata: { template: 'article.jade', allow_comments: true } }
         ]))
         .use(branch('articles/*')
             .use(permalinks({
