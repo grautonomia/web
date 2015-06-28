@@ -2,6 +2,7 @@
 
 var Metalsmith   = require('metalsmith');
 var branch       = require('metalsmith-branch');
+var collections  = require('metalsmith-collections');
 var concat       = require('metalsmith-concat');
 var drafts       = require('metalsmith-drafts');
 var fileMetadata = require('metalsmith-filemetadata');
@@ -10,6 +11,7 @@ var ignore       = require('metalsmith-ignore');
 var pandoc       = require('metalsmith-pandoc');
 var permalinks   = require('metalsmith-permalinks');
 var sass         = require('metalsmith-sass');
+var snippet      = require('metalsmith-snippet');
 var templates    = require('metalsmith-templates');
 var uglify       = require('metalsmith-uglify');
 var wordcount    = require('metalsmith-word-count');
@@ -205,7 +207,15 @@ module.exports = function (isDebug, done) {
             directory: 'src/translations'
         }))
         .use(generateIds())
+        .use(collections({
+            articles: {
+                pattern: 'articles/*.md',
+                sortBy:  'date',
+                reverse: true
+            }
+        }))
         .use(pandoc())
+        .use(snippet())
         .use(wordcount({ raw: true }))
         .use(fileMetadata([
             { pattern: 'articles/*', preserve: true, metadata: { template: 'article.jade' } }

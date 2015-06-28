@@ -1,7 +1,7 @@
 ---
 title:    ¡Volvemos a la actividad pública!
 slug:     volvemos-actividad-publica
-excerpt:  Comunicado del GRA en el que anunciamos que retomamos la actividad
+snippet:  Comunicado del GRA en el que anunciamos que retomamos la actividad
           pública después del tiempo de pausa.
 keywords: [GRA, Actividad pública]
 ---

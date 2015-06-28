@@ -1,11 +1,11 @@
 ---
 draft:          false
-published_at:   2013-12-25
+date:           2013-12-25
 allow_comments: true
 ###
 title:          Tornem a l'activitat pública!
 slug:           tornem-activitat-publica
-excerpt:        Comunicat del GRA en què anunciem que reprenem l'activitat
+snippet:        Comunicat del GRA en què anunciem que reprenem l'activitat
                 pública després del temps de pausa.
 keywords:       [GRA, Activitat pública]
 ---

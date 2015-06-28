@@ -1,10 +1,17 @@
 extends ./layout.jade
 
 block body
-    div.row: div.large-12.columns
-        ul.posts
-            //- each post in collections.posts
-                li
-                    a(href=post.path)
-                        h1= post.title
-                    time(datetime=post.date.toISOString())= post.prettyDate
+    .row.homepage
+        .large-12.columns
+            .intro
+                h1= __('gra_full')
+                img.bird(src='/assets/bird.png')
+
+            ul.articles.large-block-grid-3
+                each article in collections.articles
+                    if locale == article.locale
+                        li.article
+                            h3: a(href='/'+article.path)= article.title
+                            p.date= __('published_at', prettyDate(article.date))
+                            p!= article.snippet
+                                a.more(href='/'+article.path) #{__('more')} &raquo;

@@ -3,7 +3,7 @@ title:    Último comunicado del GADI Catalunya
 subtitle: Cesamos la intervención política y nos focalizamos en la formación,
           la reflexión y la refundación durante un año
 slug:     gadi-cesamos-intervencion-politica
-excerpt:  Último comunicado del GADI Cataluña donde anuncía y explica su
+snippet:  Último comunicado del GADI Cataluña donde anuncía y explica su
           desvinculación del proyecto de la Democracia Inclusiva y la pausa de
           actividad pública.
 keywords: ["Democracia Inclusiva", GADI, Reflexión]
