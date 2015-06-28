@@ -1,5 +1,5 @@
 ---
-draft:          false
+draft:          true
 allow_comments: false
 title:          Últim comunicat del GADI Catalunya
 subtitle:       Cessem la intervenció política i ens focalitzem en la formació,

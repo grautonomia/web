@@ -2,6 +2,7 @@
 
 // Gulp
 var argv             = require('minimist')(process.argv.slice(2));
+var clearRequire     = require('clear-require');
 var gulp             = require('gulp');
 var awspublish       = require('gulp-awspublish');
 var awspublishRouter = require("gulp-awspublish-router");
@@ -9,14 +10,14 @@ var browserSync      = require('browser-sync');
 var creds            = require('./s3.json');
 var imagemin         = require('gulp-imagemin');
 var imageResize      = require('gulp-image-resize');
-var msBuild          = require('./build');
 
 process.on('uncaughtException', function (err) {
     console.log(err);
 });
 
 gulp.task('metalsmith', function (done) {
-    msBuild(argv.debug || false, done);
+    clearRequire('./build');
+    require('./build')(argv.debug || false, done);
 });
 
 gulp.task('images', function () {
@@ -86,7 +87,7 @@ gulp.task('upload', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch(['templates/**/*', 'src/**/*'], gulp.series('build', 'reload'));
+    gulp.watch(['src/**/*', 'build.js'], gulp.series('build', 'reload'));
 });
 
 gulp.task('deploy', gulp.series('build', 'upload'));

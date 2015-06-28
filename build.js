@@ -17,6 +17,7 @@ var templates    = require('metalsmith-templates');
 var uglify       = require('metalsmith-uglify');
 var wordcount    = require('metalsmith-word-count');
 
+// Plugin
 function multiLanguage(ops) {
     var extname = require('path').extname;
 
@@ -52,6 +53,11 @@ function multiLanguage(ops) {
 
     return function (files, ms, done) {
         ms.metadata().locales = ops;
+        ms.metadata().filterByLocale = function (arr, locale) {
+            return arr.filter(function (el, index) {
+                return el.locale == locale;
+            });
+        };
 
         for (file in files) {
             if (pattern.test(file)) {
@@ -96,6 +102,7 @@ function showDrafts(show) {
     };
 }
 
+// Plugin
 function i18n(ops) {
     var i18n = require('i18n');
 
@@ -126,6 +133,7 @@ function generateIds() {
 
         return file.replace('/', '_')
                    .replace(ext, '')
+                   .replace(/\d{8}\-/, '')
                    .replace(RegExp('_('+ locales.join('|') +')$'), '');
     }
 
@@ -138,6 +146,7 @@ function generateIds() {
     };
 }
 
+// Plugin
 function includeFiles(includes) {
     var readFileSync = require('fs').readFileSync;
     var path         = require('path');
@@ -174,6 +183,12 @@ module.exports = function (isDebug, done) {
     Metalsmith(__dirname)
         .use(ignore(['.DS_Store', '*/.DS_Store', 'assets/images/*', 'templates/*', 'translations/*']))
 
+        // Multi-language
+        // This must go before drafts, since the secondary locale
+        // gets some of its properties from the primary locale.
+        // For example `draft`.
+        .use(multiLanguage({ default: locale, locales: locales }))
+
         // Drafts handling
         .use(showDrafts(isDebug))
         .use(drafts())
@@ -202,7 +217,6 @@ module.exports = function (isDebug, done) {
 
         // Content
         .use(filenameDate())
-        .use(multiLanguage({ default: locale, locales: locales }))
         .use(i18n({
             default:   locale,
             locales:   locales,
@@ -217,7 +231,7 @@ module.exports = function (isDebug, done) {
             }
         }))
         .use(pandoc())
-        .use(snippet())
+        .use(snippet({ maxLength: 400 }))
         .use(wordcount({ raw: true }))
         .use(fileMetadata([
             { pattern: 'articles/*', preserve: true, metadata: { template: 'article.jade', allow_comments: true } }

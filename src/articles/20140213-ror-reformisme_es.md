@@ -1,5 +1,5 @@
 ---
-title:    Reformismo: ¿refundación o superación?
+title:    "Reformismo: ¿refundación o superación?"
 slug:     reformismo-refundacion-o-superacion
 keywords: [reformismo, estado de bienestar, hiperactivismo, inmediatismo, conformismo, socialdemocracia, revolución]
 ---

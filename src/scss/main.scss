@@ -42,6 +42,8 @@ hr {
     }
 
     ul {
+        margin-left: 0;
+
         li {
             list-style: none;
             display: inline-block;
@@ -138,7 +140,10 @@ hr {
         .article {
             font-size: 1.1em;
             text-align: justify;
-            padding-bottom: 2em;
+            margin-bottom: 1.5em;
+            height: 240px;
+            overflow: hidden;
+            position: relative;
 
             h3 {
                 text-align: left;
@@ -153,6 +158,17 @@ hr {
                 margin-bottom: 0em;
             }
 
+            // Fading gradient
+            &:before {
+                content: '';
+                width: 100%;
+                height: 100px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background: linear-gradient(transparent 30px, white);
+            }
+
             .date {
                 color: #666;
                 font-family: $header-font-family;
@@ -164,13 +180,22 @@ hr {
             }
 
             .more {
+                $size: 40px;
+
                 font-size: 0.9em;
-                margin-left: .25em;
                 font-family: $header-font-family;
-                padding: 0px 5px;
-                border-radius: 2px;
                 background-color: #b63984;
                 color: #fefafc;
+
+                position: absolute;
+                right: 10px;
+                bottom: 10px;
+                width: $size;
+                height: $size;
+                border-radius: $size;
+                text-align: center;
+                line-height: $size;
+                box-shadow: 1px 2px 2px rgba(0,0,0,0.1)
 
                 &:hover {
                     background-color: #888;

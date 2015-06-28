@@ -2,10 +2,10 @@ extends ./layout.jade
 
 block body
     .row.content.vanilla
-        .large-8.columns.article
+        .large-8.small-centered.columns.article
             if subtitle
                 h1.with-subtitle= title
-                h2.subtitle= subtitle
+                h2.subtitle!= subtitle
             else
                 h1.no-subtitle= title
 
@@ -51,7 +51,7 @@ block body
 
             //- /DISQUS
 
-        .large-4.columns.sidebar(data-ovni-sidebar)
+        //- .large-4.columns.sidebar(data-ovni-sidebar)
             h4= __('share')
             .row
                 .large-4.columns
