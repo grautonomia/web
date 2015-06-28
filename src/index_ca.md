@@ -1,4 +1,4 @@
 ---
-title:    Index
+title:    Inici
 template: index.jade
 ---

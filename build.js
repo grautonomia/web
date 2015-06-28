@@ -86,6 +86,26 @@ function multiLanguage(ops) {
             });
         }
 
+        // Index handling
+        // Default locale will go in 'index.html'
+        // Other index-es in '/:locale/index.html'
+        for (file in files) {
+            if (/^index/.test(file)) {
+                var ext = extname(file);
+
+                if (files[file].locale == ops.default) {
+                    files[file].path = '';
+                    files['index'+ ext] = files[file];
+                } else {
+                    files[file].path = files[file].locale +'/';
+                    files[files[file].locale + '/index'+ext] = files[file];
+                }
+
+                // Remove old entry
+                delete files[file];
+            }
+        }
+
         done();
     };
 }
