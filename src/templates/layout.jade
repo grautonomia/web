@@ -29,14 +29,14 @@ html(lang="#{locale}")
         .header
             .row
                 .large-12.columns
-                    h1.title: a(href="#{'path_homepage_localized'}") GRA
+                    h1.title: a(href='/'+findById('index').altFiles[locale].path) GRA
                     ul.locales
                         if locale != 'es'
                             li: a(href="/#{altFiles.es.path}") Castellano
                         if locale != 'ca'
                             li: a(href="/#{altFiles.ca.path}") Català
                     ul.menu
-                        li: a(href="/")= __('menu_index')
+                        li: a(href='/'+findById('index').altFiles[locale].path)= __('menu_index')
                         li: a(href="#" data-reveal-id="aboutModal" data-track='{ "category": "about", "action": "view" }')= __('menu_about')
 
         block body

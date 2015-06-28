@@ -158,9 +158,16 @@ function generateIds() {
     }
 
     return function (files, ms, done) {
+        ms.metadata().ids = {};
+
         for (var file in files) {
             files[file].id = idFromFilename(file, ms.metadata().locales.locales);
+            ms.metadata().ids[files[file].id] = files[file];
         }
+
+        ms.metadata().findById = function (id) {
+            return ms.metadata().ids[id];
+        };
 
         done();
     };
