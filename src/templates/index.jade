@@ -8,10 +8,9 @@ block body
                 img.bird(src='/assets/bird.png')
 
             ul.articles.large-block-grid-3
-                each article, index in filterByLocale(collections.articles, locale)
-                    if locale == article.locale
-                        li.article(class=index > 3 ? 'separator' : '')
-                            h3: a(href='/'+article.path)= article.title
-                            p.date= __('published_at', prettyDate(article.date))
-                            p!= article.snippet
-                            //- a.more(href='/'+article.path) #{__('more')} &raquo;
+                each article, index in find({ locale: locale, type: 'article' }).sort({ date: -1 }).all()
+                    li.article(class=index > 3 ? 'separator' : '')
+                        h3: a(href='/'+article.path)= article.title
+                        p.date= __('published_at', prettyDate(article.date))
+                        p!= article.snippet
+                        //- a.more(href='/'+article.path) #{__('more')} &raquo;
