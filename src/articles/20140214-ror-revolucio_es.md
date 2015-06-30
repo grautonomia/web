@@ -1,7 +1,8 @@
 ---
 title:    Pensando la revolución hoy
 subtitle: Construir un nuevo mundo – Acabar con el orden establecido
-keywords: [movimiento, revolución, estrategia, sujeto revolucionario, transición, tácticas, reflexión, pensamiento, 1936, violencia]
+keywords: [movimiento, revolución, estrategia, sujeto revolucionario,
+          transición, tácticas, reflexión, pensamiento, 1936, violencia]
 ---
 
 <div style="text-align:left;font-style:italic;line-height:1.4em;border-bottom:1px solid #eee;padding-bottom: 0.5em;">

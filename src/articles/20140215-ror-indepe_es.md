@@ -1,6 +1,7 @@
 ---
 title:    El proyecto "independentista" desde una perspectiva revolucionaria
-keywords: [independencia, autodeterminación, pueblo, Estado catalán, autogobierno]
+keywords: [independencia, autodeterminación, pueblo, Estado catalán,
+          autogobierno]
 ---
 
 ##Introducción

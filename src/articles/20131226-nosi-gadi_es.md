@@ -1,7 +1,9 @@
 ---
 title:    Manifiesto por el No-Sí
 subtitle: ¡la revolución, sin Estado-nación, es la solución!
-keywords: [No-Sí, Consulta, Independencia, Cataluña, Parlamentarismo, '\"Democracia\" Representativa', Heteronomía, Autonomía, Autodeterminación]
+keywords: [No-Sí, Consulta, Independencia, Cataluña, Parlamentarismo,
+          '\"Democracia\" Representativa', Heteronomía, Autonomía,
+          Autodeterminación]
 ---
 
 <div class="secondary alert-box radius">Ver el manifesto de la Plataforma pel No-Sí: <a href="/es/la-via-revolucionaria-del-no-si">La Vía Revolucionaria del No-Sí – Manifiesto por la Independencia sin Estado</a>.</div>

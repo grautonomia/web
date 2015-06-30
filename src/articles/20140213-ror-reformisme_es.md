@@ -1,6 +1,7 @@
 ---
 title:    "Reformismo: ¿refundación o superación?"
-keywords: [reformismo, estado de bienestar, hiperactivismo, inmediatismo, conformismo, socialdemocracia, revolución]
+keywords: [reformismo, estado de bienestar, hiperactivismo, inmediatismo,
+          conformismo, socialdemocracia, revolución]
 ---
 
 ##1. Sobre el reformismo

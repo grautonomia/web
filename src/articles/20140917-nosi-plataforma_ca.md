@@ -3,7 +3,9 @@ draft:        false
 social_image: /articles/nosi/social3
 title:        La Via Revolucionària del No-Sí
 subtitle:     Manifest per a la Independència sense Estat
-keywords:     [No-Sí, Consulta, Independència, Catalunya, Parlamentarisme, '\"Democràcia\" Representativa', Heteronomia, Autonomia, Autodeterminació]
+keywords:     [No-Sí, Consulta, Independència, Catalunya, Parlamentarisme,
+              '\"Democràcia\" Representativa', Heteronomia, Autonomia,
+              Autodeterminació]
 ---
 
 <div class="secondary alert-box radius">Original en <a href="http://www.no-si.cat">Plataforma pel No-Sí</a></div>
