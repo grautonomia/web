@@ -61,7 +61,9 @@ module.exports = function (isDebug, done) {
         'bower_components/foundation/js/foundation/foundation.js',
         'bower_components/foundation/js/foundation/foundation.reveal.js',
         'bower_components/unorphan/index.js',
-        'node_modules/hypher/dist/jquery.hypher.js',
+        'bower_components/hypher/dist/jquery.hypher.js',
+        'bower_components/hyphenation-patterns/dist/browser/ca.js',
+        'bower_components/hyphenation-patterns/dist/browser/es.js',
     ];
 
     Metalsmith(__dirname)
