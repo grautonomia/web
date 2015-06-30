@@ -1,6 +1,5 @@
 ---
 title:    Sobre el Estado de bienestar
-slug:     sobre-el-estado-de-bienestar
 keywords: [Estado de bienestar, Estado, ayuda mutua, revolución]
 ---
 

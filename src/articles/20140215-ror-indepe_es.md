@@ -1,6 +1,5 @@
 ---
 title:    El proyecto "independentista" desde una perspectiva revolucionaria
-slug:     el-proyecto-independentista-desde-una-perspectiva-revolucionaria
 keywords: [independencia, autodeterminación, pueblo, Estado catalán, autogobierno]
 ---
 

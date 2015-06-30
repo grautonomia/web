@@ -2,7 +2,6 @@
 draft:        false
 #social_image: /articles/rorindepe/social
 title:        Bones pràctiques pel debat emancipador
-slug:         bones-practiques-pel-debat-emancipador
 keywords:     []
 files:
     - ['PDF en català', '/articles/practiques/practiques_ca.pdf']

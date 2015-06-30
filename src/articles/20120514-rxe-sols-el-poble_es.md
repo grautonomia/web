@@ -1,6 +1,5 @@
 ---
 title:    Sólo el pueblo salva al pueblo
-slug:     solo-el-pueblo-salva-al-pueblo
 keywords: [Autonomía, Asamblea, Reflexión]
 ---
 

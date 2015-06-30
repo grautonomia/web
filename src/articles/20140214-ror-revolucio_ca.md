@@ -3,7 +3,6 @@ draft:        false
 social_image: /articles/rorrevolucio/social
 title:        Pensant la revolució avui
 subtitle:     Construir un nou món – Acabar amb l’ordre establert
-slug: pensant-la-revolucio-avui
 keywords:     [moviment, revolució, estratègia, subjecte revolucionari, transició, tàctiques, reflexió, pensament, 1936, violència]
 files:
     - ['PDF en català', '/articles/rorrevolucio/ror_revolucio_ca.pdf']

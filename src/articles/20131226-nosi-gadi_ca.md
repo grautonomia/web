@@ -3,7 +3,6 @@ draft:        false
 social_image: /articles/nosi/social3
 title:        Manifest pel No-Sí
 subtitle:     la revolució, sense Estat-nació, és la solució!
-slug:         manifest-pel-no-si
 keywords:     [No-Sí, Consulta, Independència, Catalunya, Parlamentarisme, '\"Democràcia\" Representativa', Heteronomia, Autonomia, Autodeterminació]
 files:
     - ['PDF Llibret en català', '/articles/nosi/nosi_ca_booklet.pdf']

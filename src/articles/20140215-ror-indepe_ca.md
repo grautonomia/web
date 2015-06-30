@@ -2,7 +2,6 @@
 draft:        false
 social_image: /articles/rorindepe/social
 title:        El projecte "independentista" des d'una perspectiva revolucionària
-slug:         el-projecte-independentista-des-duna-perspectiva-revolucionaria
 keywords:     [independència, autodeterminació, poble, Estat català, autogovern]
 files:
     - ['PDF en català', '/articles/rorindepe/ror_indepe_ca.pdf']

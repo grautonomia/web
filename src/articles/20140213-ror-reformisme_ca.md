@@ -2,7 +2,6 @@
 draft:        false
 social_image: /articles/rorreformisme/social
 title:        "Reformisme: refundació o superació?"
-slug:         reformisme-refundacio-o-superacio
 keywords:     [reformisme, estat de benestar, hiperactivisme, immediatisme, conformisme, socialdemocràcia, revolució]
 files:
     - ['PDF en català', '/articles/rorreformisme/ror_reformisme_ca.pdf']

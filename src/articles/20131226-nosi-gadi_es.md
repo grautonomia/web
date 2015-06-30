@@ -1,7 +1,6 @@
 ---
 title:    Manifiesto por el No-Sí
 subtitle: ¡la revolución, sin Estado-nación, es la solución!
-slug:     manifiesto-por-el-no-si
 keywords: [No-Sí, Consulta, Independencia, Cataluña, Parlamentarismo, '\"Democracia\" Representativa', Heteronomía, Autonomía, Autodeterminación]
 ---
 

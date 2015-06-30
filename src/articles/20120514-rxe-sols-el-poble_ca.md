@@ -2,7 +2,6 @@
 draft:         false
 social_image:  /articles/rxesolselpoble/social
 title:         Sols el poble salva al poble
-slug:          sols-el-poble-salva-al-poble
 keywords:      [Autonomia, Assemblea, Reflexió]
 files:
     - ['PDF en català', '/articles/rxesolselpoble/solselpoble_ca.pdf']

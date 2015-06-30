@@ -1,7 +1,6 @@
 ---
 title:    La Vía Revolucionaria del No-Sí
 subtitle: Manifiesto por la Independencia sin Estado
-slug:     la-via-revolucionaria-del-no-si
 keywords: [No-Sí, Consulta, Independencia, Cataluña, Parlamentarismo, '\"Democracia\" Representativa', Heteronomía, Autonomía, Autodeterminación]
 ---
 

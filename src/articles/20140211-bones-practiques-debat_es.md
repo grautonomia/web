@@ -1,6 +1,5 @@
 ---
 title:    Buenas prácticas para el debate emancipador
-slug:     buenas-practicas-para-el-debate-emancipador
 keywords: []
 ---
 
