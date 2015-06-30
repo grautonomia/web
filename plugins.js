@@ -131,10 +131,14 @@ module.exports.setProperty = function (prop, value) {
 }
 
 // Plugin
-module.exports.mingo = function () {
+module.exports.mingo = function (ops) {
     var Mingo = require('mingo');
     var data  = [];
     var metadata;
+
+    ops         = ops || {};
+    ops.find    = ops.find || 'find';
+    ops.findOne = ops.findOne || 'findOne';
 
     return function (files, ms, done) {
         metadata = ms.metadata();
@@ -144,11 +148,11 @@ module.exports.mingo = function () {
             data.push(files[file]);
         }
 
-        metadata.find = function (criteria, projection) {
+        metadata[ops.find] = function (criteria, projection) {
             return Mingo.find(data, criteria, projection);
         };
 
-        metadata.findOne = function (criteria, projection) {
+        metadata[ops.findOne] = function (criteria, projection) {
             return Mingo.find(data, criteria, projection).first();
         };
 
