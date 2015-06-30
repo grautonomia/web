@@ -78,11 +78,25 @@ hr {
     color: #aaa;
     border-top: 5px solid #ddd;
 
-    p {
+    p, ul {
         text-align: left;
         font-weight: 200;
         font-family: $header-font-family;
         font-size: em-calc(13);
+    }
+
+    .latest {
+        p {
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin-left: 0;
+
+            li {
+                list-style: none;
+            }
+        }
     }
 
     .foot {

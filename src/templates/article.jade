@@ -5,7 +5,7 @@ block body
         .large-8.small-centered.columns.article
             if subtitle
                 h1.with-subtitle= title
-                h2.subtitle!= subtitle
+                h2.subtitle!= nl2br(subtitle)
             else
                 h1.no-subtitle= title
 

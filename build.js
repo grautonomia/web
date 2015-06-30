@@ -47,6 +47,9 @@ function generateId(filename, filedata, ms) {
 }
 
 var viewHelpers = {
+    nl2br: function (str) {
+        return str.replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '<br/>');
+    },
     prettyDate: function (date) {
         return date.toISOString().substr(0, 10);
     }

@@ -48,7 +48,7 @@ html(lang="#{locale}")
                             p: a(href="mailto:gra@pimienta.org") gra@pimienta.org
                         .large-6.columns
                             p!= __('footer.cc')
-                .large-6.columns
+                .large-6.columns.latest
                     p= __('last_articles') + ':'
                     ul
                         each article in find({ locale: locale, type: 'article' }).sort({ date: -1 }).limit(7).all()
