@@ -6,7 +6,7 @@ keywords: [No-Sí, Consulta, Independencia, Cataluña, Parlamentarismo,
           Autodeterminación]
 ---
 
-<div class="secondary alert-box radius">Ver el manifesto de la Plataforma pel No-Sí: <a href="/es/la-via-revolucionaria-del-no-si">La Vía Revolucionaria del No-Sí – Manifiesto por la Independencia sin Estado</a>.</div>
+<div class="secondary alert-box radius">Ver el manifesto de la Plataforma pel No-Sí: [La Vía Revolucionaria del No-Sí – Manifiesto por la Independencia sin Estado](/es/la-via-revolucionaria-del-no-si).</div>
 
 <img class="img-right no-top-margin" src="/assets/articles/nosi/img-anuncio.jpg" />
 
@@ -64,4 +64,4 @@ En algunas manifestaciones del 15M se coreó una consigna llena de sentido: _"el
     Diciembre del 2013<br><br>
 </p>
 
-<div class="secondary alert-box radius">Ver el manifesto de la Plataforma pel No-Sí: <a href="/es/la-via-revolucionaria-del-no-si">La Vía Revolucionaria del No-Sí – Manifiesto por la Independencia sin Estado</a>.</div>
+<div class="secondary alert-box radius">Ver el manifesto de la Plataforma pel No-Sí: [La Vía Revolucionaria del No-Sí – Manifiesto por la Independencia sin Estado](/es/la-via-revolucionaria-del-no-si).</div>

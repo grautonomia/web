@@ -62,26 +62,26 @@ Sabemos que el camino es largo y arduo y las energías son limitadas; por esto a
 
 [^1]: Del griego "hetero" otro, y "nomos" ley. Que la ley sea impuesta por alguna otra persona que no sea uno mismo.
 
-[^2]: Grup de Reflexió per a l'Autonomia: <a href="http://www.grupreflexioautonomia.org/ca/manifest-pel-no-si">"Manifest pel No-Si"</a>.
+[^2]: Grup de Reflexió per a l'Autonomia: ["Manifest pel No-Si"](http://www.grupreflexioautonomia.org/ca/manifest-pel-no-si).
 
-[^3]: Para indagar más sobre la relación entre capitalismo y Estado, ver Rodrigo Mora, Félix: "Estudio del Estado", y Fotopoulos, Takis: <a href="http://democraciainclusiva.org/txt/CMyDI.pdf">"Crisis multidimensional y Democracia Inclusiva"</a>.
+[^3]: Para indagar más sobre la relación entre capitalismo y Estado, ver Rodrigo Mora, Félix: "Estudio del Estado", y Fotopoulos, Takis: ["Crisis multidimensional y Democracia Inclusiva"](http://democraciainclusiva.org/txt/CMyDI.pdf).
 
-[^4]: Un ejemplo de esto sería la campaña <a href="http://percanviarhotot.cat/">"Independència per canviar-ho tot"</a>, donde no se hace en ningún momento referencia explícita a qué implicaría esta independencia, y las pocas referencias que se hacen (soberanía económica, nacionalización sectores estratégicos, buenas condiciones de trabajo, etc.) siguen la línea reformista de no cuestionarse en profundidad las patas del sistema estatal capitalista.
+[^4]: Un ejemplo de esto sería la campaña ["Independència per canviar-ho tot"](http://percanviarhotot.cat/), donde no se hace en ningún momento referencia explícita a qué implicaría esta independencia, y las pocas referencias que se hacen (soberanía económica, nacionalización sectores estratégicos, buenas condiciones de trabajo, etc.) siguen la línea reformista de no cuestionarse en profundidad las patas del sistema estatal capitalista.
 
 [^5]: Para más información sobre este tema, leer el texto sobre el debate del reformismo. <em>"Un caso ilustrativo de esto es el proyecto de Unidad Popular de Chile (1970-1973), donde unas reformas demasiado ambiciosas llevaron al país a una situación de extraordinaria inestabilidad económica (...)"</em>.
 
 [^6]: Un ejemplo sería el euskera batua en el País Vasco, lengua artificial oficializada creada mediante los dialectos centrales del euskera que provocó mucho rechazo por forzar desde las instituciones "públicas" el aprendizaje de una lengua sin uso oral en detrimento del resto de dialectos concurrentes en cada región, hecho que ha tendido a uniformar la gran riqueza lingüística propia del País Vasco. Otro ejemplo a nivel del Estado español son las expresiones conocidas como "vulgarismos" de la lengua castellana, añadiendo una connotación de palabra "mal dicha" a expresiones propias de muchas regiones de la periferia peninsular. Desde los denominados "Países Catalanes" vemos una tendencia a la misma estrategia jerarquizadora, estableciendo como oficial el catalán central de la provincia de Barcelona, y todas las demás variaciones y dialectos, como el valenciano, el mallorquín o el garrotxí, como derivados de este.
 
-[^7]: Grup de Reflexió per a l'Autonomia: <a href="http://www.grupreflexioautonomia.org/ca/manifest-pel-no-si">"Manifest pel No-Si"</a>.
+[^7]: Grup de Reflexió per a l'Autonomia: ["Manifest pel No-Si"](http://www.grupreflexioautonomia.org/ca/manifest-pel-no-si).
 
 [^8]: La razón de ser del esperanto y su relación con la tradición anarquista es muy significativa para entender la relación que hay entre las lenguas y los Estados. El esperanto se considera una lengua neutra que no fomenta ningún imperialismo lingüística de una nación sobre otra. En contraposición nos encontramos con que la lengua vehicular a nivel internacional actualmente es el inglés, lengua del imperio angloamericano.
 
-[^9]: Dké, Antón: <a href="http://blognanin.blogspot.com.es/2013/11/la-diferencia-entre-pueblo-y-nacion.html">"La diferencia entre pueblo y nación"</a>.
+[^9]: Dké, Antón: ["La diferencia entre pueblo y nación"](http://blognanin.blogspot.com.es/2013/11/la-diferencia-entre-pueblo-y-nacion.html).
 
-[^10]: Tsioumas, Aris: <a href="http://estudios.cnt.es/wp-content/uploads/2014/01/12Miscelaneas_Tsioumas.pdf">"Anarquismo social, una corriente de futuro"</a>.
+[^10]: Tsioumas, Aris: ["Anarquismo social, una corriente de futuro"](http://estudios.cnt.es/wp-content/uploads/2014/01/12Miscelaneas_Tsioumas.pdf).
 
-[^11]: Dalmau, Blai: <a href="http://blaidalmau.blogspot.com.es/2013/06/proces-constituent-o-revolucio-integral.html">"Procés Constituent o Revolució Integral?"</a>
+[^11]: Dalmau, Blai: ["Procés Constituent o Revolució Integral?"](http://blaidalmau.blogspot.com.es/2013/06/proces-constituent-o-revolucio-integral.html)
 
-[^12]: <a href="http://integrarevolucio.net/ca/revolucio-integral/que-entenem-per-revoiucio-integral/">http://integrarevolucio.net/ca/revolucio-integral/que-entenem-per-revoiucio-integral/</a>
+[^12]: [http://integrarevolucio.net/ca/revolucio-integral/que-entenem-per-revoiucio-integral/](http://integrarevolucio.net/ca/revolucio-integral/que-entenem-per-revoiucio-integral/)
 
 [^13]: Para más información sobre este tema, leer el texto sobre el debate del Estado de bienestar.

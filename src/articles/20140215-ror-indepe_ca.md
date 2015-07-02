@@ -67,26 +67,26 @@ Sabem que el camí és llarg i ardu i les energies són limitades; per això apo
 
 [^1]: De grec "hetero" altri, i "nomos" llei. Que la llei sigui imposada per algú altre que no sigui un mateix.
 
-[^2]: Grup de Reflexió per a l'Autonomia: <a href="http://www.grupreflexioautonomia.org/ca/manifest-pel-no-si">"Manifest pel No-Si"</a>.
+[^2]: Grup de Reflexió per a l'Autonomia: ["Manifest pel No-Si"](http://www.grupreflexioautonomia.org/ca/manifest-pel-no-si).
 
-[^3]: Per indagar més sobre la relació entre capitalisme i Estat, veure Rodrigo Mora, Félix: "Estudio del Estado" i Fotopoulos, Takis: <a href="http://democraciainclusiva.org/txt/CMyDI.pdf">"Crisis multidimensional y Democracia Inclusiva"</a>.
+[^3]: Per indagar més sobre la relació entre capitalisme i Estat, veure Rodrigo Mora, Félix: "Estudio del Estado" i Fotopoulos, Takis: ["Crisis multidimensional y Democracia Inclusiva"](http://democraciainclusiva.org/txt/CMyDI.pdf).
 
-[^4]: Un exemple d'això seria la campanya <a href="http://percanviarhotot.cat/">"Independència per canviar-ho tot"</a>, on no es fa en cap moment referència explícita a què implicaria aquesta independència, i les poques referències que es fan (sobirania econòmica, nacionalització sectors estratègics, bones condicions de treball, etc) segueixen la línea reformista de no qüestionar-se en profunditat les potes del sistema estatal capitalista.
+[^4]: Un exemple d'això seria la campanya ["Independència per canviar-ho tot"](http://percanviarhotot.cat/), on no es fa en cap moment referència explícita a què implicaria aquesta independència, i les poques referències que es fan (sobirania econòmica, nacionalització sectors estratègics, bones condicions de treball, etc) segueixen la línea reformista de no qüestionar-se en profunditat les potes del sistema estatal capitalista.
 
 [^5]: Per més informació sobre aquest tema, llegir el text sobre el debat del reformisme: _"Un cas il·lustratiu d'això és el projecte d'Unitat Popular de Xile (1970-1973), on unes reformes massa ambicioses van portar el país a una situació d'extraordinària inestabilitat econòmica (...)"_.
 
 [^6]: Un exemple seria l'euskera batua al País Basc, llengua artificial oficialitzada creada mitjançant els dialectes centrals de l'euskera que va provocar molt de rebuig per forçar des de les institucions "públiques" l'aprenentatge d'una llengua sense ús oral en detriment de la resta de dialectes concurrents en cada regió, fet que ha tendit a uniformar la gran riquesa lingüística pròpia del País Basc. Un altre exemple a nivell de l'Estat espanyol són les expressions conegudes com "vulgarismes" de la llengua castellana, afegint una connotació de paraula "mal dita" a expressions pròpies de moltes regions de la perifèria peninsular. Des dels anomenats "Països Catalans" veiem una tendència a la mateixa estratègia jerarquitzadora, establint com oficial el català central de la província de Barcelona, i totes les demés variacions i dialectes, com el valencià, el mallorquí, o el garrotxí, com derivats d'aquest.
 
-[^7]: Grup de Reflexió per a l'Autonomia: <a href="http://www.grupreflexioautonomia.org/ca/manifest-pel-no-si">"Manifest pel No-Si"</a>.
+[^7]: Grup de Reflexió per a l'Autonomia: ["Manifest pel No-Si"](http://www.grupreflexioautonomia.org/ca/manifest-pel-no-si).
 
 [^8]: La raó de ser de l'esperanto i la seva relació amb la tradició anarquista és molt significativa per entendre la relació que hi ha entre les llengües i els Estats. L'esperanto es considera una llengua neutra que no fomenta cap imperialisme lingüístic d'una nació sobre una altra. En contraposició ens trobem amb què la llengua vehicular a nivell internacional actualment és l'anglès, llengua de l'imperi angloamericà.
 
-[^9]: Dké, Antón: <a href="http://blognanin.blogspot.com.es/2013/11/la-diferencia-entre-pueblo-y-nacion.html">"La diferencia entre pueblo y nación"</a>.
+[^9]: Dké, Antón: ["La diferencia entre pueblo y nación"](http://blognanin.blogspot.com.es/2013/11/la-diferencia-entre-pueblo-y-nacion.html).
 
-[^10]: Tsioumas, Aris: <a href="http://estudios.cnt.es/wp-content/uploads/2014/01/12Miscelaneas_Tsioumas.pdf">"Anarquismo social, una corriente de futuro"</a>.
+[^10]: Tsioumas, Aris: ["Anarquismo social, una corriente de futuro"](http://estudios.cnt.es/wp-content/uploads/2014/01/12Miscelaneas_Tsioumas.pdf).
 
-[^11]: Dalmau, Blai: <a href="http://blaidalmau.blogspot.com.es/2013/06/proces-constituent-o-revolucio-integral.html">"Procés Constituent o Revolució Integral?"</a>
+[^11]: Dalmau, Blai: ["Procés Constituent o Revolució Integral?"](http://blaidalmau.blogspot.com.es/2013/06/proces-constituent-o-revolucio-integral.html)
 
-[^12]: <a href="http://integrarevolucio.net/ca/revolucio-integral/que-entenem-per-revoiucio-integral/">http://integrarevolucio.net/ca/revolucio-integral/que-entenem-per-revoiucio-integral/</a>
+[^12]: [http://integrarevolucio.net/ca/revolucio-integral/que-entenem-per-revoiucio-integral/](http://integrarevolucio.net/ca/revolucio-integral/que-entenem-per-revoiucio-integral/)
 
 [^13]: Per més informació sobre aquest tema, llegiu el text sobre el debat de l'Estat del benestar.

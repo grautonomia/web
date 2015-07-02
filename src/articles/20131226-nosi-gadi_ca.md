@@ -11,7 +11,7 @@ files:
     - ['PDF Libreto en castellano', '/articles/nosi/nosi_es_booklet.pdf']
 ---
 
-<div class="secondary alert-box radius">Veure el manifest de la Plataforma pel No-Sí: <a href="/ca/la-via-revolucionaria-del-no-si">La Via Revolucionària del No-Sí – Manifest per la Independència sense Estat</a>.</div>
+<div class="secondary alert-box radius">Veure el manifest de la Plataforma pel No-Sí: [La Via Revolucionària del No-Sí – Manifest per la Independència sense Estat](/ca/la-via-revolucionaria-del-no-si).</div>
 
 <img class="img-right no-top-margin" src="/assets/articles/nosi/img-anuncio.jpg" />
 
@@ -69,4 +69,4 @@ En algunes manifestacions del 15M es va corejar una consigna plena de sentit: _"
     Desembre del 2013<br><br>
 </p>
 
-<div class="secondary alert-box radius">Veure el manifest de la Plataforma pel No-Sí: <a href="/ca/la-via-revolucionaria-del-no-si">La Via Revolucionària del No-Sí – Manifest per la Independència sense Estat</a>.</div>
+<div class="secondary alert-box radius">Veure el manifest de la Plataforma pel No-Sí: [La Via Revolucionària del No-Sí – Manifest per la Independència sense Estat](/ca/la-via-revolucionaria-del-no-si).</div>

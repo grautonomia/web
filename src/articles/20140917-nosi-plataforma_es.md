@@ -6,7 +6,7 @@ keywords: [No-Sí, Consulta, Independencia, Cataluña, Parlamentarismo,
           Autodeterminación]
 ---
 
-<div class="secondary alert-box radius">Original en <a href="http://www.no-si.cat">Plataforma pel No-Sí</a></div>
+<div class="secondary alert-box radius">Original en [Plataforma pel No-Sí](http://www.no-si.cat)</div>
 
 ##Preàmbulo
 
