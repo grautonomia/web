@@ -4,9 +4,10 @@ subtitle: ¡la revolución, sin Estado-nación, es la solución!
 keywords: [No-Sí, Consulta, Independencia, Cataluña, Parlamentarismo,
           '\"Democracia\" Representativa', Heteronomía, Autonomía,
           Autodeterminación]
+note:     "Ver el manifesto de la Plataforma pel No-Sí: [La Vía Revolucionaria
+          del No-Sí – Manifiesto por la Independencia sin
+          Estado](/es/la-via-revolucionaria-del-no-si)."
 ---
-
-<div class="secondary alert-box radius">Ver el manifesto de la Plataforma pel No-Sí: [La Vía Revolucionaria del No-Sí – Manifiesto por la Independencia sin Estado](/es/la-via-revolucionaria-del-no-si).</div>
 
 <img class="img-right no-top-margin" src="/assets/articles/nosi/img-anuncio.jpg" />
 
@@ -58,10 +59,4 @@ La dimensión política de nuestras vidas, es decir, la actividad deliberativa y
 
 En algunas manifestaciones del 15M se coreó una consigna llena de sentido: _"el problema es el sistema, la solución es la revolución"_. Un referéndum convocado por una institución oligárquica como es el Parlament y escenificado por los medios de "comunicación" de masas, forma parte del problema, no de la solución. Por esto, a través de nuestras posibilidades de difusión, los firmantes abogaremos por la abstención activa en este referéndum, alentando a todo el mundo a reflexionar sobre la opción revolucionaria, la opción excluida del No-Sí. Tenemos que responder a muchas preguntas para construir una Cataluña y un mundo realmente independientes y autodeterminados, es decir, sin Estados. Si respondemos acertadamente a ellas, con hechos y palabras, estaremos iniciando una Revolución Integral: una transformación profunda y generalizada de nuestra forma de vida, un cambio cualitativo y de gran alcance en las estructuras y los valores que definen nuestra sociedad.
 
-<h3 style="text-align:center;">¡Sólo cambiándolo todo seremos independientes!</h3>
-<p style="text-align:center;text-indent:0;">
-    Grupo de Reflexión para la Autonomía<br>
-    Diciembre del 2013<br><br>
-</p>
-
-<div class="secondary alert-box radius">Ver el manifesto de la Plataforma pel No-Sí: [La Vía Revolucionaria del No-Sí – Manifiesto por la Independencia sin Estado](/es/la-via-revolucionaria-del-no-si).</div>
+###¡Sólo cambiándolo todo seremos independientes!

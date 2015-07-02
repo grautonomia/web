@@ -15,5 +15,6 @@
 	"menu_index": "Inicio",
 	"read_online": "Leer online",
 	"subscribe_news": "Suscríbete a nuestro boletín",
-	"x_minutes": "%s minutos"
+	"x_minutes": "%s minutos",
+	"x_comments": "%s comentarios"
 }

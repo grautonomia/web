@@ -3,9 +3,8 @@ title:    Sobre el Estado de bienestar
 keywords: [Estado de bienestar, Estado, ayuda mutua, revolución]
 ---
 
-<div style="text-align:left;font-style:italic;line-height:1.4em;border-bottom:1px solid #eee;padding-bottom: 0.5em;">
-    <h4>"Todo en el Estado, nada fuera del Estado, nada contra el Estado."<br>Mussolini</h4>
-</div>
+> "Todo en el Estado, nada fuera del Estado, nada contra el Estado."  
+> _Mussolini_
 
 ##1. La tradición histórica del Estado de bienestar
 

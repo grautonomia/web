@@ -5,11 +5,6 @@ $(function () {
         'es': 'es'
     };
 
-    // Reveal
-    $(document).foundation().foundation('reveal', {
-        animation: 'fade'
-    });
-
     // Typography
     unorphan($("a, p, blockquote, span, li, h1, h2, h3, h4, h5, h6").not('[data-dont-unorphan]'), { br: true });
 
@@ -18,4 +13,9 @@ $(function () {
     } else {
         throw "Locale not found!";
     }
+
+    // Foundation
+    // $(document).foundation().foundation('reveal', {
+    //     animation: 'fade'
+    // });
 });

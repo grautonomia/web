@@ -4,14 +4,14 @@ authors:       [Reflexions per a l'emancipació]
 social_image:  /articles/rxesolselpoble/social
 title:         Sols el poble salva al poble
 keywords:      [Autonomia, Assemblea, Reflexió]
+note:          Text publicat originalment pel col·lectiu _Reflexions per a
+               l'emancipació_.
 files:
     - ['PDF en català', '/articles/rxesolselpoble/solselpoble_ca.pdf']
     - ['PDF en castellano', '/articles/rxesolselpoble/solselpoble_es.pdf']
     - ['PDF en français', '/articles/rxesolselpoble/solselpoble_fr.pdf']
     - ['Organitza un debat', '/articles/rxesolselpoble/debat-sols-el-poble.zip']
 ---
-
-**Text publicat originalment pel col·lectiu _Reflexions per a l'emancipació_.**
 
 <img class="img-right no-top-margin" src="/assets/articles/rxesolselpoble/img-cartel.png" />
 

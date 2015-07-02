@@ -47,6 +47,7 @@ hr {
     $height: 45px;
     background-color: $light-primary-color;
     height: $height;
+    margin-top: 1em;
 
     h1 {
         float: left;
@@ -160,7 +161,7 @@ hr {
     }
 
     .articles {
-        margin-bottom: 2em;
+        //margin-bottom: 2em;
 
         /*
         .separator {
@@ -173,13 +174,17 @@ hr {
             font-size: 1.1em;
             text-align: justify;
             margin-bottom: 1.5em;
-            height: 240px;
+            height: 200px;
             overflow: hidden;
             position: relative;
 
+            &.last-row {
+                margin-bottom: 0;
+            }
+
             h3 {
                 text-align: left;
-                line-height: 1.15em;
+                line-height: 1.3em;
             }
 
             p {
@@ -201,7 +206,7 @@ hr {
                 background: linear-gradient(transparent 30px, white);
             }
 
-            .date {
+            .meta-data {
                 color: #666;
                 font-family: $header-font-family;
                 margin-top: -0.35em;
@@ -243,55 +248,83 @@ hr {
     border-right: 1px solid darken($light-primary-color, 5%);
     border-bottom: 1px solid darken($light-primary-color, 5%);
     border-radius: 3px;
+    margin-bottom: 4em;
 }
 
 .vanilla {
-    .article-metadata {
-        ul {
-            margin-left: 0;
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-
-            li {
-                font-family: $header-font-family;
-                list-style: none;
-                line-height: 1.9em;
-                text-indent: -22px;
-                margin-left: 20px;
-
-                i {
-                    text-indent: 0;
-                }
-            }
-        }
-
-        i {
-            color: $primary-color;
-        }
-    }
-
     article {
         h1 {
             margin-top: 0;
-        }
-
-        h1.no-subtitle {
-            border-bottom: 1px solid #eee;
-            padding-bottom: .1em;
-        }
-
-        h1.with-subtitle {
-            margin-bottom: -0.1em;
+            margin-bottom: 0;
+            line-height: 1.3em;
         }
 
         .subtitle {
             font-size: em-calc(18);
-            margin-bottom: 1.2em;
             margin-top: 0;
+            //margin-bottom: 1.2em;
+            //border-bottom: 1px solid #eee;
+            //padding-bottom: .5em;
+        }
+
+        .meta-data {
+            border-top: 1px solid #eee;
             border-bottom: 1px solid #eee;
-            padding-bottom: .5em;
+            padding: ($quarter-padding / 2) 0;
+            margin: $quarter-padding 0 $half-padding;
+
+            ul {
+                margin-left: 0;
+                margin-bottom: 0;
+                padding: 0;
+                font-size: 0.85em;
+
+                li {
+                    display: inline-block;
+                    font-family: $header-font-family;
+                    list-style: none;
+                    line-height: 1.9em;
+                    //text-indent: -22px;
+                    //margin-left: 20px;
+
+                    i {
+                        text-indent: 0;
+                    }
+                }
+
+                &.left li {
+                    margin-right: .75em;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+
+                &.right li {
+                    margin-left: .75em;
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+            }
+
+            .note {
+                text-align: left;
+                padding-top: ($quarter-padding / 2);
+                margin-top: ($quarter-padding / 2);
+                border-top: 1px solid #eee;
+                font-family: $header-font-family;
+
+                p {
+                    font-size: 0.85em;
+                    text-indent: 0;
+                }
+            }
+
+            i {
+                color: $primary-color;
+            }
         }
 
         .alert-box {
@@ -328,10 +361,6 @@ hr {
             font-size: .7em;
         }
 
-        strong {
-            color: #000;
-        }
-
         h2, h3, h4, h5, h6 {
             margin-top: rem-calc(16);
             margin-bottom: rem-calc(16);
@@ -343,9 +372,16 @@ hr {
             text-align: justify;
             line-height: 1.85em;
             font-size: rem-calc(16);
+        }
 
-            &:first-child {
-                text-indent: 0;
+        a.footnoteRef {
+            border-bottom: none;
+            color: $primary-color;
+            margin-left: $quarter-padding / 2;
+            font-size: .9em;
+
+            &:hover {
+                background-color: transparent;
             }
         }
 
@@ -399,7 +435,7 @@ hr {
             }
         }
 
-        h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p, ul + p, blockquote + p {
+        p:first-child, h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p, ul + p, blockquote + p {
             text-indent: 0;
         }
 

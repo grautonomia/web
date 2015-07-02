@@ -5,9 +5,8 @@ keywords: [movimiento, revolución, estrategia, sujeto revolucionario,
           transición, tácticas, reflexión, pensamiento, 1936, violencia]
 ---
 
-<div style="text-align:left;font-style:italic;line-height:1.4em;border-bottom:1px solid #eee;padding-bottom: 0.5em;">
-    <h4>"La miseria es el síntoma, el mal la esclavitud."<br>I. Puente</h4>
-</div>
+> "La miseria es el síntoma, el mal la esclavitud."  
+> _I. Puente_
 
 ##Porque hablar de revolución hoy[^1]
 
@@ -31,9 +30,8 @@ Cuando hablamos de una revolución, estamos pensando en realizar un cambio profu
 
 ##Reflexiones generales para una revolución
 
-<div style="text-align:left;font-style:italic;line-height:1.4em;border-bottom:1px solid #eee;padding-bottom: 0.5em;">
-    <h4>"La revolución es una fuerza, una voluntad, un deber que es atemporal."<br>Anónimo</h4>
-</div>
+> "La revolución es una fuerza, una voluntad, un deber que es atemporal."  
+> _Anónimo_
 
 ###Aprender de la historia, sentirse parte de ella
 
@@ -71,9 +69,8 @@ Debemos esforzarnos para crear las condiciones propicias para la revolución, no
 
 ##Elementos para una revolución en el siglo XXI
 
-<div style="text-align:left;font-style:italic;line-height:1.4em;border-bottom:1px solid #eee;padding-bottom: 0.5em;">
-    <h4>"Las revoluciones no son hijas del estomago, son hijas del pensamiento."<br>Soledad Gustavo</h4>
-</div>
+> "Las revoluciones no son hijas del estomago, son hijas del pensamiento."  
+> _Soledad Gustavo_
 
 ###Hoy
 

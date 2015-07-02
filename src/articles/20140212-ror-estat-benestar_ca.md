@@ -8,9 +8,8 @@ files:
     - ['PDF en castellano', '/articles/rorestatbenestar/ror_estat_benestar_es.pdf']
 ---
 
-<div style="text-align:left;font-style:italic;line-height:1.4em;border-bottom:1px solid #eee;padding-bottom: 0.5em;">
-    <h4>"Tot en l'Estat, res fora de l'Estat, res contra l'Estat."<br>Mussolini</h4>
-</div>
+> "Tot en l'Estat, res fora de l'Estat, res contra l'Estat."  
+> _Mussolini_
 
 ##1. La tradició històrica de l'Estat de benestar
 

@@ -4,9 +4,8 @@ subtitle: Manifiesto por la Independencia sin Estado
 keywords: [No-Sí, Consulta, Independencia, Cataluña, Parlamentarismo,
           '\"Democracia\" Representativa', Heteronomía, Autonomía,
           Autodeterminación]
+note:     Original en [Plataforma pel No-Sí](http://www.no-si.cat).
 ---
-
-<div class="secondary alert-box radius">Original en [Plataforma pel No-Sí](http://www.no-si.cat)</div>
 
 ##Preàmbulo
 

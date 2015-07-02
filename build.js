@@ -1,5 +1,7 @@
 'use strict';
 
+var marked = require('marked');
+
 var Metalsmith   = require('metalsmith');
 var branch       = require('metalsmith-branch');
 var concat       = require('metalsmith-concat');
@@ -50,6 +52,7 @@ var viewHelpers = {
     nl2br: function (str) {
         return str.replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '<br/>');
     },
+    markdown: marked,
     prettyDate: function (date) {
         return date.toISOString().substr(0, 10);
     }
@@ -61,8 +64,6 @@ module.exports = function (isDebug, done) {
     var vendors = [
         'bower_components/foundation/js/vendor/jquery.js',
         'bower_components/foundation/js/vendor/fastclick.js',
-        'bower_components/foundation/js/foundation/foundation.js',
-        'bower_components/foundation/js/foundation/foundation.reveal.js',
         'bower_components/hypher/dist/jquery.hypher.js',
         'bower_components/hyphenation-patterns/dist/browser/ca.js',
         'bower_components/hyphenation-patterns/dist/browser/es.js',
@@ -115,7 +116,7 @@ module.exports = function (isDebug, done) {
         }))
         .use(setProperty('id', generateId))
         .use(slug({ patterns: ['*.md'], lower: true }))
-        .use(pandoc())
+        .use(pandoc({ args: ['--smart'] }))
         .use(snippet({ maxLength: 450 }))
         .use(wordcount({ raw: true }))
         .use(fileMetadata([

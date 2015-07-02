@@ -2,13 +2,32 @@ extends ./layout.jade
 
 block body
     .row.content.vanilla
-        article.medium-9.large-8.columns
+        article.medium-9.medium-centered.large-8.columns
             .page
+                h1= title
+
                 if subtitle
-                    h1.with-subtitle= title
                     h2.subtitle!= nl2br(subtitle)
-                else
-                    h1.no-subtitle= title
+
+                .meta-data
+                    .clearfix
+                        ul.left
+                            li <i class="fa fa-fw fa-calendar"></i> #{prettyDate(date)}
+                            li <i class="fa fa-fw fa-clock-o"></i> #{__('x_minutes', readingTime)}
+                            li <i class="fa fa-fw fa-user"></i> #{authors.join(', ')}
+
+                        ul.right
+                            li: a(href="#" data-tooltip title=__('view_comments')) <i class="fa fa-fw fa-comment"></i> #{0}
+                            if files
+                                li: a(data-dropdown="downloads" data-tooltip title=__('downloads')) <i class="fa fa-fw fa-download"></i>&nbsp;<i class="fa fa-angle-down"></i>
+
+                    if note
+                        .note!= markdown(note)
+
+                    if files
+                        ul#downloads.f-dropdown(data-dropdown-content)
+                            each file in files
+                                li: a(href=file[1]) #{file[0]}
 
                 div.body!= contents
 
@@ -48,7 +67,7 @@ block body
 
                     noscript Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments</a>.
 
-        aside.medium-3.large-4.columns
+        //-aside.medium-3.large-4.columns
             .page.article-metadata
                 ul(data-dont-hyphenate)
                     li <i class="fa fa-fw fa-clock-o"></i> #{__('x_minutes', readingTime)}

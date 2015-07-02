@@ -15,5 +15,6 @@
 	"menu_index": "Inici",
 	"read_online": "Llegir online",
 	"subscribe_news": "Subscriu-te al nostre butlletí",
-	"x_minutes": "%s minuts"
+	"x_minutes": "%s minuts",
+	"x_comments": "%s comentaris"
 }

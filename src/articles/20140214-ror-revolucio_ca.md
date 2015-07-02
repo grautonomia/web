@@ -10,9 +10,8 @@ files:
     - ['PDF en castellano', '/articles/rorrevolucio/ror_revolucio_es.pdf']
 ---
 
-<div style="text-align:left;font-style:italic;line-height:1.4em;border-bottom:1px solid #eee;padding-bottom: 0.5em;">
-    <h4>"La misèria és el símptoma, el mal l'esclavitud."<br>I. Puente</h4>
-</div>
+> "La misèria és el símptoma, el mal l'esclavitud."  
+> _I. Puente_
 
 ##Perquè parlar de revolució avui[^1]
 
@@ -36,9 +35,8 @@ Quan parlem de realitzar una revolució, estem pensant en realitzar un canvi pro
 
 ##Reflexions generals per una revolució
 
-<div style="text-align:left;font-style:italic;line-height:1.4em;border-bottom:1px solid #eee;padding-bottom: 0.5em;">
-    <h4>"La revolució és una força, una voluntat, un deure que és atemporal."<br>Anònim</h4>
-</div>
+> "La revolució és una força, una voluntat, un deure que és atemporal."  
+> _Anònim_
 
 ###Aprendre de la història, sentir-se part d'ella
 
@@ -76,9 +74,8 @@ Hem d'esforçar-nos per a crear les condicions propícies per a la revolució, n
 
 ##Elements per una revolució al segle XXI
 
-<div style="text-align:left;font-style:italic;line-height:1.4em;border-bottom:1px solid #eee;padding-bottom: 0.5em;">
-    <h4>"Las revoluciones no son hijas del estomago, son hijas del pensamiento."<br>Soledad Gustavo</h4>
-</div>
+> "Las revoluciones no son hijas del estomago, son hijas del pensamiento."  
+> _Soledad Gustavo_
 
 ###L'avui
 

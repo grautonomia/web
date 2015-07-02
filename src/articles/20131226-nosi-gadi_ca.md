@@ -6,12 +6,13 @@ subtitle:     la revolució, sense Estat-nació, és la solució!
 keywords:     [No-Sí, Consulta, Independència, Catalunya, Parlamentarisme,
               '\"Democràcia\" Representativa', Heteronomia, Autonomia,
               Autodeterminació]
+note:         "Veure el manifest de la Plataforma pel No-Sí: [La Via
+              Revolucionària del No-Sí – Manifest per la Independència sense
+              Estat](/ca/la-via-revolucionaria-del-no-si)."
 files:
     - ['PDF Llibret en català', '/articles/nosi/nosi_ca_booklet.pdf']
     - ['PDF Libreto en castellano', '/articles/nosi/nosi_es_booklet.pdf']
 ---
-
-<div class="secondary alert-box radius">Veure el manifest de la Plataforma pel No-Sí: [La Via Revolucionària del No-Sí – Manifest per la Independència sense Estat](/ca/la-via-revolucionaria-del-no-si).</div>
 
 <img class="img-right no-top-margin" src="/assets/articles/nosi/img-anuncio.jpg" />
 
@@ -63,10 +64,4 @@ La dimensió política de les nostres vides, és a dir, l'activitat deliberativa
 
 En algunes manifestacions del 15M es va corejar una consigna plena de sentit: _"el problema és el sistema, la solució és la revolució"_. Un referèndum convocat per una institució oligàrquica com és el Parlament i escenificat pels mitjans de "comunicació" de masses, forma part del problema, no de la solució. Per això, a través de les nostres possibilitats de difusió, els sotasignats advocarem per l'abstenció activa en aquest referèndum, encoratjant a tothom a reflexionar sobre l'opció revolucionària, l'opció exclosa del No-Sí. Cal que responguem a moltes preguntes per construir una Catalunya i un món realment independents i autodeterminats, és a dir, sense Estats. Si responem encertadament a elles, amb fets i paraules, estarem iniciant una Revolució Integral: una transformació profunda i generalitzada de la nostra forma de vida, un canvi qualitatiu i de gran abast en les estructures i el valors que defineixen la nostra societat.
 
-<h3 style="text-align:center">Només canviant-ho tot serem independents!</h3>
-<p style="text-align:center;text-indent:0;">
-    Grup de Reflexió per a l'Autonomia<br>
-    Desembre del 2013<br><br>
-</p>
-
-<div class="secondary alert-box radius">Veure el manifest de la Plataforma pel No-Sí: [La Via Revolucionària del No-Sí – Manifest per la Independència sense Estat](/ca/la-via-revolucionaria-del-no-si).</div>
+###Només canviant-ho tot serem independents!

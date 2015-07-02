@@ -17,6 +17,7 @@
     "gulp-imagemin": "^2.3.0",
     "i18n": "^0.5.0",
     "jade": "^1.11.0",
+    "marked": "^0.3.3",
     "metalsmith": "^1.7.0",
     "metalsmith-branch": "0.0.4",
     "metalsmith-concat": "^2.0.0",
