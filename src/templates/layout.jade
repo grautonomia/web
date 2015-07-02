@@ -24,7 +24,7 @@ html(lang="#{locale}")
 
         .header
             .row
-                .large-12.columns
+                .columns(class=(type == 'article') ? 'large-8 medium-centered' : 'large-12')
                     h1.title: a(href='/'+findOne({ id: 'index' }).altFiles[locale].path) GRA
                     ul.locales
                         if locale != 'es'
