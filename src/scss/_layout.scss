@@ -12,8 +12,8 @@ body {
 .content {
     a {
         color: $body-font-color;
-        border-bottom: 1px dashed $primary-color;
-        padding-bottom: 1px;
+        border-bottom: 1px dotted $primary-color;
+        padding-bottom: 2px;
 
         &:hover {
             background-color: $light-primary-color;
@@ -74,6 +74,7 @@ hr {
 
                 &:hover {
                     background-color: darken($light-primary-color, 5%);
+                    border-radius: 3px;
                 }
             }
         }
@@ -215,6 +216,15 @@ hr {
                 padding-bottom: 0.2em;
                 margin-bottom: 0.8em;
                 font-weight: 300;
+
+                span {
+                    margin-right: $quarter-padding;
+                }
+
+                a {
+                    color: $body-font-color;
+                    cursor: default;
+                }
             }
 
             .more {

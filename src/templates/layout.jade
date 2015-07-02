@@ -11,17 +11,6 @@ html(lang="#{locale}")
         link(href="http://fonts.googleapis.com/css?family=Domine:400,700|Roboto:400,400italic,700italic,700,500,500italic,300,300italic,900,100italic,100,900italic" rel="stylesheet" type="text/css")
 
     body(class="")
-        //- FACEBOOK
-        //-#fb-root
-        //-script.
-            (function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-
         .header
             .row
                 .columns(class=(type == 'article') ? 'large-8 medium-centered' : 'large-12')
@@ -63,3 +52,27 @@ html(lang="#{locale}")
             div!= __('gra_intro')
 
         script(src="/#{fingerprint['assets/main.min.js']}")
+
+        //- DISQUS COMMENTS COUNTER
+        script.
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'grautonomia'; // required: replace example with your forum shortname
+            var disqus_config    = function () {
+                var locales = {
+                    'ca': 'ca_ES',
+                    'es': 'es_ES'
+                };
+
+                this.language = locales["#{locale}"];
+            };
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            //- Counter
+            (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+            }());
+
+        block javascript

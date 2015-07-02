@@ -1,5 +1,6 @@
 ---
 draft:        false
+id:           article_rorindepe
 social_image: /articles/rorindepe/social
 title:        El projecte "independentista" des d'una perspectiva
               revolucionària

@@ -13,6 +13,10 @@ block body
                     each article, index in articles
                         li.article(class=index > 1 ? 'separator' : '' class=Math.floor(index/2) >= Math.floor(articles.length/2) ? 'last-row' : '')
                             h3: a(href='/'+article.path)= article.title
-                            p.meta-data <i class="fa fa-fw fa-calendar"></i> #{prettyDate(article.date)} · <i class="fa fa-fw fa-clock-o"></i> #{__('x_minutes', article.readingTime)}
+                            p.meta-data
+                                span: <i class="fa fa-fw fa-calendar"></i> #{prettyDate(article.date)}
+                                span: <i class="fa fa-fw fa-clock-o"></i> #{__('x_minutes', article.readingTime)}
+                                if article.allow_comments
+                                    span: <i class="fa fa-fw fa-comment"></i> <a data-disqus-identifier="#{article.id}">0</a>
                             p!= article.snippet
                             //- a.more(href='/'+article.path) #{__('more')} &raquo;

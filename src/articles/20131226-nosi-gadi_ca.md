@@ -1,5 +1,6 @@
 ---
 draft:        false
+id:           article_nosi
 social_image: /articles/nosi/social3
 title:        Manifest pel No-Sí
 subtitle:     la revolució, sense Estat-nació, és la solució!

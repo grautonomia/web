@@ -41,11 +41,26 @@ function showDrafts(show) {
 function generateId(filename, filedata, ms) {
     var locales = ms.metadata().locales.locales;
     var ext     = require('path').extname(filename);
+    var id;
 
-    return filename.replace('/', '_')
-                   .replace(ext, '')
-                   .replace(/\d{8}\-/, '')
-                   .replace(RegExp('_('+ locales.join('|') +')$'), '');
+    // Some articles will come with an id
+    // this is the ID from the old system, it's necesary
+    // for having the same Disqus threads
+    if (filedata.id) {
+        return filedata.id;
+    } else {
+        id = filename.replace('/', '_')
+                     .replace(ext, '')
+                     .replace(/\d{8}\-/, '')
+                     .replace(RegExp('_('+ locales.join('|') +')$'), '');
+
+        // Change to old naming
+        if (filedata.type == 'article') {
+            id = id.replace('articles_', 'article_');
+        }
+
+        return id;
+    }
 }
 
 var viewHelpers = {
