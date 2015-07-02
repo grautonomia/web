@@ -1,5 +1,6 @@
 ---
 draft:         false
+authors:       [Reflexions per a l'emancipació]
 social_image:  /articles/rxesolselpoble/social
 title:         Sols el poble salva al poble
 keywords:      [Autonomia, Assemblea, Reflexió]
@@ -7,7 +8,7 @@ files:
     - ['PDF en català', '/articles/rxesolselpoble/solselpoble_ca.pdf']
     - ['PDF en castellano', '/articles/rxesolselpoble/solselpoble_es.pdf']
     - ['PDF en français', '/articles/rxesolselpoble/solselpoble_fr.pdf']
-    - ['Organiza un debate', '/articles/rxesolselpoble/debat-sols-el-poble.zip']
+    - ['Organitza un debat', '/articles/rxesolselpoble/debat-sols-el-poble.zip']
 ---
 
 **Text publicat originalment pel col·lectiu _Reflexions per a l'emancipació_.**
@@ -28,9 +29,9 @@ En les formes d'organització socials heterònomes (del grec _hetero_, "altre", 
 
 En l'altre extrem, en una societat autònoma (del grec _auto_, "un mateix", i _nomos_, "norma") som la ciutadania qui, mitjançant la nostra participació directa i activa, donem forma a la societat en què vivim (sense partits, sense jerarquies, sense dominadors ni dominats). És  doncs una societat en la qual el poble es governa a sí mateix, un règim igualitari, un règim democràtic.
 
-Sí, democràtic. És possible que d'entrada a algunes persones els generi rebuig la paraula "democràcia", doncs poques paraules s'han tergiversat tant com aquesta, però no per això hem de renunciar a ella. Democràcia (del grec _demos_, "poble", i _kratos_, "poder) significa sobirania del poble, un règim basat en la igualtat de poder de tota la ciutadania. Però, per poder parlar d'una veritable democràcia no n'hi ha prou amb recuperar el seu significat clàssic, cal estendre'l a tots els àmbits d'allò col·lectiu per eliminar així tot tipus de dominació: a l'àmbit polític, a l'econòmic, al social en general  i al de les relacions entre la societat i la natura*.
+Sí, democràtic. És possible que d'entrada a algunes persones els generi rebuig la paraula "democràcia", doncs poques paraules s'han tergiversat tant com aquesta, però no per això hem de renunciar a ella. Democràcia (del grec _demos_, "poble", i _kratos_, "poder) significa sobirania del poble, un règim basat en la igualtat de poder de tota la ciutadania. Però, per poder parlar d'una veritable democràcia no n'hi ha prou amb recuperar el seu significat clàssic, cal estendre'l a tots els àmbits d'allò col·lectiu per eliminar així tot tipus de dominació: a l'àmbit polític, a l'econòmic, al social en general  i al de les relacions entre la societat i la natura[^1].
 
-_*: Tal com es proposa des del projecte de la [Democràcia Inclusiva](http://www.democraciainclusiva.org)._
+[^1]: Tal com es proposa des del projecte de la [Democràcia Inclusiva](http://www.democraciainclusiva.org).
 
 Tota la població d'una àrea geogràfica determinada hauria de ser considerada part de la ciutadania. Les assemblees locals podríen confederar-se a diferents nivells (regional, continental…) per prendre aquelles decisions que anéssin més enllà de l'àmbit local. Així, a les assemblees locals es donarien els mandats específics als delegats, que es coordinarien als diferents nivell per tal d'administrar i implementar les decisions. Els delegats són revocables, a diferència dels representants, no prenen decisions "en nom del poble".
 
@@ -60,7 +61,7 @@ Per fer aquest procés de superació i millora personal i col·lectiva és fonam
 
 És fàcil veure que els polítics professionals no faran res per substituir el sistema actual per un en el qual siguem el Poble qui decidim sobre el nostre destí. Això es deu no només a que va contra els seus interessos, sinó també a que entra en contradicció amb les dinàmiques del sistema que controlen. Entra en contradicció perquè aquestes dinàmiques porten a l'augment de la concentració de poder i no a la distribució igualitària del mateix. Així, és utòpic pensar que en base a reformes al sistema actual podrem superar les crisis i desigualtats inherents a aquest i alhora construir una nova societat autònoma.
 
-Per assolir-la, cal un moviment popular massiu que apunti explícitament cap a la construcció d'una forma d'organització social alternativa que substitueixi l'actual. Per tal que poguem parlar d'un moviment i aquest sigui realment efectiu, cal que tingui unes bases sòlides compartides i que no sigui només un "front comú". En aquest sentit, creiem que l'únic paradigma emancipador capaç d'unir les diferents lluites i moviments actuals és el de la lluita contra tota forma de dominació, per tant, a favor de la igualtat de poder en tots els àmbits*.
+Per assolir-la, cal un moviment popular massiu que apunti explícitament cap a la construcció d'una forma d'organització social alternativa que substitueixi l'actual. Per tal que poguem parlar d'un moviment i aquest sigui realment efectiu, cal que tingui unes bases sòlides compartides i que no sigui només un "front comú". En aquest sentit, creiem que l'únic paradigma emancipador capaç d'unir les diferents lluites i moviments actuals és el de la lluita contra tota forma de dominació, per tant, a favor de la igualtat de poder en tots els àmbits[^1].
 
 El repte de la transformació social és un repte complex i difícil. Per això és important que aprenguem dels intents i les experiències del passat, així com de les lluites del present. La societat de consum ens ha portat a voler-ho tot aquí i ara, però això només ens porta a la superficialitat. Un canvi com el que necessitem i anhelem és un canvi històric que ha d'afrontar les arrels dels problemes i, com a tal, cal que es faci en base a passos ferms i sòlids.
 
