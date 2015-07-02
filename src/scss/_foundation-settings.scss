@@ -1,6 +1,3 @@
-// Table of Contents
-// Foundation Settings
-
 // a. Base
 // b. Grid
 // c. Global
@@ -76,6 +73,7 @@ $include-html-global-classes: $include-html-classes;
 // $row-width: rem-calc(1000);
 // $total-columns: 12;
 // $column-gutter: rem-calc(30);
+$column-gutter: $base-padding;
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -120,7 +118,7 @@ $primary-color: #b63984;
 
 // We use these to control various global styles
 $body-bg: #fff;
-$body-font-color: #222;
+$body-font-color: #333;
 $body-font-family: 'Domine', Georgia, serif;
 $body-font-weight: normal;
 $body-font-style: normal;
@@ -248,9 +246,10 @@ $paragraph-text-rendering: optimizeLegibility;
 // $code-padding: rem-calc(2) rem-calc(5) rem-calc(1);
 
 // We use these to style anchors
-$anchor-text-decoration: none;
-$anchor-text-decoration-hover: none;
-// $anchor-font-color: $primary-color;
+// $anchor-text-decoration: underline;
+// $anchor-text-decoration-hover: none;
+// $anchor-font-color: $body-font-color;
+// $anchor-font-color-hover: darken($light-primary-color, 5%);
 // $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
 
 // We use these to style the <hr> element
@@ -274,9 +273,12 @@ $anchor-text-decoration-hover: none;
 // $definition-list-margin-bottom: rem-calc(12);
 
 // We use these to style blockquotes
-// $blockquote-font-color: scale-color($header-font-color, $lightness: 35%);
+//$blockquote-font-color: scale-color($header-font-color, $lightness: 35%);
+$blockquote-font-color: scale-color($header-font-color, $lightness: 20%);
 // $blockquote-padding: rem-calc(9 20 0 19);
+$blockquote-padding: 0;
 // $blockquote-border: 1px solid $gainsboro;
+$blockquote-border: none;
 // $blockquote-cite-font-size: rem-calc(13);
 // $blockquote-cite-font-color: scale-color($header-font-color, $lightness: 23%);
 // $blockquote-cite-link-color: $blockquote-cite-font-color;

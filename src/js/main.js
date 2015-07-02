@@ -11,10 +11,10 @@ $(function () {
     });
 
     // Typography
-    unorphan($("a, p, span, li, h1, h2, h3, h4, h5, h6").not('[data-dont-unorphan]'));
+    unorphan($("a, p, blockquote, span, li, h1, h2, h3, h4, h5, h6").not('[data-dont-unorphan]'), { br: true });
 
     if (locale in locales) {
-        $('p, span, strong, em, li').not('[data-dont-hyphenate]').hyphenate(locales[locale]);
+        $('p, span, strong, em, ul > li').not('[data-dont-hyphenate], [data-dont-hyphenate] li, blockquote p').hyphenate(locales[locale]);
     } else {
         throw "Locale not found!";
     }

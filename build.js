@@ -63,10 +63,10 @@ module.exports = function (isDebug, done) {
         'bower_components/foundation/js/vendor/fastclick.js',
         'bower_components/foundation/js/foundation/foundation.js',
         'bower_components/foundation/js/foundation/foundation.reveal.js',
-        'bower_components/unorphan/index.js',
         'bower_components/hypher/dist/jquery.hypher.js',
         'bower_components/hyphenation-patterns/dist/browser/ca.js',
         'bower_components/hyphenation-patterns/dist/browser/es.js',
+        'bower_components/unorphan/index.js',
     ];
 
     Metalsmith(__dirname)
@@ -86,7 +86,10 @@ module.exports = function (isDebug, done) {
         // CSS
         .use(sass({
             outputDir:    'assets/',
-            includePaths: ['bower_components/foundation/scss']
+            includePaths: [
+                'bower_components/font-awesome/scss',
+                'bower_components/foundation/scss',
+            ]
         }))
 
         // JS
@@ -113,10 +116,10 @@ module.exports = function (isDebug, done) {
         .use(setProperty('id', generateId))
         .use(slug({ patterns: ['*.md'], lower: true }))
         .use(pandoc())
-        .use(snippet({ maxLength: 400 }))
+        .use(snippet({ maxLength: 450 }))
         .use(wordcount({ raw: true }))
         .use(fileMetadata([
-            { pattern: 'articles/*', preserve: true, metadata: { template: 'article.jade', allow_comments: true, type: 'article' } }
+            { pattern: 'articles/*', preserve: true, metadata: { template: 'article.jade', allow_comments: true, type: 'article', authors: ['GRA'] } }
         ]))
         .use(branch('articles/*')
             .use(permalinks({

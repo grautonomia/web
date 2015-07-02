@@ -14,5 +14,6 @@
 	"menu_about": "Qui som?",
 	"menu_index": "Inici",
 	"read_online": "Llegir online",
-	"subscribe_news": "Subscriu-te al nostre butlletí"
+	"subscribe_news": "Subscriu-te al nostre butlletí",
+	"x_minutes": "%s minuts"
 }

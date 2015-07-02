@@ -12,8 +12,8 @@ html(lang="#{locale}")
 
     body(class="")
         //- FACEBOOK
-        #fb-root
-        script.
+        //-#fb-root
+        //-script.
             (function(d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
                 if (d.getElementById(id)) return;
@@ -37,7 +37,7 @@ html(lang="#{locale}")
 
         block body
 
-        .footer
+        //-.footer
             .row
                 .large-6.columns
                     div
@@ -57,7 +57,7 @@ html(lang="#{locale}")
                 .large-12.columns
                     p 2012–#{(new Date()).getFullYear()}, Barcelona, #{__('gra_full')}
 
-        #aboutModal.small.reveal-modal.about-modal
+        //-#aboutModal.small.reveal-modal.about-modal
             a.close-reveal-modal &#215;
             h3= __('menu_about')
             div!= __('gra_intro')

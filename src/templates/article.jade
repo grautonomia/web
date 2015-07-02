@@ -2,120 +2,132 @@ extends ./layout.jade
 
 block body
     .row.content.vanilla
-        .large-8.small-centered.columns.article
-            if subtitle
-                h1.with-subtitle= title
-                h2.subtitle!= nl2br(subtitle)
-            else
-                h1.no-subtitle= title
-
-            p= readingTime
-
-            div.body!= contents
-
-            //- DISQUS
-            //-
-            //- Usamos el mismo Disqus para los dos idiomas, si se
-            //- quieren tener los comentarios separados por idiomas
-            //- hay que meter el idioma en "disqus_identifier".
-            //-
-            //- app.request.locale
-
-            if allow_comments
-                hr
-                #disqus_thread.comments
-
-                script.
-                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                    var disqus_shortname  = 'grautonomia'; // required: replace example with your forum shortname
-                    var disqus_identifier = '#{id}';
-                    var disqus_title      = "#{altFiles.ca.title}";
-                    var disqus_url        = '/#{altFiles.ca.path}';
-                    var disqus_config     = function () {
-                        var locales = {
-                            'ca': 'ca_ES',
-                            'es': 'es_ES'
-                        };
-
-                        this.language = locales["#{locale}"];
-                    };
-
-                    /* * * DON'T EDIT BELOW THIS LINE * * */
-                    (function() {
-                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                    })();
-
-                noscript Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments</a>.
-
-            //- /DISQUS
-
-        //- .large-4.columns.sidebar(data-ovni-sidebar)
-            h4= __('share')
-            .row
-                .large-4.columns
-                    .fb-share-button(data-type="button_count")
-                .large-4.columns
-                    <a href="https://twitter.com/share" class="twitter-share-button" data-lang="{{ app.request.locale }}" data-text="{{ data.title }}{% if data.subtitle is defined %}: {{ data.subtitle }}{% endif %}" data-url="{{ url(data._id~'_'~app.request.locale) }}">Tweeter</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                .large-4.columns
-                    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-                    <g:plusone size="standard"></g:plusone>
-
-            if files
-                hr
-                h4= __('downloads')
-                ul.files
-                    each file in files
-                        li: a(href="/assets{{ file.path }}" data-track="{{ {'category': 'pdf', 'action': 'download', 'label': file.path}|json_encode() }}") &#11015; #{file.name}
-
-
-            if allow_comments
-                hr
-                .row.collapse.comments
-                    .large-9.columns
-                        a.small.wide.radius.button(href="#" data-href="#disqus_thread" data-track="{{ {'category': 'comments', 'action': 'view'}|json_encode }}")= __('view_comments')
-                    .large-3.columns
-                        .nipple-box
-                            a.small.wide.radius.button(data-disqus-identifier="{{ data._id }}" href="#disqus_thread" data-track="{{ {'category': 'comments', 'action': 'view'}|json_encode }}") ¿?
-                            span.nipple
-
-                script.
-                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                    var disqus_shortname = 'grautonomia'; // required: replace example with your forum shortname
-                    var disqus_config    = function () {
-                        var locales = {
-                            'ca': 'ca_ES',
-                            'es': 'es_ES'
-                        };
-
-                        this.language = locales["{{ app.request.locale }}"];
-                    };
-
-                    /* * * DON'T EDIT BELOW THIS LINE * * */
-                    (function () {
-                    var s = document.createElement('script'); s.async = true;
-                    s.type = 'text/javascript';
-                    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-                    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-                    }());
-
-            hr
-
-            .articles
-                if allow_comments
-                    - var lastArticlesCount = 5
+        article.medium-9.large-8.columns
+            .page
+                if subtitle
+                    h1.with-subtitle= title
+                    h2.subtitle!= nl2br(subtitle)
                 else
-                    - var lastArticlesCount = 7
+                    h1.no-subtitle= title
 
-                h4= __('last_articles')
-                ul
-                    each article in []
-                        if id != article.id
-                            li: a(href="{{ path(article._id ~'_'~ app.request.locale) }}") &raquo; #{article.title}
+                div.body!= contents
 
-            hr
+                //- DISQUS
+                //-
+                //- Usamos el mismo Disqus para los dos idiomas, si se
+                //- quieren tener los comentarios separados por idiomas
+                //- hay que meter el idioma en "disqus_identifier".
+                //-
+                //- app.request.locale
 
-            div
-                a.small.radius.button.wide(href="http://democraciainclusiva.org/phplist/" target="_blank")= __('subscribe_news')
+                if allow_comments
+                    hr
+                    #disqus_thread.comments
+
+                    script.
+                        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                        var disqus_shortname  = 'grautonomia'; // required: replace example with your forum shortname
+                        var disqus_identifier = '#{id}';
+                        var disqus_title      = "#{altFiles.ca.title}";
+                        var disqus_url        = '/#{altFiles.ca.path}';
+                        var disqus_config     = function () {
+                            var locales = {
+                                'ca': 'ca_ES',
+                                'es': 'es_ES'
+                            };
+
+                            this.language = locales["#{locale}"];
+                        };
+
+                        /* * * DON'T EDIT BELOW THIS LINE * * */
+                        (function() {
+                            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                        })();
+
+                    noscript Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments</a>.
+
+        aside.medium-3.large-4.columns
+            .page.article-metadata
+                ul(data-dont-hyphenate)
+                    li <i class="fa fa-fw fa-clock-o"></i> #{__('x_minutes', readingTime)}
+                    li <i class="fa fa-fw fa-calendar"></i> #{prettyDate(date)}
+                    li <i class="fa fa-fw fa-user"></i> #{authors.join(', ')}
+                    li: a(href="#") <i class="fa fa-fw fa-comment"></i> 0 comentarios
+
+                if files
+                    ul
+                        each file in files
+                            li: a(href=file[1]) <i class="fa fa-fw fa-download"></i> #{file[0]}
+
+                //- /DISQUS
+
+            //- .large-4.columns.sidebar(data-ovni-sidebar)
+                h4= __('share')
+                .row
+                    .large-4.columns
+                        .fb-share-button(data-type="button_count")
+                    .large-4.columns
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-lang="{{ app.request.locale }}" data-text="{{ data.title }}{% if data.subtitle is defined %}: {{ data.subtitle }}{% endif %}" data-url="{{ url(data._id~'_'~app.request.locale) }}">Tweeter</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    .large-4.columns
+                        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+                        <g:plusone size="standard"></g:plusone>
+
+                if files
+                    hr
+                    h4= __('downloads')
+                    ul.files
+                        each file in files
+                            li: a(href="/assets{{ file.path }}" data-track="{{ {'category': 'pdf', 'action': 'download', 'label': file.path}|json_encode() }}") &#11015; #{file.name}
+
+
+                if allow_comments
+                    hr
+                    .row.collapse.comments
+                        .large-9.columns
+                            a.small.wide.radius.button(href="#" data-href="#disqus_thread" data-track="{{ {'category': 'comments', 'action': 'view'}|json_encode }}")= __('view_comments')
+                        .large-3.columns
+                            .nipple-box
+                                a.small.wide.radius.button(data-disqus-identifier="{{ data._id }}" href="#disqus_thread" data-track="{{ {'category': 'comments', 'action': 'view'}|json_encode }}") ¿?
+                                span.nipple
+
+                    script.
+                        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                        var disqus_shortname = 'grautonomia'; // required: replace example with your forum shortname
+                        var disqus_config    = function () {
+                            var locales = {
+                                'ca': 'ca_ES',
+                                'es': 'es_ES'
+                            };
+
+                            this.language = locales["{{ app.request.locale }}"];
+                        };
+
+                        /* * * DON'T EDIT BELOW THIS LINE * * */
+                        (function () {
+                        var s = document.createElement('script'); s.async = true;
+                        s.type = 'text/javascript';
+                        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+                        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+                        }());
+
+                hr
+
+                .articles
+                    if allow_comments
+                        - var lastArticlesCount = 5
+                    else
+                        - var lastArticlesCount = 7
+
+                    h4= __('last_articles')
+                    ul
+                        each article in []
+                            if id != article.id
+                                li: a(href="{{ path(article._id ~'_'~ app.request.locale) }}") &raquo; #{article.title}
+
+                hr
+
+                div
+                    a.small.radius.button.wide(href="http://democraciainclusiva.org/phplist/" target="_blank")= __('subscribe_news')
