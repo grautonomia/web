@@ -20,6 +20,7 @@ gulp.task('metalsmith', function (done) {
     require('./build')(argv.debug || false, done);
 });
 
+/*
 gulp.task('images', function () {
     return gulp.src('src/assets/images/*')
         .pipe(imageResize({
@@ -30,8 +31,9 @@ gulp.task('images', function () {
         .pipe(imagemin())
         .pipe(gulp.dest('build/assets/images'));
 });
+*/
 
-gulp.task('build', gulp.series('metalsmith', 'images'));
+gulp.task('build', gulp.series('metalsmith'));//, 'images'));
 
 gulp.task('reload', function () {
     browserSync.reload();

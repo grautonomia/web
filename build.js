@@ -10,6 +10,8 @@ var filenameDate = require('metalsmith-date-in-filename');
 var drafts       = require('metalsmith-drafts');
 var fileMetadata = require('metalsmith-filemetadata');
 var fingerprint  = require('metalsmith-fingerprint');
+var htmlMinifier = require("metalsmith-html-minifier");
+var imagemin     = require('metalsmith-imagemin');
 var ignore       = require('metalsmith-ignore');
 var pandoc       = require('metalsmith-pandoc');
 var permalinks   = require('metalsmith-permalinks');
@@ -174,6 +176,8 @@ module.exports = function (isDebug, done) {
             locales: locales,
         }))
         .use(imgFragments())
+        .use(htmlMinifier())
+        .use(imagemin())
 
         .build(done);
 };
