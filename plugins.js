@@ -111,7 +111,7 @@ function loadSrc(pathArr) {
     return fs.readFileSync(resolve.apply(0, pathArr), 'utf-8');
 }
 
-function msJSDOM(srcs, cb) {
+module.exports.msJSDOM = function (srcs, cb) {
     var async     = require('async');
     var jsdom     = require('jsdom');
     var serialize = require('jsdom').serializeDocument;
@@ -142,7 +142,35 @@ function msJSDOM(srcs, cb) {
             }
         }, done);
     };
-}
+};
+
+module.exports.imgFragments = function (ops) {
+    var changeName = true;
+    var addClass   = true;
+    var classes    = {
+        'thumb': 'image-thumb',
+        'wide':  'image-wide'
+    };
+
+    return module.exports.msJSDOM([], function ($, window, next) {
+        for (var key in classes) {
+            $('img[src$=#'+ key +']').each(function () {
+                if (addClass) {
+                    $(this).parent('figure').addClass(classes[key]);
+                }
+
+                if (changeName) {
+                    var base = $(this).attr('src').replace(RegExp('#'+ key +'$'), '');
+                    var ext  = require('path').extname(base);
+
+                    $(this).attr('src', base.replace(ext, '_'+key+'.png'));
+                }
+            });
+        }
+
+        next();
+    });
+};
 
 module.exports.hyphenate = function (ops) {
     var srcs = [];
@@ -158,7 +186,7 @@ module.exports.hyphenate = function (ops) {
         srcs.push(loadSrc([__dirname, 'node_modules/hyphenation-patterns/dist/browser/'+ locale +'.js']));
     });
 
-    return msJSDOM(srcs, function ($, window, next) {
+    return module.exports.msJSDOM(srcs, function ($, window, next) {
         var locale = $('html').attr('lang');
 
         if (ops.locales.indexOf(locale) != -1) {
@@ -176,7 +204,7 @@ module.exports.unorphan = function (ops) {
 
     ops = ops || {};
 
-    return msJSDOM([], function ($, window, next) {
+    return module.exports.msJSDOM([], function ($, window, next) {
         unorphan($(ops.select || '').not(ops.not || ''), { br: ops.br || false });
         next();
     });

@@ -34,6 +34,7 @@
     "metalsmith-pandoc": "^0.1.2",
     "metalsmith-permalinks": "^0.4.0",
     "metalsmith-sass": "^1.2.1",
+    "metalsmith-convert": "git://github.com/doup/metalsmith-convert#770a0ee829004ae8c5332d24af75acff9b56928f",
     "metalsmith-slug": "git://github.com/doup/metalsmith-slug#875e02f60ecb54e05e6a578275dcaad0b7dc505a",
     "metalsmith-snippet": "^1.0.1",
     "metalsmith-templates": "^0.7.0",

@@ -9,9 +9,9 @@ note:     "Ver el manifesto de la Plataforma pel No-Sí: [La Vía Revolucionaria
           Estado](/es/la-via-revolucionaria-del-no-si)."
 ---
 
-<img class="img-right no-top-margin" src="/assets/articles/nosi/img-anuncio.jpg" />
-
 El Parlament de Cataluña aprobará próximamente una pregunta y una fecha para realizar un referéndum sobre la "independencia" de Cataluña. La pregunta, acordada por diversos partidos parlamentarios, será doble: "¿Quiere que Cataluña sea un Estado? En caso afirmativo, ¿quiere que sea independiente?"[^1]. En este Manifiesto, en primer lugar, expondremos nuestro posicionamiento respecto a esta cuestión, explicando los motivos por los cuales responderíamos con un No-Sí a las respectivas preguntas, es decir, daríamos una respuesta que ha sido impedida en la formulación promulgada. En segundo lugar, haremos algunas consideraciones generales sobre el hecho nacional y el nacionalismo. Para terminar, reflexionaremos sobre las potencialidades del conflicto nacionalista en nuestras tierras y sobre el papel que está jugando la izquierda independentista por un lado, y el papel que podemos jugar los revolucionarios integrales por el otro, en todo este asunto.
+
+![](/assets/articles/nosi-gadi/anuncio.jpg#wide)
 
 [^1]: Artur Mas anunció que la segunda pregunta sería "En caso afirmativo, quiere que sea un _Estado_ independiente?". Sin embargo, varios medios de "comunicación" excusaron la redundancia estatista del presidente y omitieron acertadamente el término "Estado" que lógicamente ya queda incluido en la expresión "en caso afirmativo". La formulación que empleamos en este Manifiesto es esta última ya que es la que más se acerca a la formulación que consideramos más netamente democrática (al permitir la expresión de todas las posibilidades) y lingüísticamente correcta (al no redundar innecesariamente): "Quiere usted que Cataluña tenga un Estado propio? Quiere usted que Cataluña sea independiente? ". Sin embargo, es altamente probable que la formulación que finalmente prevalezca sea aquella que contiene más redundancias y distorsiones estatistas, es decir, la que fue pronunciada por el presidente.
 
@@ -47,7 +47,7 @@ Lo que se encuentra en nuestras manos y puede resultar decisivo es nuestra actua
 
 ##5. Cuestionamos al Caballo de Troya
 
-<img class="img-left no-top-margin" src="/assets/articles/nosi/img-troya.jpg" />
+![](/assets/articles/nosi-gadi/troya.jpg#thumb)
 
 Es pertinente la pregunta: ¿cuál está siendo el papel de la Izquierda Independentista en esta coyuntura? Examinemos el ejemplo de la Candidatura de Unidad Popular (CUP), el partido que ha entrado en el Parlament de Cataluña hace poco más de un año con tres diputados. La CUP se presentó en las elecciones como "la voz de la calle en el Parlament" y como "Caballo de Troya de los movimientos sociales en las instituciones". Aún así, en el caso del referéndum, parece ser que se ha "olvidado" que hay personas de la calle y de los movimientos sociales que podrían querer votar No-Sí. Era previsible que la CUP no _promoviera_ el No-Sí, dado que un eje fundamental de su línea programática consiste en la creación de un Estado catalán. Pero para hacer mérito a las proclamas de ser un partido "democrático radical" y a las pretensiones de ser "amigo de lo libertario", la CUP hubiera tenido que intervenir en favor de _permitir_ la expresión del No-Sí, la opción más afín a los planteamientos libertarios. Tal intervención hubiese sido muy sencilla: hubiera bastado con presentar una enmienda para suprimir la expresión "en caso afirmativo" que precede a la segunda pregunta, explicando que la respuesta No-Sí es de carácter revolucionario y que el pueblo de Cataluña cuenta con una relevante tradición revolucionaria que tiene que poder expresarse para que el referéndum cuente con un mínimo de calidad democrática.
 

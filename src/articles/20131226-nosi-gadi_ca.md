@@ -15,9 +15,9 @@ files:
     - ['PDF Libreto en castellano', '/articles/nosi/nosi_es_booklet.pdf']
 ---
 
-<img class="img-right no-top-margin" src="/assets/articles/nosi/img-anuncio.jpg" />
-
 El Parlament de Catalunya aprovarà pròximament una pregunta i una data per realitzar un referèndum sobre la "independència" de Catalunya. La pregunta, acordada per diversos partits parlamentaris, serà doble: "Vol que Catalunya sigui un Estat? En cas afirmatiu, vol que sigui independent?"[^1]. En aquest Manifest, en primer lloc, exposarem el nostre posicionament respecte aquesta qüestió, explicant els motius pels quals respondríem amb un No-Sí a les respectives preguntes, és a dir, donaríem una resposta que ha estat impedida en la formulació promulgada. En segon lloc, farem algunes consideracions generals sobre el fet nacional i el nacionalisme. Per acabar, reflexionarem sobre les potencialitats del conflicte nacionalista a les nostres contrades i sobre el paper que està jugant l'esquerra independentista d'una banda, i el paper que podem jugar els revolucionaris integrals de l'altra, en tot aquest afer.
+
+![](/assets/articles/nosi-gadi/anuncio.jpg#wide)
 
 [^1]: Artur Mas va anunciar que la segona pregunta seria "En cas afirmatiu, vol que sigui un _Estat_ independent?". Tanmateix, diversos mitjans de "comunicació" van excusar la redundància estatista del president i van ometre encertadament el terme "Estat" que lògicament ja queda inclòs en l'expressió "en cas afirmatiu". La formulació que emprem en aquest Manifest és aquesta darrera ja que és la que més s'apropa a la formulació que considerem més netament democràtica (al permetre l'expressió de totes les possibilitats) i lingüisiticament correcta (al no redundar innecessàriament): "Vol que Catalunya tingui un Estat propi? Vol que Catalunya sigui independent?". Tanmateix, és altament probable que la formulació que finalment prevalgui sigui aquella que contingui més redundàncies i distorsions estatistes, és a dir, la que va ser pronunciada pel president.
 
@@ -53,7 +53,7 @@ Allò que es troba a les nostres mans i pot resultar decisiu és la nostra actua
 
 ##5. Qüestionem el Cavall de Troia
 
-<img class="img-left no-top-margin" src="/assets/articles/nosi/img-troya.jpg" />
+![](/assets/articles/nosi-gadi/troya.jpg#thumb)
 
 S'escau la pregunta: quin està essent el paper de l'Esquerra Independentista en aquesta conjuntura? Examinem l'exemple de la Candidatura d'Unitat Popular (CUP), el partit que ha entrat al Parlament de Catalunya fa poc més d'un any amb tres diputats. La CUP es va presentar a les eleccions com "la veu del carrer al parlament" i com a "Cavall de Troia dels moviments socials a les institucions". Tanmateix, en el cas del referèndum, sembla ser que s'ha "oblidat" que hi ha persones del carrer i dels moviments socials que podrien voler votar No-Sí. Era previsible que la CUP no _promogués_ el No-Sí, donat que un eix fonamental de seva línia programàtica consisteix en la creació d'un estat català. Però per fer mèrit a les proclames de ser un partit "democràtic radical" i a les pretensions de ser "amic d'allò llibertari", la CUP hagués hagut d'intervenir en favor de _permetre_ l'expressió del No-Sí, l'opció més afí als plantejaments llibertaris. Tal intervenció hagués estat molt senzilla: n'hi hauria prou amb presentar una esmena per suprimir l'expressió "en cas afirmatiu" que precedeix a la segona pregunta, tot explicant que la resposta No-Sí és de caràcter revolucionari i que el poble de Catalunya compta amb una rellevant tradició revolucionària que ha de poder expressar-se per tal que el referèndum compti amb amb un mínim de qualitat democràtica.
 

@@ -5,7 +5,7 @@ note:     Texto publicado originalmente por el colectivo _Reflexiones para la
           emancipación_.
 ---
 
-<img class="img-right no-top-margin" src="/assets/articles/rxesolselpoble/img-cartel.png" />
+![](/assets/articles/rxe-sols-el-poble/cartel.jpg#thumb)
 
 Hoy nos encontramos ante uno de los retos más grandes de la historia: superar el sistema de dominación y opresión más complejo que ha existido nunca. Uno de los primeros pasos para hacerlo es aumentar nuestra conciencia, la conciencia de los oprimidos, la conciencia del Pueblo.
 

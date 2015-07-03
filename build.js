@@ -5,6 +5,7 @@ var marked = require('marked');
 var Metalsmith   = require('metalsmith');
 var branch       = require('metalsmith-branch');
 var concat       = require('metalsmith-concat');
+var convert      = require('metalsmith-convert');
 var filenameDate = require('metalsmith-date-in-filename');
 var drafts       = require('metalsmith-drafts');
 var fileMetadata = require('metalsmith-filemetadata');
@@ -28,6 +29,7 @@ var multiLanguage = require('./plugins').multiLanguage;
 var showDrafts    = require('./plugins').showDrafts;
 var unorphan      = require('./plugins').unorphan;
 var hyphenate     = require('./plugins').hyphenate;
+var imgFragments  = require('./plugins').imgFragments;
 
 function generateId(filename, filedata, ms) {
     var locales = ms.metadata().locales.locales;
@@ -74,7 +76,7 @@ module.exports = function (isDebug, done) {
     ];
 
     Metalsmith(__dirname)
-        .use(ignore(['.DS_Store', '*/.DS_Store', 'assets/images/*', 'templates/*', 'translations/*']))
+        .use(ignore(['.DS_Store', '*/.DS_Store', 'templates/*', 'translations/*']))
 
         // Multi-language
         // This must go before drafts, since the secondary locale
@@ -109,6 +111,23 @@ module.exports = function (isDebug, done) {
         // Add hash to CSS/JS filename for cache invalidation
         .use(fingerprint({ pattern: ['assets/main.css', 'assets/main.min.js'] }))
         .use(ignore(['assets/main.css', 'assets/main.min.js']))
+
+        // Images
+        .use(convert([
+            {
+                src:        'assets/articles/**/*.{svg,jpg,jpeg,png,gif}',
+                target:     'png',
+                resize:     { width: 260, resizeStyle: 'aspectfit' },
+                nameFormat: '%b_thumb%e'
+            },
+            {
+                src:        'assets/articles/**/*.{svg,jpg,jpeg,png,gif}',
+                target:     'png',
+                resize:     { width: 624, resizeStyle: 'aspectfit' },
+                nameFormat: '%b_wide%e',
+                remove:     true
+            }
+        ]))
 
         // Content
         .use(filenameDate())
@@ -154,5 +173,7 @@ module.exports = function (isDebug, done) {
             not:     '[data-dont-hyphenate], [data-dont-hyphenate] li, blockquote p',
             locales: locales,
         }))
+        .use(imgFragments())
+
         .build(done);
 };
