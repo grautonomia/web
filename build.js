@@ -125,11 +125,17 @@ module.exports = function (isDebug, done) {
         .use(snippet({ maxLength: 450 }))
         .use(wordcount({ raw: true }))
         .use(fileMetadata([
-            { pattern: 'articles/*', preserve: true, metadata: { template: 'article.jade', allow_comments: true, type: 'article', authors: ['GRA'] } }
+            { pattern: 'articles/*', preserve: true, metadata: { template: 'article.jade', allow_comments: true, type: 'article', authors: ['GRA'] } },
+            { pattern: 'pages/*', preserve: true, metadata: { template: 'page.jade', type: 'page' } },
         ]))
         .use(branch('articles/*')
             .use(permalinks({
                 pattern: ':locale/:slug'
+            }))
+        )
+        .use(branch('pages/*')
+            .use(permalinks({
+                pattern: ':locale/page/:slug'
             }))
         )
         .use(mingo())

@@ -1,4 +1,4 @@
 ---
 title:    Inicio
-template: index.jade
+template: homepage.jade
 ---

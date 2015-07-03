@@ -10,19 +10,19 @@
 @import "font-awesome";
 
 // Core
-@import "typography";
 @import "layout";
 
-//// Foundation components tweaks
+// Foundation components tweaks
 //@import "components/alert-box";
 //@import "components/forms";
 //@import "components/panels";
 //@import "components/tables";
-//
-//// Custom components
-//@import "components/gallery";
-//@import "components/selectize-custom";
-//@import "components/steps";
+
+// Custom components
+@import "components/text-content";
 
 // Pages
-@import "pages/reforma-revolucio";
+@import "pages/article";
+@import "pages/homepage";
+@import "pages/page";
+//@import "pages/old-reforma-revolucio";
