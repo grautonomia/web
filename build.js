@@ -77,7 +77,7 @@ module.exports = function (isDebug, done) {
         'bower_components/tooltipster/js/jquery.tooltipster.js',
     ];
 
-    Metalsmith(__dirname)
+    var MS = Metalsmith(__dirname)
         .use(ignore(['.DS_Store', '*/.DS_Store', 'templates/*', 'translations/*']))
 
         // Multi-language
@@ -162,10 +162,11 @@ module.exports = function (isDebug, done) {
         .use(templates({
             engine:    'jade',
             directory: 'src/templates'
-        }))
+        }));
 
+    if (!isDebug) {
         // Post processing
-        .use(unorphan({
+        MS.use(unorphan({
             select: 'a, p, blockquote, span, li, h1, h2, h3, h4, h5, h6',
             not:    '[data-dont-unorphan]',
             br:     true,
@@ -177,7 +178,9 @@ module.exports = function (isDebug, done) {
         }))
         .use(imgFragments())
         .use(htmlMinifier())
-        .use(imagemin())
+        .use(imagemin());
+    }
 
-        .build(done);
+
+    MS.build(done);
 };
