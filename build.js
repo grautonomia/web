@@ -25,18 +25,9 @@ var i18n          = require('./plugins').i18n;
 var includeFiles  = require('./plugins').includeFiles;
 var mingo         = require('./plugins').mingo;
 var multiLanguage = require('./plugins').multiLanguage;
-
-function showDrafts(show) {
-    return function (files, ms, done) {
-        if (show) {
-            for (var file in files) {
-                files[file].draft = false;
-            }
-        }
-
-        done();
-    };
-}
+var showDrafts    = require('./plugins').showDrafts;
+var unorphan      = require('./plugins').unorphan;
+var hyphenate     = require('./plugins').hyphenate;
 
 function generateId(filename, filedata, ms) {
     var locales = ms.metadata().locales.locales;
@@ -77,16 +68,15 @@ module.exports = function (isDebug, done) {
     var locale  = 'ca';
     var locales = ['ca', 'es'];
     var vendors = [
-        'bower_components/foundation/js/vendor/jquery.js',
-        'bower_components/foundation/js/vendor/fastclick.js',
-        'bower_components/hypher/dist/jquery.hypher.js',
-        'bower_components/hyphenation-patterns/dist/browser/ca.js',
-        'bower_components/hyphenation-patterns/dist/browser/es.js',
-        'bower_components/unorphan/index.js',
+        //'bower_components/foundation/js/vendor/jquery.js',
+        //'bower_components/foundation/js/vendor/fastclick.js',
+        //'bower_components/hypher/dist/jquery.hypher.js',
+        //'bower_components/hyphenation-patterns/dist/browser/ca.js',
+        //'bower_components/hyphenation-patterns/dist/browser/es.js',
+        //'bower_components/unorphan/index.js',
     ];
 
     Metalsmith(__dirname)
-        .metadata(viewHelpers)
         .use(ignore(['.DS_Store', '*/.DS_Store', 'assets/images/*', 'templates/*', 'translations/*']))
 
         // Multi-language
@@ -143,9 +133,22 @@ module.exports = function (isDebug, done) {
             }))
         )
         .use(mingo())
+        .metadata(viewHelpers)
         .use(templates({
             engine:    'jade',
             directory: 'src/templates'
+        }))
+
+        // Post processing
+        .use(unorphan({
+            select: 'a, p, blockquote, span, li, h1, h2, h3, h4, h5, h6',
+            not:    '[data-dont-unorphan]',
+            br:     true,
+        }))
+        .use(hyphenate({
+            select:  'p, span, strong, em, ul > li',
+            not:     '[data-dont-hyphenate], [data-dont-hyphenate] li, blockquote p',
+            locales: locales,
         }))
         .build(done);
 };

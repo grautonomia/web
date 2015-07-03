@@ -90,7 +90,97 @@ module.exports.multiLanguage = function (ops) {
 
         done();
     };
+};
+
+module.exports.showDrafts = function (show) {
+    return function (files, ms, done) {
+        if (show) {
+            for (var file in files) {
+                files[file].draft = false;
+            }
+        }
+
+        done();
+    };
+};
+
+function loadSrc(pathArr) {
+    var fs      = require('fs');
+    var resolve = require('path').resolve;
+
+    return fs.readFileSync(resolve.apply(0, pathArr), 'utf-8');
 }
+
+function msJSDOM(srcs, cb) {
+    var async     = require('async');
+    var jsdom     = require('jsdom');
+    var serialize = require('jsdom').serializeDocument;
+    var jquery    = loadSrc([__dirname, 'node_modules/jquery/dist/jquery.min.js']);
+
+    return function (files, ms, done) {
+        async.forEachOf(files, function (data, filename, next) {
+            if (/\.html/.test(filename)) {
+                jsdom.env({
+                    html: data.contents.toString(),
+                    src: [jquery].concat(srcs || []),
+                    features: {
+                        FetchExternalResources:   false,
+                        ProcessExternalResources: false,
+                        SkipExternalResources:    true,
+                    },
+                    done: function (err, window) {
+                        if (err) next(err);
+
+                        cb(window.$, window, function (err) {
+                            data.contents = new Buffer(serialize(window.document));
+                            next(err);
+                        })
+                    }
+                });
+            } else {
+                next();
+            }
+        }, done);
+    };
+}
+
+module.exports.hyphenate = function (ops) {
+    var srcs = [];
+
+    ops = ops || {};
+    ops.locales = ops.locales || [];
+
+    // Add Hypher
+    srcs.push(loadSrc([__dirname, 'node_modules/hypher/dist/jquery.hypher.js']));
+
+    // Add locales
+    ops.locales.forEach(function (locale) {
+        srcs.push(loadSrc([__dirname, 'node_modules/hyphenation-patterns/dist/browser/'+ locale +'.js']));
+    });
+
+    return msJSDOM(srcs, function ($, window, next) {
+        var locale = $('html').attr('lang');
+
+        if (ops.locales.indexOf(locale) != -1) {
+            $(ops.select || '').not(ops.not || '').hyphenate(locale);
+        } else {
+            throw "Locale not found!";
+        }
+
+        next();
+    });
+};
+
+module.exports.unorphan = function (ops) {
+    var unorphan = require('unorphan');
+
+    ops = ops || {};
+
+    return msJSDOM([], function ($, window, next) {
+        unorphan($(ops.select || '').not(ops.not || ''), { br: ops.br || false });
+        next();
+    });
+};
 
 // Plugin
 module.exports.i18n = function (ops) {

@@ -14,9 +14,6 @@
   ],
   "dependencies": {
     "foundation": "5.*",
-    "hypher": "git://github.com/doup/hypher",
-    "hyphenation-patterns": "git://github.com/doup/hyphenation-patterns#7d62c17143c1a9d18639d3771a785b848133ee2f",
-    "font-awesome": "~4.3.0",
-    "unorphan": "~1.2.0"
+    "font-awesome": "~4.3.0"
   }
 }
