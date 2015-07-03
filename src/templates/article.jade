@@ -35,6 +35,10 @@ block body
 
                     div!= contents
 
+                    div.hide.footnote-ctrls
+                        hr
+                        a(data-toggle-footnotes='Mostrar notas') <i class="fa fa-fw fa-list"></i> <span>Ocultar notas</span> <i data-toggle-icon class="fa fa-angle-up"></i>
+
             .wrapper
                 p.cta!= __('article_cta', { path: path, index_path: findOne({ id: 'index' }).altFiles[locale].path})
 

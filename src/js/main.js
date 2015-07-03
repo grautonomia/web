@@ -1,4 +1,37 @@
 $(function () {
+    // Article references handling
+    var footnotes = $('.footnotes');
+    var ctrls     = $('.footnote-ctrls');
+    var toggleEl  = $('[data-toggle-footnotes]');
+
+    if ($('.footnotes').find('li').length) {
+        ctrls.removeClass('hide');
+        ctrls.detach().insertBefore(footnotes);
+
+        toggleEl.click(function () {
+            var old = $(this).find('span').html();
+            $(this).find('span').html($(this).data('toggle-footnotes'));
+            $(this).data('toggle-footnotes', old);
+            $(this).find('[data-toggle-icon]').toggleClass('fa-angle-up fa-angle-down');
+            footnotes.toggle();
+        }).click();
+
+        // Hide footnotes when clicked on ↩
+        $('[href^=#fnref]').click(function () {
+            toggleEl.click();
+        });
+
+        // Show footnotes and jump
+        $('.footnoteRef').click(function (e) {
+            if (footnotes.is(':hidden')) {
+                e.preventDefault();
+                toggleEl.click();
+                setTimeout(function () { $(e.target).click(); }, 0);
+            }
+        });
+    }
+
+    // Tooltips
     $('[data-tooltip]').each(function () {
         var content;
 
