@@ -21,15 +21,17 @@ block body
                                 if allow_comments
                                     li: a(href="#disqus_thread" data-tooltip title=__('view_comments')) <i class="fa fa-fw fa-comment"></i> <a href="#disqus_thread" data-disqus-identifier="#{id}">0</a>
                                 if files
-                                    li: a(data-dropdown="downloads" data-tooltip title=__('downloads')) <i class="fa fa-fw fa-download"></i>&nbsp;<i class="fa fa-angle-down"></i>
+                                    li: a(data-dropdown="downloads" data-tooltip data-tooltip-content='#downloads' title=__('downloads')) <i class="fa fa-fw fa-download"></i>&nbsp;<i class="fa fa-angle-down"></i>
 
                         if note
                             .note!= markdown(note)
 
-                        //-if files
-                            ul#downloads.f-dropdown(data-dropdown-content)
-                                each file in files
-                                    li: a(href=file[1]) #{file[0]}
+                        if files
+                            #downloads.hide
+                                p= __('downloads')
+                                ul
+                                    each file in files
+                                        li: a(href=file[1]) <i class="fa fa-fw fa-file-o"></i> #{file[0]}
 
                     div!= contents
 

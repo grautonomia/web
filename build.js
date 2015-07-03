@@ -68,12 +68,9 @@ module.exports = function (isDebug, done) {
     var locale  = 'ca';
     var locales = ['ca', 'es'];
     var vendors = [
-        //'bower_components/foundation/js/vendor/jquery.js',
-        //'bower_components/foundation/js/vendor/fastclick.js',
-        //'bower_components/hypher/dist/jquery.hypher.js',
-        //'bower_components/hyphenation-patterns/dist/browser/ca.js',
-        //'bower_components/hyphenation-patterns/dist/browser/es.js',
-        //'bower_components/unorphan/index.js',
+        'bower_components/foundation/js/vendor/jquery.js',
+        'bower_components/foundation/js/vendor/fastclick.js',
+        'bower_components/tooltipster/js/jquery.tooltipster.js',
     ];
 
     Metalsmith(__dirname)
@@ -95,6 +92,7 @@ module.exports = function (isDebug, done) {
             includePaths: [
                 'bower_components/font-awesome/scss',
                 'bower_components/foundation/scss',
+                'bower_components/tooltipster/css',
             ]
         }))
 

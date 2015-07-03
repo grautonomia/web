@@ -1,23 +1,20 @@
-/*
 $(function () {
-    var locale  = $('html').attr('lang');
-    var locales = {
-        'ca': 'ca',
-        'es': 'es'
-    };
+    $('[data-tooltip]').each(function () {
+        var content;
 
-    // Typography
-    // unorphan($("a, p, blockquote, span, li, h1, h2, h3, h4, h5, h6").not('[data-dont-unorphan]'), { br: true });
+        if ($(this).attr('data-tooltip-content')) {
+            content = $($(this).attr('data-tooltip-content')).html();
+        }
 
-    if (locale in locales) {
-        $('p, span, strong, em, ul > li').not('[data-dont-hyphenate], [data-dont-hyphenate] li, blockquote p').hyphenate(locales[locale]);
-    } else {
-        throw "Locale not found!";
-    }
-
-    // Foundation
-    // $(document).foundation().foundation('reveal', {
-    //     animation: 'fade'
-    // });
+        $(this).tooltipster({
+            speed: 200,
+            interactiveTolerance: 200,
+            position: 'bottom',
+            theme: 'tooltipster-gra',
+            offsetY: -10,
+            content: content || null,
+            contentAsHTML: !!content,
+            interactive: !!content,
+        });
+    });
 });
-*/

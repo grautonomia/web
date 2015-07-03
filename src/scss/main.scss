@@ -8,18 +8,14 @@
 @import "foundation-settings";
 @import "foundation-components";
 @import "font-awesome";
+@import "tooltipster";
 
 // Core
 @import "layout";
 
-// Foundation components tweaks
-//@import "components/alert-box";
-//@import "components/forms";
-//@import "components/panels";
-//@import "components/tables";
-
-// Custom components
+// Custom + vendor components tweaks
 @import "components/text-content";
+@import "components/tooltipster";
 
 // Pages
 @import "pages/article";
