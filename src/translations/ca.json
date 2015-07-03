@@ -16,5 +16,6 @@
 	"read_online": "Llegir online",
 	"subscribe_news": "Subscriu-te al nostre butlletí",
 	"x_minutes": "%s minuts",
-	"x_comments": "%s comentaris"
+	"x_comments": "%s comentaris",
+	"article_cta": "<strong>¿Que t'ha semblat l'article?</strong> Pots deixar-nos un comentari més avall o <a href='http://twitter.com/share?text=Compartir es viure&url=http://www.grupreflexioautonomia.org/{{path}}'>compartir-lo a les xarxes socials</a>. O si ho prefereixes, <a href='/{{index_path}}'>tenim altres textos</a> i una <a href='http://democraciainclusiva.org/phplist/'><em>newsletter</em></a> que et poden interessar."
 }

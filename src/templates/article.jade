@@ -1,7 +1,7 @@
 extends ./layout.jade
 
 block body
-    .row
+    .row.article
         .medium-9.medium-centered.large-8.columns
             .wrapper
                 article.text-content
@@ -34,6 +34,9 @@ block body
                                         li: a(href=file[1]) <i class="fa fa-fw fa-file-o"></i> #{file[0]}
 
                     div!= contents
+
+            .wrapper
+                p.cta!= __('article_cta', { path: path, index_path: findOne({ id: 'index' }).altFiles[locale].path})
 
                 //- DISQUS
                 //-
