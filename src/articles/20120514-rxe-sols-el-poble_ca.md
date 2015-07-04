@@ -14,7 +14,7 @@ files:
     - ['Organitza un debat', 'debat-sols-el-poble.zip']
 ---
 
-![](/assets/articles/rxe-sols-el-poble/cartel.jpg#thumb)
+![](cartel.jpg#thumb)
 
 Avui ens trobem davant d'un dels reptes més grans de la història: superar el sistema de dominació i opressió més complex que ha existit mai. Un dels primers passos per fer-ho és augmentar la nostra consciència, la consciència dels oprimits, la consciència del Poble.
 

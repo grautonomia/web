@@ -118,10 +118,10 @@ module.exports.msJSDOM = function (srcs, cb) {
     var jquery    = loadSrc([__dirname, 'node_modules/jquery/dist/jquery.min.js']);
 
     return function (files, ms, done) {
-        async.forEachOf(files, function (data, filename, next) {
+        async.forEachOf(files, function (filedata, filename, next) {
             if (/\.html/.test(filename)) {
                 jsdom.env({
-                    html: data.contents.toString(),
+                    html: filedata.contents.toString(),
                     src: [jquery].concat(srcs || []),
                     features: {
                         FetchExternalResources:   false,
@@ -131,10 +131,10 @@ module.exports.msJSDOM = function (srcs, cb) {
                     done: function (err, window) {
                         if (err) next(err);
 
-                        cb(window.$, window, function (err) {
-                            data.contents = new Buffer(serialize(window.document));
+                        cb(window.$, filename, filedata, function (err) {
+                            filedata.contents = new Buffer(serialize(window.document));
                             next(err);
-                        })
+                        }, ms, window);
                     }
                 });
             } else {
@@ -152,7 +152,7 @@ module.exports.imgFragments = function (ops) {
         'wide':  'image-wide'
     };
 
-    return module.exports.msJSDOM([], function ($, window, next) {
+    return module.exports.msJSDOM([], function ($, filename, filedata, next, ms, window) {
         for (var key in classes) {
             $('img[src$=#'+ key +']').each(function () {
                 if (addClass) {
@@ -163,7 +163,7 @@ module.exports.imgFragments = function (ops) {
                     var base = $(this).attr('src').replace(RegExp('#'+ key +'$'), '');
                     var ext  = require('path').extname(base);
 
-                    $(this).attr('src', base.replace(ext, '_'+key+'.jpg'));
+                    $(this).attr('src', '/assets/articles/'+ filedata.id +'/'+ base.replace(ext, '_'+key+'.jpg'));
                 }
             });
         }
@@ -186,7 +186,7 @@ module.exports.hyphenate = function (ops) {
         srcs.push(loadSrc([__dirname, 'node_modules/hyphenation-patterns/dist/browser/'+ locale +'.js']));
     });
 
-    return module.exports.msJSDOM(srcs, function ($, window, next) {
+    return module.exports.msJSDOM(srcs, function ($, filename, filedata, next, ms, window) {
         var locale = $('html').attr('lang');
 
         if (ops.locales.indexOf(locale) != -1) {
@@ -204,7 +204,7 @@ module.exports.unorphan = function (ops) {
 
     ops = ops || {};
 
-    return module.exports.msJSDOM([], function ($, window, next) {
+    return module.exports.msJSDOM([], function ($, filename, filedata, next, ms, window) {
         unorphan($(ops.select || '').not(ops.not || ''), { br: ops.br || false });
         next();
     });
