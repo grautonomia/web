@@ -39,7 +39,9 @@ block body
                         hr
                         a(data-toggle-footnotes='Mostrar notas') <i class="fa fa-fw fa-list"></i> <span>Ocultar notas</span> <i data-toggle-icon class="fa fa-angle-up"></i>
 
-                    a(name='comments')
+                //- This is here so that when clicking on the
+                //- comments button the users sees the CTA
+                a(name='comments')
 
             .wrapper
                 p.cta!= __('article_cta', { path: path, index_path: findOne({ id: 'index' }).altFiles[locale].path})

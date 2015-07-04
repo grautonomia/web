@@ -17,5 +17,5 @@
 	"subscribe_news": "Suscríbete a nuestro boletín",
 	"x_minutes": "%s minutos",
 	"x_comments": "%s comentarios",
-	"article_cta": "<strong>¿Que te ha parecido el artículo?</strong> Puedes dejarnos un comentario más abajo o <a href='http://twitter.com/share?text=Compartir es viure&url=http://www.grupreflexioautonomia.org/{{path}}'>compartirlo en las redes sociales</a>. O si lo prefieres, <a href='/{{index_path}}'>tenemos otros textos</a> y un <a href='http://democraciainclusiva.org/phplist/'><em>newsletter</em></a> que te pueden interesar."
+	"article_cta": "<strong>¿Que te ha parecido el texto?</strong> Puedes dejarnos un comentario más abajo o <a href='http://twitter.com/share?text=Compartir es viure&url=http://www.grupreflexioautonomia.org/{{path}}'>compartirlo en las redes sociales</a>. O si lo prefieres, <a href='/{{index_path}}'>tenemos otros textos</a> y un <a href='http://democraciainclusiva.org/phplist/'><em>newsletter</em></a> que te pueden interesar."
 }
