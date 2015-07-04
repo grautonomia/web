@@ -10,7 +10,6 @@
     meta.keywords = (keywords || []).join(', ')
     meta.base_url = 'http://www.grupreflexioautonomia.org'
     meta.url      = meta.base_url +'/'+ path
-    meta.hasImage = !!image
 
     meta.facebook        = {}
     meta.facebook.type   = type == 'article' ? 'article' : ''
@@ -22,7 +21,7 @@
     meta.schema      = {}
     meta.schema.type = type == 'article' ? 'http://schema.org/Article' : 'http://schema.org/WebPage'
 
-    if (meta.hasImage) {
+    if (!!image) {
         var social_img = meta.base_url +'/assets/articles/'+ id +'/'+ image
 
         meta.facebook.img = social_img +'_slarge.jpg'
@@ -92,25 +91,15 @@ html(lang="#{locale}" itemscope itemtype=meta.schema.type)
         .content
             block body
 
-        //-.footer
+        .footer
             .row
-                .large-6.columns
-                    div
-                        a(href="http://democraciainclusiva.org/phplist/" target="_blank" class="secondary small radius button wide")= __('subscribe_news')
-                    .row
-                        .large-6.columns
-                            p= __('footer.contact')
-                            p: a(href="mailto:gra@pimienta.org") gra@pimienta.org
-                        .large-6.columns
-                            p!= __('footer.cc')
-                .large-6.columns.latest
-                    p= __('last_articles') + ':'
-                    ul
-                        each article in find({ locale: locale, type: 'article' }).sort({ date: -1 }).limit(7).all()
-                            li: a(href=article.path) &raquo; #{article.title} (#{prettyDate(article.date)})
-            .row.foot
-                .large-12.columns
+                .columns(class=(type == 'article') ? 'large-8 medium-centered' : 'large-12')
                     p 2012–#{(new Date()).getFullYear()}, Barcelona, #{__('gra_full')}
+                    p #{__('footer.content_license')}: <a href="http://creativecommons.org/licenses/by-sa/3.0/es/">Creative Commons (by-sa) 3.0</a>
+                    ul
+                        li: <a href="mailto:gra@pimienta.org"><i class="fa fa-envelope-o"></i> Email</a>
+                        li: <a href="http://democraciainclusiva.org/phplist/"><i class="fa fa-newspaper-o"></i> <em>Newsletter</em></a>
+                        li: <a href="http://twitter.com/grautonomia"><i class="fa fa-twitter"></i> Twitter</a>
 
         script(src="/#{fingerprint['assets/main.min.js']}")
 

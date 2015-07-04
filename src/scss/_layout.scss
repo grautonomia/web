@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    margin-bottom: $base-padding;
+    margin-bottom: $base-padding * 2;
     height: auto;
 }
 
@@ -79,6 +79,36 @@ hr {
     border-bottom: 1px solid darken($light-primary-color, 5%);
     border-radius: 3px;
     margin-bottom: $base-padding;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: $header-font-family;
+    color: $primary-color;
+
+    p, a {
+        font-weight: 300;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    ul {
+        margin: 0;
+
+        li {
+            list-style: none;
+            display: inline-block;
+            margin-right: 1em;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
 }
 
 /*
