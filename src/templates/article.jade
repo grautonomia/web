@@ -19,7 +19,7 @@ block body
 
                             ul.right
                                 if allow_comments
-                                    li: a(href="#disqus_thread" data-tooltip title=__('view_comments')) <i class="fa fa-fw fa-comment"></i> <a href="#disqus_thread" data-disqus-identifier="#{id}">0</a>
+                                    li: a(href="#comments" data-tooltip title=__('view_comments')) <i class="fa fa-fw fa-comment"></i> <a href="#comments" data-disqus-identifier="#{id}">0</a>
                                 if files
                                     li: a(data-dropdown="downloads" data-tooltip data-tooltip-content='#downloads' title=__('downloads')) <i class="fa fa-fw fa-download"></i>&nbsp;<i class="fa fa-angle-down"></i>
 
@@ -38,6 +38,8 @@ block body
                     div.hide.footnote-ctrls
                         hr
                         a(data-toggle-footnotes='Mostrar notas') <i class="fa fa-fw fa-list"></i> <span>Ocultar notas</span> <i data-toggle-icon class="fa fa-angle-up"></i>
+
+                    a(name='comments')
 
             .wrapper
                 p.cta!= __('article_cta', { path: path, index_path: findOne({ id: 'index' }).altFiles[locale].path})
