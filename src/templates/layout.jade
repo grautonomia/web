@@ -6,7 +6,7 @@
     meta.title    = meta.title.length > 70 ? title : meta.title
     meta.author   = authors ? authors.join(', ') : meta.title
     meta.excerpt  = excerpt ? excerpt : null
-    meta.snippet  = snippet ? snippet : ''
+    meta.snippet  = snippet ? (snippet + '…') : ''
     meta.keywords = (keywords || []).join(', ')
     meta.base_url = 'http://www.grupreflexioautonomia.org'
     meta.url      = meta.base_url +'/'+ path
@@ -111,11 +111,6 @@ html(lang="#{locale}" itemscope itemtype=meta.schema.type)
             .row.foot
                 .large-12.columns
                     p 2012–#{(new Date()).getFullYear()}, Barcelona, #{__('gra_full')}
-
-        //-#aboutModal.small.reveal-modal.about-modal
-            a.close-reveal-modal &#215;
-            h3= __('menu_about')
-            div!= __('gra_intro')
 
         script(src="/#{fingerprint['assets/main.min.js']}")
 
