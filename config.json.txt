@@ -1,0 +1,11 @@
+{
+    "disqus": {
+        "secret": ""
+    },
+    "s3": {
+        "key":    "",
+        "secret": "",
+        "bucket": "",
+        "region": ""
+    }
+}

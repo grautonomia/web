@@ -7,7 +7,7 @@ var gulp             = require('gulp');
 var awspublish       = require('gulp-awspublish');
 var awspublishRouter = require("gulp-awspublish-router");
 var browserSync      = require('browser-sync');
-var creds            = require('./s3.json');
+var config           = require('./config.json');
 var imagemin         = require('gulp-imagemin');
 var imageResize      = require('gulp-image-resize');
 
@@ -50,35 +50,25 @@ gulp.task('serve', function (done) {
 
 gulp.task('upload', function () {
     // create a new publisher
-    var publisher = awspublish.create({
-        key:    creds.access,
-        secret: creds.secret,
-        bucket: creds.bucket,
-        region: creds.region
-    });
+    var publisher = awspublish.create(config.s3);
 
     return gulp.src('**/*', { cwd: './build/' })
         .pipe(awspublishRouter({
-            cache: {
-                cacheTime: 300 // cache for 5 minutes by default
-            },
-
+            cache:  { cacheTime: 1800 }, // cache for 30 minutes by default
             routes: {
+                // don't modify original key. this is the default
+                // use gzip for assets that benefit from it
+                // cache static assets for 2 years
                 "^assets/(?:.+)\\.(?:js|css|svg|ttf)$": {
-                    key: "$&",           // don't modify original key. this is the default
-                    gzip: true,          // use gzip for assets that benefit from it
-                    cacheTime: 630720000 // cache static assets for 2 years
+                    key: "$&",
+                    gzip: true,
+                    cacheTime: 630720000
                 },
-
-                "^assets/.+$": {
-                    cacheTime: 630720000 // cache static assets for 2 years
-                },
-
-                "^.+\\.html": {
-                    gzip: true
-                },
-
-                // pass-through for anything that wasn't matched by routes above, to be uploaded with default options
+                // cache static assets for 2 years
+                "^assets/.+$": { cacheTime: 630720000 },
+                "^.+\\.html": { gzip: true },
+                // pass-through for anything that wasn't matched by routes above,
+                // to be uploaded with default options
                 "^.+$": "$&"
             }
         }))

@@ -6,4 +6,4 @@ pids
 build
 node_modules
 bower_components
-s3.json
+config.json
