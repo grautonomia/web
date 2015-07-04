@@ -7,8 +7,8 @@ subtitle:     Construir un nou món – Acabar amb l'ordre establert
 keywords:     [moviment, revolució, estratègia, subjecte revolucionari,
               transició, tàctiques, reflexió, pensament, 1936, violència]
 files:
-    - ['PDF en català', '/articles/rorrevolucio/ror_revolucio_ca.pdf']
-    - ['PDF en castellano', '/articles/rorrevolucio/ror_revolucio_es.pdf']
+    - ['PDF en català',     'ror_revolucio_ca.pdf']
+    - ['PDF en castellano', 'ror_revolucio_es.pdf']
 ---
 
 > "La misèria és el símptoma, el mal l'esclavitud."  

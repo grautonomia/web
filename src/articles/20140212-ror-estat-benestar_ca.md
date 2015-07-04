@@ -5,8 +5,8 @@ social_image: /articles/rorestatbenestar/social
 title:        Sobre l'Estat de benestar
 keywords:     [Estat de benestar, Estat, ajuda mútua, revolució]
 files:
-    - ['PDF en català', '/articles/rorestatbenestar/ror_estat_benestar_ca.pdf']
-    - ['PDF en castellano', '/articles/rorestatbenestar/ror_estat_benestar_es.pdf']
+    - ['PDF en català',     'ror_estat_benestar_ca.pdf']
+    - ['PDF en castellano', 'ror_estat_benestar_es.pdf']
 ---
 
 > "Tot en l'Estat, res fora de l'Estat, res contra l'Estat."  

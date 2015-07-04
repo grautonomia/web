@@ -8,10 +8,10 @@ keywords:     [Autonomia, Assemblea, Reflexió]
 note:         Text publicat originalment pel col·lectiu _Reflexions per a
               l'emancipació_.
 files:
-    - ['PDF en català', '/articles/rxesolselpoble/solselpoble_ca.pdf']
-    - ['PDF en castellano', '/articles/rxesolselpoble/solselpoble_es.pdf']
-    - ['PDF en français', '/articles/rxesolselpoble/solselpoble_fr.pdf']
-    - ['Organitza un debat', '/articles/rxesolselpoble/debat-sols-el-poble.zip']
+    - ['PDF en català',      'solselpoble_ca.pdf']
+    - ['PDF en castellano',  'solselpoble_es.pdf']
+    - ['PDF en français',    'solselpoble_fr.pdf']
+    - ['Organitza un debat', 'debat-sols-el-poble.zip']
 ---
 
 ![](/assets/articles/rxe-sols-el-poble/cartel.jpg#thumb)

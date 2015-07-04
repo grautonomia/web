@@ -6,8 +6,8 @@ title:        "Reformisme: refundació o superació?"
 keywords:     [reformisme, estat de benestar, hiperactivisme, immediatisme,
               conformisme, socialdemocràcia, revolució]
 files:
-    - ['PDF en català', '/articles/rorreformisme/ror_reformisme_ca.pdf']
-    - ['PDF en castellano', '/articles/rorreformisme/ror_reformisme_es.pdf']
+    - ['PDF en català',     'ror_reformisme_ca.pdf']
+    - ['PDF en castellano', 'ror_reformisme_es.pdf']
 ---
 
 ##1. Sobre el reformisme

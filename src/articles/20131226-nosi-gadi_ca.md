@@ -11,8 +11,8 @@ note:         "Veure el manifest de la Plataforma pel No-Sí: [La Via
               Revolucionària del No-Sí – Manifest per la Independència sense
               Estat](/ca/la-via-revolucionaria-del-no-si)."
 files:
-    - ['PDF Llibret en català', '/articles/nosi/nosi_ca_booklet.pdf']
-    - ['PDF Libreto en castellano', '/articles/nosi/nosi_es_booklet.pdf']
+    - ['PDF Llibret en català',     'nosi_ca_booklet.pdf']
+    - ['PDF Libreto en castellano', 'nosi_es_booklet.pdf']
 ---
 
 El Parlament de Catalunya aprovarà pròximament una pregunta i una data per realitzar un referèndum sobre la "independència" de Catalunya. La pregunta, acordada per diversos partits parlamentaris, serà doble: "Vol que Catalunya sigui un Estat? En cas afirmatiu, vol que sigui independent?"[^1]. En aquest Manifest, en primer lloc, exposarem el nostre posicionament respecte aquesta qüestió, explicant els motius pels quals respondríem amb un No-Sí a les respectives preguntes, és a dir, donaríem una resposta que ha estat impedida en la formulació promulgada. En segon lloc, farem algunes consideracions generals sobre el fet nacional i el nacionalisme. Per acabar, reflexionarem sobre les potencialitats del conflicte nacionalista a les nostres contrades i sobre el paper que està jugant l'esquerra independentista d'una banda, i el paper que podem jugar els revolucionaris integrals de l'altra, en tot aquest afer.
