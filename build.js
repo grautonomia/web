@@ -111,13 +111,15 @@ module.exports = function (isDebug, done) {
         .use(convert([
             {
                 src:        'assets/articles/**/*.{svg,jpg,jpeg,png,gif}',
-                target:     'png',
+                target:     'jpg',
+                quality:    70,
                 resize:     { width: 260, resizeStyle: 'aspectfit' },
                 nameFormat: '%b_thumb%e'
             },
             {
                 src:        'assets/articles/**/*.{svg,jpg,jpeg,png,gif}',
-                target:     'png',
+                target:     'jpg',
+                quality:    70,
                 resize:     { width: 624, resizeStyle: 'aspectfit' },
                 nameFormat: '%b_wide%e',
                 remove:     true

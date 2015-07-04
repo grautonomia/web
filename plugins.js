@@ -163,7 +163,7 @@ module.exports.imgFragments = function (ops) {
                     var base = $(this).attr('src').replace(RegExp('#'+ key +'$'), '');
                     var ext  = require('path').extname(base);
 
-                    $(this).attr('src', base.replace(ext, '_'+key+'.png'));
+                    $(this).attr('src', base.replace(ext, '_'+key+'.jpg'));
                 }
             });
         }
