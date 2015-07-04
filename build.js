@@ -33,6 +33,19 @@ var unorphan      = require('./plugins').unorphan;
 var hyphenate     = require('./plugins').hyphenate;
 var imgFragments  = require('./plugins').imgFragments;
 
+function moveFonts(files, ms, done) {
+    var basename = require('path').basename;
+
+    for (var file in files) {
+        if (/font-awesome\/fonts/.test(file)) {
+            files['assets/fonts/'+ basename(file)] = files[file];
+            delete files[file];
+        }
+    }
+
+    done();
+}
+
 function generateId(filename, filedata, ms) {
     var locales = ms.metadata().locales.locales;
     var ext     = require('path').extname(filename);
@@ -84,6 +97,8 @@ module.exports = function (isDebug, done) {
         .use(drafts())
 
         // CSS
+        .use(includeFiles(['bower_components/font-awesome/fonts/*']))
+        .use(moveFonts)
         .use(sass({
             outputDir:    'assets/',
             includePaths: [
