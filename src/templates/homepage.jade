@@ -17,5 +17,5 @@ block body
                                 span: <i class="fa fa-fw fa-calendar"></i> #{prettyDate(article.date)}
                                 span: <i class="fa fa-fw fa-clock-o"></i> #{__('x_minutes', article.readingTime)}
                                 if article.allow_comments
-                                    span: <i class="fa fa-fw fa-comment"></i> <a data-disqus-identifier="#{article.id}">0</a>
+                                    span: <i class="fa fa-fw fa-comment"></i> <a data-disqus-identifier="#{article.disqus_id}">0</a>
                             p!= article.snippet

@@ -1,6 +1,6 @@
 ---
 draft:        false
-id:           article_rorreformisme
+disqus_id:    article_rorreformisme
 social_image: /articles/rorreformisme/social
 title:        "Reformisme: refundació o superació?"
 keywords:     [reformisme, estat de benestar, hiperactivisme, immediatisme,

@@ -19,7 +19,7 @@ block body
 
                             ul.right
                                 if allow_comments
-                                    li: a(href="#comments" data-tooltip title=__('view_comments')) <i class="fa fa-fw fa-comment"></i> <a href="#comments" data-disqus-identifier="#{id}">0</a>
+                                    li: a(href="#comments" data-tooltip title=__('view_comments')) <i class="fa fa-fw fa-comment"></i> <a href="#comments" data-disqus-identifier="#{disqus_id}">0</a>
                                 if files
                                     li: a(data-dropdown="downloads" data-tooltip data-tooltip-content='#downloads' title=__('downloads')) <i class="fa fa-fw fa-download"></i>&nbsp;<i class="fa fa-angle-down"></i>
 
@@ -59,7 +59,7 @@ block javascript
     if allow_comments
         script.
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_identifier = '#{id}';
+            var disqus_identifier = '#{disqus_id}';
             var disqus_title      = "#{altFiles.ca.title}";
             var disqus_url        = 'http://www.grupreflexioautonomia.org/#{altFiles.ca.path}';
 

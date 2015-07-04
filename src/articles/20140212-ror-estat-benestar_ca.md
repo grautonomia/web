@@ -1,6 +1,6 @@
 ---
 draft:        false
-id:           article_rorestatbenestar
+disqus_id:    article_rorestatbenestar
 social_image: /articles/rorestatbenestar/social
 title:        Sobre l'Estat de benestar
 keywords:     [Estat de benestar, Estat, ajuda mútua, revolució]

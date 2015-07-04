@@ -36,25 +36,18 @@ var imgFragments  = require('./plugins').imgFragments;
 function generateId(filename, filedata, ms) {
     var locales = ms.metadata().locales.locales;
     var ext     = require('path').extname(filename);
-    var id;
+    var parts   = filename.split('/');
 
-    // Some articles will come with an id
-    // this is the ID from the old system, it's necesary
-    // for having the same Disqus threads
-    if (filedata.id) {
-        return filedata.id;
+    return parts[parts.length - 1].replace(ext, '')
+                                  .replace(/\d{8}\-/, '')
+                                  .replace(RegExp('_('+ locales.join('|') +')$'), '');
+}
+
+function generateDisqusId(filename, filedata, ms) {
+    if (filedata.disqus_id) {
+        return filedata.disqus_id;
     } else {
-        id = filename.replace('/', '_')
-                     .replace(ext, '')
-                     .replace(/\d{8}\-/, '')
-                     .replace(RegExp('_('+ locales.join('|') +')$'), '');
-
-        // Change to old naming
-        if (filedata.type == 'article') {
-            id = id.replace('articles_', 'article_');
-        }
-
-        return id;
+        return 'article_'+ filedata.id;
     }
 }
 
@@ -139,6 +132,7 @@ module.exports = function (isDebug, done) {
             directory: 'src/translations'
         }))
         .use(setProperty('id', generateId))
+        .use(setProperty('disqus_id', generateDisqusId))
         .use(slug({ patterns: ['*.md'], lower: true }))
         .use(pandoc({ args: ['--smart'] }))
         .use(snippet({ maxLength: 450 }))

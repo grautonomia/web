@@ -1,6 +1,6 @@
 ---
 draft:        false
-id:           article_rxesolselpoble
+disqus_id:    article_rxesolselpoble
 authors:      [Reflexions per a l'emancipació]
 social_image: /articles/rxesolselpoble/social
 title:        Sols el poble salva al poble

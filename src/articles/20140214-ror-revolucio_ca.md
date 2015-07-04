@@ -1,6 +1,6 @@
 ---
 draft:        false
-id:           article_rorrevolucio
+disqus_id:    article_rorrevolucio
 social_image: /articles/rorrevolucio/social
 title:        Pensant la revolució avui
 subtitle:     Construir un nou món – Acabar amb l'ordre establert

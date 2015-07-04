@@ -1,6 +1,6 @@
 ---
 draft:        false
-id:           article_nosi2
+disqus_id:    article_nosi2
 social_image: /articles/nosi/social3
 title:        La Via Revolucionària del No-Sí
 subtitle:     Manifest per a la Independència sense Estat
