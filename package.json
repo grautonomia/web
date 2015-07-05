@@ -36,6 +36,7 @@
     "metalsmith-imagemin": "^1.1.0",
     "metalsmith-pandoc": "^0.1.2",
     "metalsmith-permalinks": "^0.4.0",
+    "metalsmith-redirect": "^1.0.2",
     "metalsmith-sass": "^1.2.1",
     "metalsmith-slug": "git://github.com/doup/metalsmith-slug#875e02f60ecb54e05e6a578275dcaad0b7dc505a",
     "metalsmith-snippet": "^1.0.1",

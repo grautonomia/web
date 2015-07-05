@@ -15,6 +15,7 @@ var imagemin     = require('metalsmith-imagemin');
 var ignore       = require('metalsmith-ignore');
 var pandoc       = require('metalsmith-pandoc');
 var permalinks   = require('metalsmith-permalinks');
+var redirect     = require('metalsmith-redirect');
 var sass         = require('metalsmith-sass');
 var slug         = require('metalsmith-slug');
 var snippet      = require('metalsmith-snippet');
@@ -207,6 +208,10 @@ module.exports = function (isDebug, done) {
         .use(imagemin());
     }
 
+    // Redirections
+    MS.use(redirect({
+        '/ca/': '/'
+    }));
 
     MS.build(done);
 };
