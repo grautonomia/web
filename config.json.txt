@@ -3,9 +3,11 @@
         "secret": ""
     },
     "s3": {
-        "key":    "",
-        "secret": "",
-        "bucket": "",
-        "region": ""
+        "params": {
+            "Bucket": ""
+        },
+        "accessKeyId":     "",
+        "secretAccessKey": "",
+        "region":          ""
     }
 }
