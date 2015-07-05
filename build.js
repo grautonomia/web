@@ -183,7 +183,7 @@ module.exports = function (isDebug, done) {
             br:     true,
         }))
         .use(hyphenate({
-            select:  'p, span, strong, em, ul > li',
+            select:  'p, span, strong, em, ul > li, li > a',
             not:     '[data-dont-hyphenate], [data-dont-hyphenate] li, blockquote p',
             locales: locales,
         }))
