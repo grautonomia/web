@@ -76,7 +76,7 @@ html(lang="#{locale}" itemscope itemtype=meta.schema.type)
     body(class="")
         .header
             .row
-                .columns(class=(type == 'article') ? 'large-8 medium-centered' : 'large-12')
+                .columns(class=(type == 'article') ? 'medium-9 large-8 medium-centered' : 'large-12')
                     h1.title.left: a(href='/'+findOne({ id: 'index' }).altFiles[locale].path) GRA
                     ul.locales.right
                         if locale != 'es'
