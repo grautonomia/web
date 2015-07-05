@@ -125,18 +125,33 @@ module.exports = function (isDebug, done) {
         // Images
         .use(convert([
             {
-                src:        'assets/articles/**/*.{svg,jpg,jpeg,png,gif}',
+                src:        'assets/articles/*/pics/*.{svg,jpg,jpeg,png,gif}',
                 target:     'jpg',
                 quality:    70,
                 resize:     { width: 260, resizeStyle: 'aspectfit' },
                 nameFormat: '%b_thumb%e'
             },
             {
-                src:        'assets/articles/**/*.{svg,jpg,jpeg,png,gif}',
+                src:        'assets/articles/*/pics/*.{svg,jpg,jpeg,png,gif}',
                 target:     'jpg',
                 quality:    70,
                 resize:     { width: 624, resizeStyle: 'aspectfit' },
                 nameFormat: '%b_wide%e',
+                remove:     true
+            },
+            {
+                src:        'assets/articles/*/*.{svg,jpg,jpeg,png,gif}',
+                target:     'jpg',
+                quality:    70,
+                resize:     { width: 1200, height: 630, resizeStyle: 'aspectfill' },
+                nameFormat: '%b_slarge%e',
+            },
+            {
+                src:        'assets/articles/*/*.{svg,jpg,jpeg,png,gif}',
+                target:     'jpg',
+                quality:    70,
+                resize:     { width: 560, height: 300, resizeStyle: 'aspectfill' },
+                nameFormat: '%b_smedium%e',
                 remove:     true
             }
         ]))

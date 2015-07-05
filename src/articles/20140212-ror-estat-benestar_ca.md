@@ -1,9 +1,9 @@
 ---
-draft:        false
-disqus_id:    article_rorestatbenestar
-social_image: /articles/rorestatbenestar/social
-title:        Sobre l'Estat de benestar
-keywords:     [Estat de benestar, Estat, ajuda mútua, revolució]
+draft:     false
+disqus_id: article_rorestatbenestar
+social:    social
+title:     Sobre l'Estat de benestar
+keywords:  [Estat de benestar, Estat, ajuda mútua, revolució]
 files:
     - ['PDF en català',     'ror_estat_benestar_ca.pdf']
     - ['PDF en castellano', 'ror_estat_benestar_es.pdf']

@@ -1,9 +1,8 @@
 ---
-draft:        false
-disqus_id:    article_practiques
-#social_image: /articles/rorindepe/social
-title:        Bones pràctiques pel debat emancipador
-keywords:     []
+draft:     false
+disqus_id: article_practiques
+title:     Bones pràctiques pel debat emancipador
+keywords:  []
 files:
     - ['PDF en català',     'practiques_ca.pdf']
     - ['PDF en castellano', 'practiques_es.pdf']
