@@ -1,5 +1,5 @@
 ---
-title:    Horror 404! :-(
+title:    Error 404! :-(
 template: page.jade
 ---
 
