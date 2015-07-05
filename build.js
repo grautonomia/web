@@ -66,7 +66,7 @@ function generateDisqusId(filename, filedata, ms) {
 
 var viewHelpers = {
     nl2br: function (str) {
-        return str.replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '<br/>');
+        return str.replace(/(\r\n|\n\r|\r|\n)/g, '<br/>');
     },
     markdown: marked,
     prettyDate: function (date) {
