@@ -18,5 +18,7 @@
 	"x_minutes": "%s minuts",
 	"x_comments": "%s comentaris",
 	"article_cta": "<strong>¿Que t'ha semblat el text?</strong> Pots deixar-nos un comentari més avall o <a href='http://twitter.com/share?text=Compartir es viure&url=http://www.grupreflexioautonomia.org/{{path}}'>compartir-lo a les xarxes socials</a>. O si ho prefereixes, <a href='/{{index_path}}'>tenim altres textos</a> i un <a href='http://democraciainclusiva.org/phplist/'><em>newsletter</em></a> que et poden interessar.",
-	"footer.content_license": "Continguts sota llicència"
+	"footer.content_license": "Continguts sota llicència",
+	"notes_show": "Mostrar notes",
+	"notes_hide": "Amagar notes"
 }

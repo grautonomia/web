@@ -10,11 +10,15 @@ subtitle: Experiencia de los Grupos de Estudio de Democracia Inclusiva de
 
 En el período 2009–2012, [Blai Dalmau](http://www.blaidalmau.net) yo misma y otros compañeros/as impulsamos en Cataluña varios Grupos de Estudio acerca del [proyecto de la Democracia Inclusiva (DI)](http://www.democraciainclusiva.org), con la intención de ofrecer una nueva forma de aprendizaje colectivo y autogestionado, con un contenido radical y transformador, compartiendo fraternalmente nuestros aprendizajes y reflexiones, después de años de sufrir el aséptico academicismo imperante, el estancamiento del conocimiento en la universidad y la fragmentación de los movimientos sociales en la calle.
 
+![](gadi-gra.jpg#wide)
+
 Las iniciativas educativas autogestionadas y con contenidos radicales eran prácticamente inexistentes en la Cataluña de entonces. Esta situación, la falta de alternativas, que hoy perdura en gran medida, llevaba a muchas personas hacia la universidad estatal, pese a ser conscientes de que, en su mayor parte, "las universidades son fabricas de humo" (Kenneth Rexroth).
 
 La experiencia de los Grupos de Estudio de DI (GEDI's) y la creación del paralelo y subsiguiente [Grupo de Acción de Democracia Inclusiva (GADI) de Cataluña](http://democracia-inclusiva.blogspot.com.es) fueron iniciativas que tuvieron muchos frutos y de las cuales intentamos aún aprender errores y aciertos, por la cual cosa las expongo, a grandes rasgos, a continuación, por si puede ser útil a otras personas que se planteen la creación de grupos de estudio en el sentido de la Revolución Integral.
 
 ##Constitución y desarrollo de los grupos
+
+![](hacia-di.jpg#thumb)
 
 Todo empezó a principios del 2009, cuando Blai consiguió hallar uno de los últimos ejemplares que quedaban en España del libro ["Hacia una Democracia Inclusiva – La crisis de la economía de mercado y la necesidad de un nuevo proyecto liberador"](http://www.democraciainclusiva.org/ehacia.htm) (Takis Fotopoulos, 1997) y lo devoró con fruición. A continuación, propuso a un grupo de compañeros y amigos, todos ellos involucrados en la Red por el Decrecimiento que estaba muy activa por aquél entonces, la lectura compartida y reflexionada del libro, lo que supuso un primer atisbo positivo, aunque menos organizado y riguroso, de lo que luego serían los Grupos de Estudio de DI.
 

@@ -12,11 +12,15 @@ subtitle: Experiència dels Grups d'Estudi de Democràcia Inclusiva de Catalunya
 
 En el període 2009–2012, en [Blai Dalmau](http://www.blaidalmau.net), jo mateixa i altres companys/es vam impulsar a Catalunya diversos Grups d'Estudi sobre el [projecte de la Democràcia Inclusiva (DI)](http://www.democraciainclusiva.org), amb la intenció d'oferir una nova forma d'aprenentatge col·lectiu i autogestionat, amb un contingut radical i transformador, compartint fraternalment els nostres aprenentatges i reflexions, després d'anys de patir l'asèptic academicisme imperant, l'estancament del coneixement a la universitat i la fragmentació dels moviments socials al carrer.
 
+![](gadi-gra.jpg#wide)
+
 Les iniciatives educatives autogestionades i amb continguts radicals eren pràcticament inexistents a la Catalunya d'aleshores. Aquesta situació, la manca d'alternatives, que avui perdura en gran mesura, portava a moltes persones cap a la universitat estatal, malgrat ser conscients que, en la seva major part, "les universitats són fabriques de fum" (Kenneth Rexroth).
 
 L'experiència dels Grups d'Estudi de DI (GEDI‘s) i la creació del paral·lel i subsegüent [Grup d'Acció de Democràcia Inclusiva (GADI) de Catalunya](http://democraciainclusiva.blogspot.com.es) van ser iniciatives que van tenir molts fruits i de les quals intentem encara aprendre errors i encerts, per la qual cosa les exposo, a grans trets, a continuació, per si pot ser útil a altres persones que es plantegin la creació de grups d'estudi en el sentit de la Revolució Integral.
 
 ##Constitució i desenvolupament dels grups
+
+![](hacia-di.jpg#thumb)
 
 Tot va començar a principis del 2009, quan en Blai va aconseguir trobar un dels últims exemplars que quedaven a Espanya del llibre ["Cap a una Democràcia Inclusiva – La crisi de l'economia de mercat i la necessitat d'un nou projecte alliberador"](http://www.democraciainclusiva.org/ehacia.htm) (Takis Fotopoulos, 1997) i el va devorar amb fruïció. A continuació, va proposar a un grup de companys i amics, tots ells involucrats en la Xarxa pel Decreixement que estava molt activa en aquell moment, la lectura compartida i reflexionada del llibre, la qual cosa va suposar un primer albir positiu, encara que menys organitzat i rigorós, del que després serien els Grups d'Estudi de DI.
 

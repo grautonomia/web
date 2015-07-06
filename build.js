@@ -130,14 +130,14 @@ module.exports = function (isDebug, done) {
             {
                 src:        'assets/articles/*/pics/*.{svg,jpg,jpeg,png,gif}',
                 target:     'jpg',
-                quality:    70,
-                resize:     { width: 260, resizeStyle: 'aspectfit' },
+                quality:    75,
+                resize:     { width: 240, resizeStyle: 'aspectfit' },
                 nameFormat: '%b_thumb%e'
             },
             {
                 src:        'assets/articles/*/pics/*.{svg,jpg,jpeg,png,gif}',
                 target:     'jpg',
-                quality:    70,
+                quality:    75,
                 resize:     { width: 624, resizeStyle: 'aspectfit' },
                 nameFormat: '%b_wide%e',
                 remove:     true
@@ -145,14 +145,14 @@ module.exports = function (isDebug, done) {
             {
                 src:        'assets/articles/*/*.{svg,jpg,jpeg,png,gif}',
                 target:     'jpg',
-                quality:    70,
+                quality:    75,
                 resize:     { width: 1200, height: 630, resizeStyle: 'aspectfill' },
                 nameFormat: '%b_slarge%e',
             },
             {
                 src:        'assets/articles/*/*.{svg,jpg,jpeg,png,gif}',
                 target:     'jpg',
-                quality:    70,
+                quality:    75,
                 resize:     { width: 560, height: 300, resizeStyle: 'aspectfill' },
                 nameFormat: '%b_smedium%e',
                 remove:     true
@@ -201,7 +201,7 @@ module.exports = function (isDebug, done) {
             br:     true,
         }))
         .use(hyphenate({
-            select:  'p, span, strong, em, ul > li, li > a',
+            select:  'p, span, strong, em, ul > li, li > a, p > a',
             not:     '[data-dont-hyphenate], [data-dont-hyphenate] li, blockquote p',
             locales: locales,
         }))
