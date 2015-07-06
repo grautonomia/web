@@ -8,8 +8,6 @@ subtitle: Experiencia de los Grupos de Estudio de Democracia Inclusiva de
 
 [^1]: Este artículo se basa, en parte, en una autobiografía inedita que empezamos a escribir hace un tiempo con Blai Dalmau, la cual pretende explicar con mayor detalle nuestra evolución personal, política e intelectual en los últimos años.
 
-![](nou.jpg#thumb)
-
 En el período 2009–2012, [Blai Dalmau](http://www.blaidalmau.net) yo misma y otros compañeros/as impulsamos en Cataluña varios Grupos de Estudio acerca del [proyecto de la Democracia Inclusiva (DI)](http://www.democraciainclusiva.org), con la intención de ofrecer una nueva forma de aprendizaje colectivo y autogestionado, con un contenido radical y transformador, compartiendo fraternalmente nuestros aprendizajes y reflexiones, después de años de sufrir el aséptico academicismo imperante, el estancamiento del conocimiento en la universidad y la fragmentación de los movimientos sociales en la calle.
 
 Las iniciativas educativas autogestionadas y con contenidos radicales eran prácticamente inexistentes en la Cataluña de entonces. Esta situación, la falta de alternativas, que hoy perdura en gran medida, llevaba a muchas personas hacia la universidad estatal, pese a ser conscientes de que, en su mayor parte, "las universidades son fabricas de humo" (Kenneth Rexroth).
