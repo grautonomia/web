@@ -24,6 +24,7 @@
     "jsdom": "^5.5.0",
     "marked": "^0.3.3",
     "metalsmith": "^1.7.0",
+    "metalsmith-autoprefixer": "^1.1.0",
     "metalsmith-branch": "0.0.4",
     "metalsmith-concat": "^2.0.0",
     "metalsmith-convert": "git://github.com/doup/metalsmith-convert#770a0ee829004ae8c5332d24af75acff9b56928f",

@@ -3,6 +3,7 @@
 var marked = require('marked');
 
 var Metalsmith   = require('metalsmith');
+var autoprefixer = require('metalsmith-autoprefixer');
 var branch       = require('metalsmith-branch');
 var concat       = require('metalsmith-concat');
 var convert      = require('metalsmith-convert');
@@ -108,6 +109,7 @@ module.exports = function (isDebug, done) {
                 'bower_components/tooltipster/css',
             ]
         }))
+        .use(autoprefixer())
 
         // JS
         .use(includeFiles(vendors))
