@@ -226,36 +226,6 @@ module.exports.setProperty = function (prop, value) {
 }
 
 // Plugin
-module.exports.mingo = function (ops) {
-    var Mingo = require('mingo');
-    var data  = [];
-    var metadata;
-
-    ops         = ops || {};
-    ops.find    = ops.find || 'find';
-    ops.findOne = ops.findOne || 'findOne';
-
-    return function (files, ms, done) {
-        metadata = ms.metadata();
-
-        for (var file in files) {
-            files[file]._filename = file;
-            data.push(files[file]);
-        }
-
-        metadata[ops.find] = function (criteria, projection) {
-            return Mingo.find(data, criteria, projection);
-        };
-
-        metadata[ops.findOne] = function (criteria, projection) {
-            return Mingo.find(data, criteria, projection).first();
-        };
-
-        done();
-    };
-};
-
-// Plugin
 module.exports.includeFiles = function (includes) {
     var glob         = require('glob');
     var readFileSync = require('fs').readFileSync;

@@ -15,6 +15,7 @@ var htmlMinifier = require("metalsmith-html-minifier");
 var i18n         = require('metalsmith-i18n');
 var imagemin     = require('metalsmith-imagemin');
 var ignore       = require('metalsmith-ignore');
+var mingo        = require('metalsmith-mingo');
 var pandoc       = require('metalsmith-pandoc');
 var permalinks   = require('metalsmith-permalinks');
 var redirect     = require('metalsmith-redirect');
@@ -28,7 +29,6 @@ var wordcount    = require('metalsmith-word-count');
 // Custom
 var setProperty   = require('./plugins').setProperty;
 var includeFiles  = require('./plugins').includeFiles;
-var mingo         = require('./plugins').mingo;
 var multiLanguage = require('./plugins').multiLanguage;
 var showDrafts    = require('./plugins').showDrafts;
 var unorphan      = require('./plugins').unorphan;
