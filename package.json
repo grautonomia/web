@@ -33,6 +33,7 @@
     "metalsmith-filemetadata": "0.0.4",
     "metalsmith-fingerprint": "^1.0.2",
     "metalsmith-html-minifier": "^1.1.0",
+    "metalsmith-i18n": "^0.1.0",
     "metalsmith-ignore": "^0.1.2",
     "metalsmith-imagemin": "^1.1.0",
     "metalsmith-pandoc": "^0.1.2",

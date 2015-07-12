@@ -12,6 +12,7 @@ var drafts       = require('metalsmith-drafts');
 var fileMetadata = require('metalsmith-filemetadata');
 var fingerprint  = require('metalsmith-fingerprint');
 var htmlMinifier = require("metalsmith-html-minifier");
+var i18n         = require('metalsmith-i18n');
 var imagemin     = require('metalsmith-imagemin');
 var ignore       = require('metalsmith-ignore');
 var pandoc       = require('metalsmith-pandoc');
@@ -26,7 +27,6 @@ var wordcount    = require('metalsmith-word-count');
 
 // Custom
 var setProperty   = require('./plugins').setProperty;
-var i18n          = require('./plugins').i18n;
 var includeFiles  = require('./plugins').includeFiles;
 var mingo         = require('./plugins').mingo;
 var multiLanguage = require('./plugins').multiLanguage;

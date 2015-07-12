@@ -211,29 +211,6 @@ module.exports.unorphan = function (ops) {
 };
 
 // Plugin
-module.exports.i18n = function (ops) {
-    var i18n = require('i18n');
-
-    function __(str, data) {
-        return i18n.__({ phrase: str, locale: this.locale }, data || {});
-    }
-
-    return function (files, ms, done) {
-        i18n.configure({
-            defaultLocale: ops.default,
-            locales:       ops.locales,
-            directory:     ms.path(ops.directory)
-        });
-
-        for (var file in files) {
-            files[file].__ = __.bind(files[file]);
-        }
-
-        done();
-    };
-}
-
-// Plugin
 module.exports.setProperty = function (prop, value) {
     return function (files, ms, done) {
         for (var file in files) {
