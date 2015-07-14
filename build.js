@@ -2,38 +2,38 @@
 
 var marked = require('marked');
 
-var Metalsmith   = require('metalsmith');
-var autoprefixer = require('metalsmith-autoprefixer');
-var branch       = require('metalsmith-branch');
-var concat       = require('metalsmith-concat');
-var convert      = require('metalsmith-convert');
-var filenameDate = require('metalsmith-date-in-filename');
-var drafts       = require('metalsmith-drafts');
-var fileMetadata = require('metalsmith-filemetadata');
-var fingerprint  = require('metalsmith-fingerprint');
-var htmlMinifier = require("metalsmith-html-minifier");
-var i18n         = require('metalsmith-i18n');
-var imagemin     = require('metalsmith-imagemin');
-var ignore       = require('metalsmith-ignore');
-var mingo        = require('metalsmith-mingo');
-var pandoc       = require('metalsmith-pandoc');
-var permalinks   = require('metalsmith-permalinks');
-var redirect     = require('metalsmith-redirect');
-var sass         = require('metalsmith-sass');
-var slug         = require('metalsmith-slug');
-var snippet      = require('metalsmith-snippet');
-var templates    = require('metalsmith-templates');
-var uglify       = require('metalsmith-uglify');
-var wordcount    = require('metalsmith-word-count');
+var Metalsmith    = require('metalsmith');
+var autoprefixer  = require('metalsmith-autoprefixer');
+var branch        = require('metalsmith-branch');
+var concat        = require('metalsmith-concat');
+var convert       = require('metalsmith-convert');
+var filenameDate  = require('metalsmith-date-in-filename');
+var drafts        = require('metalsmith-drafts');
+var fileMetadata  = require('metalsmith-filemetadata');
+var fingerprint   = require('metalsmith-fingerprint');
+var htmlMinifier  = require("metalsmith-html-minifier");
+var i18n          = require('metalsmith-i18n');
+var imagemin      = require('metalsmith-imagemin');
+var ignore        = require('metalsmith-ignore');
+var mingo         = require('metalsmith-mingo');
+var multiLanguage = require('metalsmith-multi-language');
+var pandoc        = require('metalsmith-pandoc');
+var permalinks    = require('metalsmith-permalinks');
+var redirect      = require('metalsmith-redirect');
+var sass          = require('metalsmith-sass');
+var slug          = require('metalsmith-slug');
+var snippet       = require('metalsmith-snippet');
+var templates     = require('metalsmith-templates');
+var uglify        = require('metalsmith-uglify');
+var wordcount     = require('metalsmith-word-count');
 
 // Custom
-var setProperty   = require('./plugins').setProperty;
-var includeFiles  = require('./plugins').includeFiles;
-var multiLanguage = require('./plugins').multiLanguage;
-var showDrafts    = require('./plugins').showDrafts;
-var unorphan      = require('./plugins').unorphan;
-var hyphenate     = require('./plugins').hyphenate;
-var imgFragments  = require('./plugins').imgFragments;
+var setProperty  = require('./plugins').setProperty;
+var includeFiles = require('./plugins').includeFiles;
+var showDrafts   = require('./plugins').showDrafts;
+var unorphan     = require('./plugins').unorphan;
+var hyphenate    = require('./plugins').hyphenate;
+var imgFragments = require('./plugins').imgFragments;
 
 function moveFonts(files, ms, done) {
     var basename = require('path').basename;
@@ -49,7 +49,7 @@ function moveFonts(files, ms, done) {
 }
 
 function generateId(filename, filedata, ms) {
-    var locales = ms.metadata().locales.locales;
+    var locales = ms.metadata().locales;
     var ext     = require('path').extname(filename);
     var parts   = filename.split('/');
 

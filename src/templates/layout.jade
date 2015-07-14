@@ -89,15 +89,15 @@ html(lang="#{locale}" itemscope itemtype=meta.schema.type)
         .header
             .row
                 .columns(class=(type == 'article') ? 'medium-9 large-8 medium-centered' : 'large-12')
-                    h1.title.left: a(href='/'+findOne({ id: 'index' }).altFiles[locale].path) GRA
+                    h1.title.left: a(href='/'+findOne({ id: 'index' }).lang(locale).path) GRA
                     ul.locales.right
-                        if locale != 'es' && altFiles.es.path
-                            li: a(href="/#{altFiles.es.path}") Castellano
-                        if locale != 'ca' && altFiles.ca.path
-                            li: a(href="/#{altFiles.ca.path}") Català
+                        if locale != 'es' && lang('es').path
+                            li: a(href='/'+ lang('es').path) Castellano
+                        if locale != 'ca' && lang('ca').path
+                            li: a(href='/'+ lang('ca').path) Català
                     ul.menu.right
-                        li: a(href='/'+findOne({ id: 'index' }).altFiles[locale].path)= __('menu_index')
-                        li: a(href='/'+findOne({ id: 'about' }).altFiles[locale].path)= __('menu_about')
+                        li: a(href='/'+findOne({ id: 'index' }).lang(locale).path)= __('menu_index')
+                        li: a(href='/'+findOne({ id: 'about' }).lang(locale).path)= __('menu_about')
 
 
         .content

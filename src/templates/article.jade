@@ -44,7 +44,7 @@ block body
                 a(name='comments')
 
             .wrapper
-                p.cta!= __('article_cta', { path: path, index_path: findOne({ id: 'index' }).altFiles[locale].path})
+                p.cta!= __('article_cta', { path: path, index_path: findOne({ id: 'index' }).lang(locale).path})
 
                 //- DISQUS
                 //-
@@ -62,8 +62,8 @@ block javascript
         script.
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
             var disqus_identifier = '#{disqus_id}';
-            var disqus_title      = "#{altFiles.ca.title}";
-            var disqus_url        = 'http://www.grupreflexioautonomia.org/#{altFiles.ca.path}';
+            var disqus_title      = "#{lang('ca').title}";
+            var disqus_url        = "http://www.grupreflexioautonomia.org/#{lang('ca').path}";
 
             /* * * DON'T EDIT BELOW THIS LINE * * */
             //- Thread
