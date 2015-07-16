@@ -91,9 +91,9 @@ html(lang="#{locale}" itemscope itemtype=meta.schema.type)
                 .columns(class=(type == 'article') ? 'medium-9 large-8 medium-centered' : 'large-12')
                     h1.title.left: a(href='/'+findOne({ id: 'index' }).lang(locale).path) GRA
                     ul.locales.right
-                        if locale != 'es' && lang('es').path
+                        if locale != 'es' && typeof(lang('es').path) != 'undefined'
                             li: a(href='/'+ lang('es').path) Castellano
-                        if locale != 'ca' && lang('ca').path
+                        if locale != 'ca' && typeof(lang('ca').path) != 'undefined'
                             li: a(href='/'+ lang('ca').path) Català
                     ul.menu.right
                         li: a(href='/'+findOne({ id: 'index' }).lang(locale).path)= __('menu_index')
