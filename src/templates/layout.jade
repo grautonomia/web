@@ -98,6 +98,8 @@ html(lang="#{locale}" itemscope itemtype=meta.schema.type)
                     ul.menu.right
                         li: a(href='/'+findOne({ id: 'index' }).lang(locale).path)= __('menu_index')
                         li: a(href='/'+findOne({ id: 'about' }).lang(locale).path)= __('menu_about')
+                        //-li: a(href='#') Projectes
+                        //-li: a(href='#') Enlaces
 
 
         .content
@@ -106,7 +108,7 @@ html(lang="#{locale}" itemscope itemtype=meta.schema.type)
         .footer
             .row
                 .columns(class=(type == 'article') ? 'large-8 medium-centered' : 'large-12')
-                    p 2012–#{(new Date()).getFullYear()}, Barcelona, #{__('gra_full')}
+                    p 2012–#{(new Date()).getFullYear()}, Barcelona &amp; Baix Montseny, #{__('gra_full')}
                     p #{__('footer.content_license')}: <a href="http://creativecommons.org/licenses/by-sa/3.0/es/">Creative Commons (by-sa) 3.0</a>
                     ul
                         li: <a href="mailto:gra@pimienta.org"><i class="fa fa-envelope-o"></i> Email</a>
