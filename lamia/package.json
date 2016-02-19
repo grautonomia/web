@@ -1,0 +1,17 @@
+{
+  "name": "gra-web",
+  "version": "0.1.0",
+  "description": "GRA website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "gulpjs/gulp#4.0",
+    "metalsmith-filemetadata": "^1.0.0",
+    "metalsmith-snippet": "^2.0.0",
+    "metalsmith-word-count": "0.0.4"
+  }
+}

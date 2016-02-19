@@ -1,0 +1,22 @@
+extends ./layout.jade
+
+block body
+    .row.page
+        .large-8.columns
+            .wrapper
+                section.text-content
+                    h1.no-meta-data= title
+                    div!= contents
+
+        aside.large-4.columns
+            .wrapper
+                ul.contact
+                    li: <a href="mailto:gra@pimienta.org"><i class="fa fa-envelope-o"></i> Email</a>
+                    li: <a href="http://democraciainclusiva.org/phplist/"><i class="fa fa-newspaper-o"></i> <em>Newsletter</em></a>
+                    li: <a href="http://twitter.com/grautonomia"><i class="fa fa-twitter"></i> Twitter</a>
+
+                h4= __('last_articles')
+                ul.articles
+                    - var articles = find({ type: 'article', locale: locale }).sort({ date: -1 }).limit(5).all()
+                    each article in articles
+                        li: <a href=article.path>#{article.title}</a>

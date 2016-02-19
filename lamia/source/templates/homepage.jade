@@ -1,0 +1,19 @@
+extends ./layout.jade
+
+block body
+    .row.homepage
+        .large-12.columns
+            .wrapper
+                .intro
+                    h1= __('gra_full')
+                    img.bird(src='/assets/bird.png')
+
+                ul.posts.large-block-grid-2
+                    - var posts = find({ locale: locale, type: 'post' }).sort({ date: -1 }).all()
+                    each post, index in posts
+                        li.post(class=Math.floor(index/2) >= Math.floor(posts.length/2) ? 'last-row' : '')
+                            h3: a(href='/'+post.path)= post.title
+                            p.meta-data
+                                span: <i class="fa fa-fw fa-calendar"></i> #{isoDate(post.date)}
+                                span: <i class="fa fa-fw fa-clock-o"></i> #{__('x_minutes', post.readingTime)}
+                            p!= post.snippet

@@ -1,0 +1,17 @@
+{
+  "name": "lamia-project",
+  "version": "0.1.0",
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "5.*",
+    "font-awesome": "~4.3.0",
+    "tooltipster": "~3.3.0"
+  }
+}

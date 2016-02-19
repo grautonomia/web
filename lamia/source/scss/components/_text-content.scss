@@ -1,0 +1,189 @@
+.text-content {
+    h1 {
+        margin-top: 0;
+        margin-bottom: $quarter-padding;
+        line-height: 1.2em;
+    }
+
+    .no-meta-data {
+        margin-bottom: $half-padding;
+    }
+
+    .subtitle {
+        font-size: em-calc(18);
+        margin-top: 0;
+    }
+
+    .meta-data {
+        border-top: 1px solid $light-grey-color;
+        border-bottom: 1px solid $light-grey-color;
+        padding: ($quarter-padding / 2) 0;
+        margin: $quarter-padding 0 $half-padding;
+
+        ul {
+            margin-left: 0;
+            margin-bottom: 0;
+            padding: 0;
+            font-size: 0.85em;
+
+            li {
+                display: inline-block;
+                font-family: $header-font-family;
+                list-style: none;
+                line-height: 1.9em;
+
+                i {
+                    text-indent: 0;
+                }
+            }
+
+            &.left li {
+                margin-right: .75em;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+            &.right li {
+                margin-left: .75em;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        .note {
+            text-align: left;
+            padding-top: ($quarter-padding / 2);
+            margin-top: ($quarter-padding / 2);
+            border-top: 1px solid $light-grey-color;
+            font-family: $header-font-family;
+
+            p {
+                font-size: 0.85em;
+                text-indent: 0;
+            }
+        }
+
+        i {
+            color: $primary-color;
+        }
+    }
+
+    h2, h3, h4, h5, h6 {
+        margin-top: rem-calc(16);
+        margin-bottom: rem-calc(16);
+    }
+
+    p {
+        text-indent: 1.5em;
+        margin-bottom: 0;
+        text-align: justify;
+        line-height: 1.85em;
+        font-size: rem-calc(16);
+    }
+
+    ul, ol {
+        padding: 1em 2em 0 1em;
+        font-size: em-calc(16px);
+
+        p {
+            text-indent: 0;
+        }
+    }
+
+    blockquote {
+        border-left: none;
+        font-style: italic;
+        margin: 3em 2em;
+        text-align: center;
+        position: relative;
+
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            margin-left: -15%;
+            width: 30%;
+            border-top: 1px solid $light-grey-color;
+        }
+
+        &:before {
+            top: -.75em;
+        }
+
+        &:after {
+            bottom: -.75em;
+        }
+
+        em {
+            font-style: normal;
+        }
+
+        p {
+            text-align: center;
+            text-indent: 0;
+            font-size: rem-calc(17);
+            line-height: 1.7em;
+        }
+    }
+
+    p:first-child, h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p, ul + p, blockquote + p, figure + p {
+        text-indent: 0;
+    }
+
+    // Figure between paragraphs
+    p + figure.image-thumb + p {
+        text-indent: 1.5em;
+    }
+
+    // Images
+    figure {
+        img {
+            border: 1px solid $light-grey-color;
+        }
+    }
+
+    .image-thumb {
+        margin: $quarter-padding 0 $quarter-padding $half-padding;
+        float: right;
+    }
+
+    .image-wide {
+        margin: $half-padding -50px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    // Foonotes
+    a.footnoteRef {
+        border-bottom: none;
+        color: $primary-color;
+        margin-left: $quarter-padding / 2;
+        font-size: .9em;
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+
+    .footnotes {
+        ol {
+           padding-top: 0;
+           font-size: .8em;
+
+           li {
+               line-height: 1.75em;
+               margin-bottom: .5em;
+
+               p {
+                   font-size: inherit;
+                   text-align: left;
+               }
+           }
+       }
+    }
+}

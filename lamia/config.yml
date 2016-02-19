@@ -1,0 +1,30 @@
+i18n:
+    default: ca
+    locales: [ca, es]
+urls:
+    posts/*: :locale/:slug
+    pages/*: :locale/page/:slug
+redirect:
+    /ca/: /
+assets:
+    js:
+        main.js:
+            - bower_components/foundation/js/vendor/jquery.js
+            - bower_components/foundation/js/vendor/fastclick.js
+            - bower_components/tooltipster/js/jquery.tooltipster.js
+            - source/js/main.js
+    sass_include_paths:
+        - bower_components/font-awesome/scss
+        - bower_components/foundation/scss
+        - bower_components/tooltipster/css
+    copy:
+        bower_components/font-awesome/fonts/*: fonts
+    pic_sizes:
+        thumb:
+            class: image-thumb
+            width: 240
+        wide:
+            class: image-wide
+            width: 624
+disqus: ~
+deploy: ~
