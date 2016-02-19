@@ -41,6 +41,16 @@ module.exports.postMarkdown = function (ms, config) {
 };
 
 module.exports.postLayout = function (ms, config) {
+    ms.use(unorphan({
+        select: 'a, p, blockquote, span, li, h1, h2, h3, h4, h5, h6',
+        not:    '[data-dont-unorphan]',
+        br:     true,
+    }));
+    ms.use(hyphenate({
+        select:  'p, span, strong, em, ul > li, li > a, p > a',
+        not:     '[data-dont-hyphenate], [data-dont-hyphenate] li, blockquote p',
+        locales: config.i18n.locales,
+    }));
 };
 
 module.exports.viewHelpers = function (config) {

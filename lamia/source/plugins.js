@@ -11,7 +11,7 @@ module.exports.msJSDOM = function (srcs, cb) {
     var async     = require('async');
     var jsdom     = require('jsdom');
     var serialize = require('jsdom').serializeDocument;
-    var jquery    = loadSrc([__dirname, 'bower_components/jquery/dist/jquery.min.js']);
+    var jquery    = loadSrc([__dirname, '../bower_components/jquery/dist/jquery.min.js']);
 
     return function (files, ms, done) {
         async.forEachOf(files, function (filedata, filename, next) {
@@ -47,11 +47,11 @@ module.exports.hyphenate = function (ops) {
     ops.locales = ops.locales || [];
 
     // Add Hypher
-    srcs.push(loadSrc([__dirname, 'node_modules/hypher/dist/jquery.hypher.js']));
+    srcs.push(loadSrc([__dirname, '../node_modules/hypher/dist/jquery.hypher.js']));
 
     // Add locales
     ops.locales.forEach(function (locale) {
-        srcs.push(loadSrc([__dirname, 'node_modules/hyphenation-patterns/dist/browser/'+ locale +'.js']));
+        srcs.push(loadSrc([__dirname, '../node_modules/hyphenation-patterns/dist/browser/'+ locale +'.js']));
     });
 
     return module.exports.msJSDOM(srcs, function ($, filename, filedata, next, ms, window) {
@@ -60,7 +60,7 @@ module.exports.hyphenate = function (ops) {
         if (ops.locales.indexOf(locale) != -1) {
             $(ops.select || '').not(ops.not || '').hyphenate(locale);
         } else {
-            throw "Locale not found!";
+            throw "[ms-hyphenate] Locale '"+ locale +"' not found on '"+ filename +"'!";
         }
 
         next();
