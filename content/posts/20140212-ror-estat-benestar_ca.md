@@ -12,7 +12,7 @@ files:
 > "Tot en l'Estat, res fora de l'Estat, res contra l'Estat."  
 > _Mussolini_
 
-##1. La tradició històrica de l'Estat de benestar
+## 1. La tradició històrica de l'Estat de benestar
 
 Per a l'estabilitat i la solidesa de tots els sistemes de dominació sempre ha estat millor que el poble vegi les seves cadenes prou "lleugeres" o "raonables". Que vegi suficient "benevolència" en l'organització social custodiada pel poder d'unes elits. Si es pot garantir que un sector important de la societat no visqui en un estat de fort i inextingible descontentament i consciència de ser maltractat, el sistema es trobarà molt més segur.
 
@@ -26,7 +26,7 @@ Abans d'això, ja s'havia conegut el "pa i circ" de l'imperi romà i el despotis
 
 Des del discurs oficial i sistèmic, ordit des de l'acadèmia, es diu que l'Estat de benestar forma part de la trajectòria d'evolució i progrés de les societats occidentals. D'entrada, es reconeix que sempre ha fet falta organitzar la satisfacció de les necessitats de les persones i que, abans, si no ho feia l'Estat, ho feia el poble amb els seus propis recursos. Aleshores, se suposa que és un gran avenç en la història de la humanitat, vinculat a alguna suposada "evolució" en la consciència social solidària, que aquesta satisfacció passi a ser una qüestió "pública nacional", en mans de l'Estat.
 
-##2. La tradició històrica de la comunitat i l'ajuda mútua
+## 2. La tradició històrica de la comunitat i l'ajuda mútua
 
 La "teoria del Progrés", doctrina oficial fonamental per a la justificació del sistema actual, ens ve a dir que la societat d'avui en dia, on l'Estat i el capitalisme es troben hiper-desenvolupats, és molt millor que tots els estadis anteriors de la història. És de manual: els altaveus del sistema esbomben que tot el que va existir fora d'ell van ser horrors, encara pitjors que els actuals.
 
@@ -48,7 +48,7 @@ Més tard, en la societat resultant de la revolució liberal i industrial el pro
 
 Totes aquestes estructures i valors es van haver de destruir a sang i foc per poder instaurar, durant el franquisme, l'Estat de benestar a "Espanya". Per això va ser imprescindible la intervenció militar de 1936-1939.
 
-##3. La crítica a l'Estat de benestar
+## 3. La crítica a l'Estat de benestar
 
 Les persones anticapitalistes, que estem a favor de l'abolició de la propietat privada i del treball assalariat, rebutgem la institució de l'Estat. Aquest posicionament havia estat sempre clar, totes les anàlisis clàssiques del pensament socialista reconeixien que l'Estat modern i el capitalisme, des del seu origen, van anar de la mà[^6]. La seva complicitat i aliança, doncs, és un fet essencial històric, no recent, com insinua qui parla d'un suposat "segrest de la democràcia" en mans de les elits capitalistes/financeres, o de la "teoria de les portes giratòries"[^7], com si fos una novetat l'aliança sistemàtica entre les elits polítiques i les econòmiques.
 
@@ -86,7 +86,7 @@ Així doncs, avui en dia és menester posar sobre la taula i desenvolupar una cr
 
 [^11]: Sobre la crisi energètica, veure les aportacions més importants del pedagògic bloc ["The Oil Crash"](http://crashoil.blogspot.com.es), d'Antonio Turiel, i ["La quiebra del capitalismo global: 2000-2030. El inicio del fin de la energía fósil: una ruptura histórica total"](http://www.ecologistasenaccion.org/article19028.html) (Ramón Fernández Durán, 2011).
 
-##4. Esbossant la crítica a dos pilars essencials de l'Estat de benestar: l'educació i la sanitat "públiques"
+## 4. Esbossant la crítica a dos pilars essencials de l'Estat de benestar: l'educació i la sanitat "públiques"
 
 Si bé entenem que el que mou a moltes persones a defensar una sanitat i una educació "públiques" és una voluntat legítima d'educar-se i formar-se així com de mantenir i restaurar la salut, percebem que, com amb tantes altres coses, les institucions establertes s'encarreguen de canalitzar aquestes voluntats populars amb les estratègies que més enforteixin i promoguin els seus interessos i valors. Aquestes estratègies en el cas que ens ocupa són l'educació estatal i la sanitat estatal. Així, com hem explicat al principi, si bé en alguns moments històrics ha estat el poble organitzat qui s'ha fet càrrec, com ha pogut, de la satisfacció de les necessitats d'educació i salut, la tendència imperant des de l'extensió de la figura de l'Estat de benestar ha estat cap a la delegació de la gestió d'aquestes necessitats a mans de la institució estatal i els seus funcionaris, fet que ha comportat nombroses problemàtiques.
 
@@ -106,7 +106,7 @@ Pel que fa a la sanitat "pública", es manté la confusió entre el fet que sigu
 
 Així doncs, el quid de la qüestió per afrontar la defensa d'allò públic en relació a l'educació i la sanitat és sortir de les dicotomies del sistema i anar a l'essència dels problemes. Això implica redefinir el concepte d'allò públic: allò públic és allò del qual el poble controla la _forma_ i el _contingut_. Per controlar la forma i el contingut necessitem que el poble torni a ser un subjecte diferenciat de l'Estat. Sense el poble organitzat, no disposem d'un contingut i d'unes formes alienes al poder oligárquico i als seus valors i l'Estat i el mercat s'encarreguen d'instaurar els seus. Seguir defensant incansablement allò públic tal i com es fa actualment és seguir mantenint i reproduint la tergiversadora identificació entre el poble i l'Estat. Per recuperar una educació i una sanitat veritablement públiques i de qualitat és imprescindible recuperar el poble.
 
-##5. Cap a un posicionament actual sobre l'Estat de benestar
+## 5. Cap a un posicionament actual sobre l'Estat de benestar
 
 Avui, immersos en l'actual situació de crisi econòmica, cada vegada més persones es veuen abocades a la pobresa i a la precarietat. Això passa alhora (i a causa) que l'Estat i els diferents governs autonòmics retallen pressupostos destinats a ajudes socials i a finançament "públic", per tal de satisfer els interessos de les elits transnacionals i poder-se mantenir competint en el marc d'una economia altament internacionalitzada. A això s'hi sumen les reformes laborals, dictades des del marc estatal-capitalista internacional, que han rebaixat substancialment els drets dels treballadors assalariats.
 
@@ -120,7 +120,7 @@ Aquesta concordança és possible, malgrat actualment gairebé no s'hagi assolit
 
 El posicionament que presentem el desglossem en dues parts, una que hauria de ser clarament compartida per totes aquelles persones, col·lectius i organitzacions que ens considerem revolucionàries, i una altra que dóna marge a diferents punts de vista, anàlisis, valoracions i decisions, etc.
 
-###1. El que ha de ser clarament compartit per les persones que ens considerem revolucionàries:
+### 1. El que ha de ser clarament compartit per les persones que ens considerem revolucionàries:
 
 Primer, **ens adherim al projecte revolucionari**. Això implica:
 
@@ -132,6 +132,6 @@ Primer, **ens adherim al projecte revolucionari**. Això implica:
 
 Segon, **sempre que donem suport o ens involucrem en lluites defensives**, per pressionar contra la retirada d'algunes formes d'assistència estatal i posar fre a l'agreujament de la injustícia social i als atacs del sistema, **ho fem des d'un discurs clarament antisistèmic**, nítidament diferenciat dels paràmetres reformistes-socialdemòcrates, alhora que no deixem de dedicar els esforços més vitals a allò constructiu.
 
-###2. El que les persones que ens considerem revolucionàries podem veure de maneres diferents
+### 2. El que les persones que ens considerem revolucionàries podem veure de maneres diferents
 
 **A quines lluites donar suport? Quina quantitat d'energia dedicar-hi?** Això pot ser discutible, davant dels escenaris presents i futurs. No tota la gent revolucionària ha de veure convenient, per important o estratègic –tenint en compte les pròpies energies, finites–, destinar la mateixa quantitat d'energies, recursos i esforços a les diferents lluites, reivindicacions i resistències.

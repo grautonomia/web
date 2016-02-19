@@ -6,7 +6,7 @@ keywords: [Estado de bienestar, Estado, ayuda mutua, revolución]
 > "Todo en el Estado, nada fuera del Estado, nada contra el Estado."  
 > _Mussolini_
 
-##1. La tradición histórica del Estado de bienestar
+## 1. La tradición histórica del Estado de bienestar
 
 Para la estabilidad y la solidez de todos los sistemas de dominación siempre ha sido mejor que el pueblo vea sus cadenas lo suficiente "ligeras" o "razonables". Que vea suficiente "benevolencia" en la organización social custodiada por el poder de unas élites. Si se puede garantizar que un sector importante de la sociedad no viva en un estado de fuerte e inextinguible descontento y consciencia de ser maltratado, el sistema se encontrará mucho más seguro.
 
@@ -20,7 +20,7 @@ Antes de esto, ya se había conocido el "pan y circo" del imperio romano y el de
 
 Desde el discurso oficial y sistémico, urdido desde la academia, se dice que el Estado de bienestar forma parte de la trayectoria de evolución y progreso de las sociedades occidentales. De entrada, se reconoce que siempre se ha tenido que organizar la satisfacción de las necesidades de las personas y que, antes, si no lo hacía el Estado, lo hacía el pueblo con sus propios recursos. Entonces, se supone que es un gran avance en la historia de la humanidad, vinculado a alguna supuesta "evolución" en la consciencia social solidaria, que esta satisfacción pase a ser una cuestión "pública nacional", en manos del Estado.
 
-##2. La tradición histórica de la comunidad y la ayuda mutua
+## 2. La tradición histórica de la comunidad y la ayuda mutua
 
 La "teoría del Progreso", doctrina oficial fundamental para la justificación del sistema actual, nos viene a decir que la sociedad de hoy en día, donde el Estado y el capitalismo se encuentran hiper-desarrollados, es mucho mejor que todos los estadios anteriores de la historia. Es de manual: los altavoces del sistema difunden que todo lo que existió fuera de él fueron horrores, aún peores que los actuales.
 
@@ -42,7 +42,7 @@ Más tarde, en la sociedad resultante de la revolución liberal e industrial el 
 
 Todas estas estructuras y valores se tuvieron que destruir a sangre y fuego para poder instaurar, durante el franquismo, el Estado de bienestar en "España". Por esto fue imprescindible la intervención militar de 1936-1939.
 
-##3. La crítica al Estado de bienestar
+## 3. La crítica al Estado de bienestar
 
 Las personas anticapitalistas, que estamos a favor de la abolición de la propiedad privada y del trabajo asalariado, rechazamos la institución del Estado. Este posicionamiento había estado siempre claro, todos los análisis clásicos del pensamiento socialista reconocen que el Estado moderno y el capitalismo, desde su origen, fueron de la mano[^6]. Su complicidad y alianza, pues, es un hecho esencial histórico, no reciente, como insinúa quien habla de un supuesto "secuestro de la democracia" en manos de las élites capitalistas/financieras, o de la "teoría de las puertas giratorias"[^7], como si fuera una novedad la alianza sistemática entre las élites políticas y las económicas.
 
@@ -80,7 +80,7 @@ Así pues, hoy en día es menester poner sobre la mesa y desarrollar una crític
 
 [^11]: Sobre la crisis energética, ver las aportaciones más importantes del pedagógico blog ["The Oil Crash"](http://crashoil.blogspot.com.es), de Antonio Turiel, y ["La quiebra del capitalismo global: 2000-2030. El inicio del fin de la energía fósil: una ruptura histórica total"](http://www.ecologistasenaccion.org/article19028.html) (Ramón Fernández Durán, 2011).
 
-##4. Esbozando la crítica a dos pilares esenciales del Estado de bienestar: la educación y la sanidad "públicas"
+## 4. Esbozando la crítica a dos pilares esenciales del Estado de bienestar: la educación y la sanidad "públicas"
 
 Si bien entendemos que lo que mueve a muchas personas a defender una sanidad y una educación "públicas" es una voluntad legítima de educarse y formarse así como de mantener y restaurar la salud, percibimos que, como con tantas otras cosas, las instituciones establecidas se encargan de canalizar estas voluntades populares con las estrategias que más fortalezcan y promuevan sus intereses y valores. Estas estrategias en el caso que nos ocupa son la educación estatal y la sanidad estatal. Así, como hemos explicado al principio, si bien en algunos momentos históricos ha sido el pueblo organizado quien se ha hecho cargo, como ha podido, de la satisfacción de las necesidades de educación y salid, la tendencia imperante desde la extensión de la figura del Estado de bienestar ha sido hacia la delegación de la gestión de estas necesidades en manos de la institución estatal y sus funcionarios, lo que ha conllevado numerosas problemáticas.
 
@@ -100,7 +100,7 @@ Respecto a la sanidad "pública", se mantiene la confusión entre el hecho de qu
 
 Así pues, el quid de la cuestión para afrontar la defensa de lo público en relación a la educación y la sanidad es salir de las dicotomías del sistema e ir a la esencia de los problemas. Esto implica redefinir el concepto de lo público: lo público es aquello de lo que el pueblo controla la _forma_ y el _contenido_. Para controlar la forma y el contenido necesitamos que el pueblo vuelva a ser un sujeto diferenciado del Estado. Sin el pueblo organizado no disponemos de un contenido y de unas formas ajenas al poder oligárquico y a sus valores y el Estado y el mercado se encargan de instaurar los suyos. Seguir defendiendo incansablemente lo público tal y como se hace actualmente es seguir manteniendo y reproduciendo la tergiversadora identificación entre el pueblo y el Estado. Para recuperar una educación y una sanidad verdaderamente públicas y de calidad es imprescindible recuperar el pueblo.
 
-##5. Hacia un posicionamiento actual sobre el Estado de bienestar
+## 5. Hacia un posicionamiento actual sobre el Estado de bienestar
 
 Hoy, inmersos en la actual situación de crisis económica, cada vez más personas se ven empujadas a la pobreza y la precariedad. Esto pasa a la vez (y a causa de) que el Estado y los distintos gobiernos autonómicos recortan presupuestos destinados a ayudas sociales y a financiamiento "público", para satisfacer los intereses de las élites transnacionales y poderse mantener compitiendo en el marco de una economía altamente internacionalizada. A esto se suman las reformas laborales, dictadas desde el marco estatal-capitalista internacional, que han rebajado substancialmente los derechos de los trabajadores asalariados.
 
@@ -114,7 +114,7 @@ Esta concordia es posible, a pesar de que actualmente casi no se haya logrado. H
 
 El posicionamiento que presentamos lo desglosamos en dos partes, una que debería ser claramente compartida por todas aquellas personas, colectivas y organizaciones que nos consideramos revolucionarias, y otra que da margen a diferentes puntos de vista, análisis, valoraciones y decisiones, etc.
 
-###1. Lo que tiene que ser claramente compartido por las personas que nos consideramos revolucionarias:
+### 1. Lo que tiene que ser claramente compartido por las personas que nos consideramos revolucionarias:
 
 Primero, **nos adherimos al proyecto revolucionario**. Esto implica:
 
@@ -126,6 +126,6 @@ Primero, **nos adherimos al proyecto revolucionario**. Esto implica:
 
 Segundo, **siempre que apoyemos o nos involucremos en luchas defensivas**, para presionar contra la retirada de algunas formas de asistencia estatal y poner freno al agravamiento de la injusticia social y los ataques del sistema, **lo hacemos desde un discurso claramente antisistémico**, nítidamente diferenciado de los parámetros reformistas-socialdemócratas, a la vez que no dejamos de dedicar los esfuerzos más vitales a lo constructivo.
 
-###2. Lo que las personas que nos consideramos revolucionarias podemos ver de maneras diferentes
+### 2. Lo que las personas que nos consideramos revolucionarias podemos ver de maneras diferentes
 
 **¿A qué luchas dar apoyo? ¿Qué cantidad de energía dedicarle?** Esto puede ser discutible, ante los escenarios presentes y futuros. No toda la gente revolucionaria tiene que ver conveniente, por importante o estratégico –teniendo en cuenta las propias energías, finitas–, destinar la misma cantidad de energías, recursos y esfuerzos a las distintas luchas, reivindicaciones y resistencias.

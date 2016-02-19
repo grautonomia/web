@@ -7,7 +7,7 @@ subtitle: |
           Ateneu La Idea, 23/10/2015
 ---
 
-##Presentació
+## Presentació
 
 Hola, en primer lloc donar les gràcies als companys de l'Ateneu La Idea[^1] per haver-nos convidat. Em dic Laia i formo part d'un col·lectiu denominat Grup de Reflexió per a l'Autonomia[^2]. El grup va començar amb un altre nom per a l'estudi i la difusió del projecte de la Democràcia Inclusiva (DI)[^3], una proposta de transició cap a una societat ecològica i realment democràtica en allò polític, econòmic i social. Arran de l'esclat del 15M i de diverses influències que ens van anar inspirant, vam decidir deixar de promocionar directament el projecte de la DI i vam passar a definir-nos amb la terminologia més àmplia de "autonomia", entesa com l'autogestió i l'auto-determinació sobre tots els aspectes de la vida personal i col·lectiva en un sentit emancipador, ecològic i de canvi de valors i transformació individual, a part de la construcció d'institucions alternatives i democràtiques d'organització social. En l'actualitat, a part de reflexionar, auto-formar-nos i promoure grups d'estudi sobre qüestions diverses, també hem començat a posar en pràctica les nostres idees a través de l'impuls o la participació en diverses experiències, com la creació d'ateneus cooperatius de barri o comunitats convivencials en el món rural, a part de la coordinació i el contacte amb diferents moviments i iniciatives per determinar una estratègia conjunta de transformació social a llarg termini, així com plantejar-nos nous paradigmes ideològics i filosòfics que ens permetin entendre'ns i entendre la vida al segle XXI.
 
@@ -15,7 +15,7 @@ Hola, en primer lloc donar les gràcies als companys de l'Ateneu La Idea[^1] per
 [^2]: <http://www.grupreflexioautonomia.org>
 [^3]: <http://democraciainclusiva.org>
 
-##Contextualització
+## Contextualització
 
 Respecte la qüestió de la independència i el nacionalisme, al desembre de 2013 vam treure un manifest en el moment en què les elits catalanes van anunciar un referèndum per novembre de 2014. Les preguntes del referèndum eren: "Vols que Catalunya sigui un Estat?" en cas afirmatiu, "Vols que Catalunya sigui independent?". Les úniques formes de contestar a aquesta pregunta blindada per les elits eren Sí-No (opció estatista-federal), No-No (mantenir l'status quo) i Sí-Sí (independència amb creació d'Estat propi). L'única resposta no contemplada era el No-Sí, l'opció llibertària que implicaria que no volem cap Estat però si que volem la independència. Aquesta opció quedava totalment exclosa i nosaltres vam voler donar-li la volta a aquesta situació de marginalitat de la possibilitat de qüestionar l'Estat català i la seva necessitat i assenyalar que la independència real no passa per la construcció d'una estructura de dominació com l'Estat-Nació. Per això, el manifest que vam escriure portava per títol: "Manifest pel No-Sí: la revolució, sense Estat-Nació és la solució"[^4].
 
@@ -31,7 +31,7 @@ Al setembre de 2014 vam iniciar una nova campanya en el mateix sentit, aquest co
 [^8]: <http://silviatomas.net>
 [^9]: <http://www.no-si.cat/news/independència-sense-estat-jornades-de-reflexio,-formacio-i-debat/>
 
-##Idees i posicionaments
+## Idees i posicionaments
 
 Doncs bé, quina és la posició que defensem en aquests manifestos i campanyes, i que seguim mantenint?
 
@@ -53,7 +53,7 @@ En el segon manifest,
 
 - En relació al referèndum posàvem sobre la taula tres posicions "coherents" amb el No-Sí, deixant llibertat personal a la gent per obrar com cregués convenient. Així, proposàvem per una banda l'abstenció activa, d'altra banda el vot No-Si que era un vot no validat, i finalment el Sí-Sí com a mal menor dins del marc actual que no ens deixa altra opció, d'una manera pragmàtica però que no afecta en les nostres energies polítiques del dia a dia que considerem que estan en un altre lloc, ni a les nostres conviccions de fons que coneixen les limitacions i problemes de les vies estatalistes. La nostra posició respecte al vot és aquella que ja va defensar en el seu moment el conegut Ricardo Mella en el seu text «Vota, però escolta», argüint que "tant me fa el que facis el dia de les eleccions, l'important és el que facis els altres 364 dies de l'any ".
 
-##Valoració del present i projectives de futur
+## Valoració del present i projectives de futur
 
 Respecte al present i al futur, com ens posicionem i com pensem seguir?
 
@@ -79,6 +79,6 @@ Finalment, en línies més generals i estratègiques pensem que caldria:
 
 - Proposar i construir una nova via per al poble de Catalunya i per a tots els pobles de la península i més enllà, una via creïble i viable de la qual ja estan emergint, dispersos aquí i allà, molts elements que podrien ser les seves bases.
 
-##Conclusió
+## Conclusió
 
 Segons crec, Catalunya pot fer honor a la seva tradició radical, innovadora, col·lectivista i popular per proposar alternatives reals d'organització social per al segle XXI, més enllà de la típica i falsa "independència" estatalista per la qual volen que lluitem. Aquí entrem de ple en la qüestió de l'anarquisme i del seu ple sentit vinculat també a un discurs de respecte al fet nacional sense incórrer en el nacionalisme. Crec que això és, en part, el que necessitem actualment i que és quelcom radicalment trencador amb l'ordre establert perquè no hi ha partit que ho defensi en aquests termes: només el poble pot impulsar el camí de l'anti-estatisme, el pluralisme, la convivencialitat i l'amor, el decreixement i la connexió amb la terra i la recuperació i regeneració d'una veritable cultura popular. Aquest és el camí a seguir i tant de bó Catalunya pugui ser una inspiració per al més enllà, i que no deixem que les nostres elits d'un o altre color ens distreguin amb pugnes inútils. La inspiració de Rojava al Kurdistan sirià també té molt a aportar-nos. Necessitem que els llibertaris ibèrics entenguin a Catalunya de la mateixa manera que els anarquistes turcs entenen en principi el procés del Kurdistan, que no el neguin pels seus factors específics, sinó que li donin suport com un catalitzador del canvi per a tots.

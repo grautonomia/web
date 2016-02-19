@@ -11,7 +11,7 @@ Hoy nos encontramos ante uno de los retos más grandes de la historia: superar e
 
 Es por esto que algunas personas que estamos hartas de este sistema (cuyos pilares son la economía de mercado y el Estado), que anhelamos la libertad y una sociedad basada en la misma, queremos compartir contigo unas breves reflexiones que consideramos relevantes y muy necesarias.
 
-##Recuperar el significado de democracia
+## Recuperar el significado de democracia
 
 Desde siempre los humanos hemos vivido en sociedad, así que siempre hemos tenido alguna forma de organización social. Entre las distintas formas de organizarnos podemos distinguir dos corrientes antagónicas: la heteronomía y la autonomía.
 
@@ -31,7 +31,7 @@ Nadie puede "representar" la voluntad de nadie. La "representación" es una fala
 
 Escoger la autonomía es apostar por la libertad, entendida no como ausencia de restricciones (concepción liberal) sino como capacidad de hacer, dedicarse al propio desarrollo y participar del autogobierno de la sociedad.
 
-##¿Qué es la asamblea?
+## ¿Qué es la asamblea?
 
 Desde sus inicios, el "movimiento" 15-M hemos establecido acertadamente la asamblea como órgano de toma de decisiones. Pero ¿qué es la asamblea? ¿La concebemos realmente como el órgano soberano de toma de decisiones?
 
@@ -43,13 +43,13 @@ Así, la asamblea popular es la institución política fundamental del pueblo au
 
 Para poder hablar de verdadera democracia no es suficiente la institución de la asamblea, hace falta también una cultura y unos valores que la hagan posible. Se tiene que entender que una sociedad basada en la autonomía es una sociedad basada en la responsabilidad de sus miembros. Así, por ejemplo, es necesario reflexionar, debatir y trabajar individual y colectivamente las cuestiones a tratar antes de asistir a las asambleas, yendo sobre todo a aportar y no sólo a recibir. También es imprescindible que se genere un clima de respeto, confianza y convivencialidad entre las personas.
 
-##La necesidad de crítica, reflexión y mejora
+## La necesidad de crítica, reflexión y mejora
 
 Para poder construir esta nueva sociedad tenemos que des-educarnos y re-educarnos. Es necesario que nos deshagamos de los malos vicios y comportamientos que fomenta y nos ha inculcado el sistema actual y lo es que desarrollemos nuevos valores y cualidades. Así, tenemos que superar el individualismo, el egoísmo, el infantilismo, la inseguridad, el conformismo, el dogmatismo, el inmediatismo, la pereza y todas aquellas características que limitan nuestra capacidad transformadora. A la vez, hay que desarrollar la solidaridad, el apoyo mutuo, el trabajo desinteresado, la capacidad de esfuerzo, la constancia, la perseverancia, la valentía, la honradez y todas aquellas virtudes humanas que harán posible una sociedad autónoma.
 
 Para llevar a cabo este proceso de superación y mejora personal y colectiva es fundamental tanto la crítica como la autocrítica. Hay que saber aceptar y realizar esta crítica. En este sentido, hay que saber criticar y entender que una buena crítica es una muestra de respeto –y no de una falta de éste–, ya que muestra interés y confianza en la mejora del otro. Esta crítica tiene que basarse en la voluntad de mejora y en la apuesta colectiva por el bien común, discutiendo las ideas sin que los "egos" se sientan atacados, en una actitud honesta y positiva. Tiene que ser el compromiso de todos y todas querer ir aprendiendo y mejorando como personas a lo largo de la vida.
 
-##Sólo el pueblo salva el pueblo
+## Sólo el pueblo salva el pueblo
 
 Es fácil ver que los políticos profesionales no harán nada para sustituir el sistema actual por uno en el que seamos el Pueblo quien decide sobre nuestro destino. Esto se debe no sólo a que va contra sus intereses, sino también a que entra en contradicción con las dinámicas del sistema que controlan. Entra en contradicción porque estas dinámicas llevan al aumento de la concentración de poder y no a la distribución igualitaria del mismo. Así, es utópico pensar que en base a reformas al sistema actual podremos superar la crisis y desigualdades inherentes a éste y a la vez construir una nueva sociedad autónoma.
 
@@ -59,7 +59,7 @@ El reto de la transformación social es un reto complejo y difícil. Por eso es 
 
 Para avanzar hacia esta nueva sociedad no es suficiente sólo ir cambiando los valores. En la medida en que algunas personas vayamos tomando consciencia y escojamos luchar por la autonomía, podemos crear nuevas instituciones que apunten hacia una nueva sociedad autónoma. Estas estructuras serán la base de las instituciones de la nueva sociedad y son fundamentales para ir empoderando progresivamente el Pueblo, practicar y ensayar la democracia e ir superando progresivamente muchas de las problemáticas causadas por la economía de mercado capitalista y el Estado. Es decir, una estrategia a largo plazo que dé frutos también a corto plazo. Este cambio paralelo de instituciones y valores es el único que puede garantizar un aumento real de la consciencia a una escala social importante.
 
-##¿Por dónde empezamos?
+## ¿Por dónde empezamos?
 
 En base a estas reflexiones, lanzamos algunas propuestas concretas para el corto plazo:
 

@@ -8,7 +8,7 @@ keywords: [movimiento, revolución, estrategia, sujeto revolucionario,
 > "La miseria es el síntoma, el mal la esclavitud."  
 > _I. Puente_
 
-##Porque hablar de revolución hoy[^1]
+## Porque hablar de revolución hoy[^1]
 
 Hoy el orden establecido se encuentra en cuestionamiento. Cada vez más personas nos damos cuenta de las miserias a las que nos conduce, de cómo nos separa de nuestros iguales, de cómo nos encadena a formas de vida perniciosas y nos impide realizarnos plenamente. Para hacer frente a esta situación están surgiendo por todas partes iniciativas para intentar modificar el sistema actual y para frenar sus efectos perversos. La mayoría de ellas pretenden cambiar de alguna manera u otra la legalidad vigente, tratando de introducir regulaciones para mejorar las dinámicas imperantes y volver al funcionamiento del sistema _antes de la crisis_ o bien conseguir más redistribución de la riqueza y más participación ciudadana, pero manteniendo intacta la esencia oligárquica de las estructuras actuales.
 
@@ -16,7 +16,7 @@ Sin embargo, como podemos constatar históricamente[^2], los intentos de reforma
 
 Además, es fundamental tener en cuenta que lo que hay que cambiar no es sólo ciertas formas políticas o económicas, sino todo lo que éstas llevan implícito y que se traduce en una determinada forma de relacionarnos, educarnos, curarnos, etc. Es decir, es necesario cambiar también la forma de vivir y de entender la vida. Por eso pensamos que es imprescindible recuperar la voluntad y la tarea revolucionaria: construir nuevos valores y formas de organizarnos, acabando con los valores hegemónicos y las instituciones actuales.
 
-##¿Qué entendemos por revolución?
+## ¿Qué entendemos por revolución?
 
 Para empezar, es importante aclarar qué entendemos cuando hablamos de **revolución**, término a menudo confundido con el de **revuelta**, para evitar malentendidos y disponer de un lenguaje compartido:
 
@@ -24,20 +24,20 @@ Para empezar, es importante aclarar qué entendemos cuando hablamos de **revoluc
 
 **Revuelta**: un levantamiento, más o menos espontáneo, contra la autoridad establecida, un momento de agitación y tumulto para intentar deshacerse de la opresión imperante[^3].
 
-###¿De qué revolución estamos hablando?
+### ¿De qué revolución estamos hablando?
 
 Cuando hablamos de una revolución, estamos pensando en realizar un cambio profundo de las estructuras y valores de dominación actuales, sustituyéndolos progresivamente por unas estructuras y valores basados en una verdadera democracia en todos los ámbitos, en la autonomía individual y colectiva, donde los individuos y las comunidades tengan la posibilidad de determinarse directamente a sí mismos. Se trata de impulsar una revolución contraria a cualquier forma de dominación, ya sean estructuras políticas oligárquicas, la opresión de los seres humanos por otros seres humanos, la desigualdad económica, la explotación de la naturaleza, etc. No pensamos en hacer una revolución sólo para acabar con el orden establecido hoy, sino también en una revolución que genere estructuras, procesos y relaciones que minimicen al máximo la dominación. En las siguientes secciones se comentan varias reflexiones sobre esta revolución y como pensarla y realizarla hoy.
 
-##Reflexiones generales para una revolución
+## Reflexiones generales para una revolución
 
 > "La revolución es una fuerza, una voluntad, un deber que es atemporal."  
 > _Anónimo_
 
-###Aprender de la historia, sentirse parte de ella
+### Aprender de la historia, sentirse parte de ella
 
 El anhelo de la revolución, de cambio fundamental del orden establecido, de luchar por la igualdad y contra la dominación, es una constante que encontramos a lo largo de la historia. Cambiar nuestras formas de vida, de una forma no marginal sino que pueda convertirse en hegemónica, implica procesos de magnitud y duración histórica de una gran dificultad. Por ello, para poder hacer la revolución hoy, pensamos que es imprescindible conocer, interpretar e intentar aprender de los intentos pasados, del legado de nuestros antepasados y de sus luchas, continuando con esta tarea histórica. Para aprender realmente de la historia tendremos también que hacernos participes de ella, pensando y adaptando las formas de hacer a los nuevos contextos y situaciones.
 
-###Hay que arrancar las malas hierbas de raíz
+### Hay que arrancar las malas hierbas de raíz
 
 El pueblo, con piedras, armas, o únicamente con sus cuerpos, se ha movilizado históricamente contra el Estado y las otras instituciones de dominación denunciando alguna o varias de sus nefastas consecuencias. Estas acciones de impugnación más o menos explícita del orden establecido son legítimas y dan fuerza colectiva al realizarlas, a la vez que nos sitúan abiertamente enfrentados a las estructuras y valores vigentes. Sin embargo, estas acciones están normalmente centradas en atacar los síntomas y no permiten una verdadera superación de los problemas[^4], en la mayoría de casos el sistema tiene suficiente con un cambio de máscara para detener las movilizaciones populares, solucionando (muchas veces sólo aparentemente) el síntoma que provoca el descontento, haciendo un lavado de cara pero sin tocar la esencia de su funcionamiento, y manteniendo un régimen de dominación que se convierte así en más llevadero.
 
@@ -45,7 +45,7 @@ En otras ocasiones se ha intentado llevar a cabo un cambio profundo del orden es
 
 En los dos casos expuestos, nos encontramos con un problema que imposibilita un cambio como el que nos proponemos: la falta de desarrollo del factor consciente en las personas. Para establecer una sociedad autónoma se requieren personas mínimamente autónomas y por tanto tenemos que construir la autonomía tanto a nivel de los individuos como de las instituciones, debemos arrancar las malas hierbas de raíz, extrayéndolas también de nuestro interior, forjado en el proceso de socialización de una sociedad enferma. Así, si bien muchas veces se ha asociado la revolución con períodos breves de tiempo, pensamos que para que una verdadera revolución sea posible necesitamos al menos el tiempo y el esfuerzo suficientes para consolidar una firme conciencia revolucionaria.
 
-###Ensayando nuevas formas de vivir, construyendo una nueva sociedad
+### Ensayando nuevas formas de vivir, construyendo una nueva sociedad
 
 Uno de los intentos históricos de construir una sociedad basada en la autonomía que encontramos más acertados es la revolución española de 1936. Pensamos que de esta experiencia podemos extraer varios aprendizajes de cara a la actuación revolucionaria en nuestros días. Uno de los más destacables es la construcción de una sociedad paralela, en forma de cooperativas, cultura asociativa, salud y educación autogestionaria, etc. como forma de ensayar nuevas maneras de funcionar con unos valores coherentes con la sociedad que anhelamos.
 
@@ -53,26 +53,26 @@ Al mismo tiempo, esta construcción nos permite hacernos más fuertes y generar 
 
 Esta construcción paralela no sólo debe centrarse en la economía, en la organización de la producción y el consumo, sino, y con la misma importancia, en la cultura, los medios de comunicación, la educación, la política, etc. Tenemos que construir nuevas formas de funcionar, nuevas instituciones en todos los ámbitos que puedan ser camino, visión y embrión de la nueva sociedad.
 
-###Poder e instituciones políticas
+### Poder e instituciones políticas
 
 Otro factor que podemos aprender de la revolución española, es la necesidad de una concepción clara sobre el poder y las instituciones políticas. El movimiento popular organizado que frenó el golpe fascista e hizo la revolución en 1936 estuvo preparándose con éxito durante décadas para gestionar prácticamente todos los sectores de la vida social (desde el abastecimiento de alimentos hasta la defensa). Sin menospreciar la impresionante tarea de autogestión en diversos ámbitos que desarrollaron los compañeros de aquel tiempo, no podemos obviar que no tuvieron como movimiento suficiente claridad ni tácticas entorno a la gestión del ámbito político como para ir desarrollando una forma de organización política paralela que no dejara espacio para el papel del Estado[^6].
 
 Entendemos el poder político como la capacidad de organizar lo colectivo. Este poder siempre existirá, en mayor o menor medida, y lo que tenemos que hacer es encontrar las formas de que  no esté concentrado ni se pueda concentrar, generando las instituciones que nos permitan que se reparta de la forma más igualitaria posible. No negar el poder político, ni pretender gestionarlo de forma concentrada, sino gestionarlo de forma horizontal, ya que negarlo significa dejarlo en manos de los que lo quieren gestionar de forma heterónoma. Es fundamental pues que evitemos los"vacíos de poder", la autonomía debe desarrollarse en todos los ámbitos para poder extenderse.
 
-###"La revolución será global o no será"
+### "La revolución será global o no será"
 
 El par Estado-Capital es un sistema altamente expansivo y agresivo. Así pues, es de esperar que cuando en un territorio las chispas de la libertad y la autonomía se empiecen a expandir, otros territorios organizados con las viejas formas heterónomas, ataquen el territorio revolucionario, para mantener el orden mundial y re-establecer un régimen de dominación. Por ello es importante extender las ideas y prácticas revolucionarias para que lleguen a todos los rincones del mundo y hacer red entre todas las personas, movimientos y proyectos que están luchando contra el orden de dominación vigente.
 
-###No esperar la revolución, crearla
+### No esperar la revolución, crearla
 
 Debemos esforzarnos para crear las condiciones propicias para la revolución, no esperarla sino quererla, para convertirla en una posibilidad real. Así, _"la revolución es ya una posibilidad real cuando es pensada desde sí misma, como proyecto transformador y rupturista de la realidad inmediata, para adecuar los medios precisos disponibles en el presente para su realización exitosa. La revolución ya es una posibilidad desde el momento en el que la acción está encaminada a su consecución"_[^7]. Efectivamente, el pensamiento y el sentimiento son pasos previos a la acción. Si no pensamos y sentimos la revolución, no seremos capaces de realizarla nunca. No por casualidad _"llevamos un mundo nuevo en nuestros corazones y ese mundo está creciendo en este momento"_. Debemos pensar, sentir y crear la realidad que queremos, encontrar las formas concretas de pasar de la idea, del anhelo, a la realidad.
 
-##Elementos para una revolución en el siglo XXI
+## Elementos para una revolución en el siglo XXI
 
 > "Las revoluciones no son hijas del estomago, son hijas del pensamiento."  
 > _Soledad Gustavo_
 
-###Hoy
+### Hoy
 
 Para pensar y hacer la revolución  es inevitable analizar la situación en que nos encontramos en cada momento. Actualmente nos encontramos en un mundo hiper-industrializado, depredador de recursos, regido por una salvaje economía de mercado y grandes Estados, instituciones que se disfrazan de garantes de la seguridad y la libertad, pero que en realidad no son más que máscaras para mantener unos regímenes de dominación y de explotación. En estos territorios sobreviven individuos individualizados e individualistas, alienados y cómplices del sistema, que en su mayoría no se cuestionan el orden establecido sino que optan por una apatía y un victimismo conformista.
 
@@ -80,7 +80,7 @@ Hoy el mundo está en crisis. En occidente se desploman los valores de una civil
 
 Así, se nos abre una ventana de oportunidad, un momento en el que se hacen muy evidentes las contradicciones del propio sistema y la incapacidad del Estado y el mercado para cubrir las necesidades humanas más básicas. Esta ventana se abre después de décadas de desarrollo del Estado de bienestar en occidente, de llenar los estómagos vaciando el espíritu, de aniquilar las comunidades y sus lazos de ayuda mutua dejando sólo individuos aislados e insociables[^8]. Frente a este panorama nos preguntamos: ¿quién puede hacer la revolución hoy?
 
-###El sujeto revolucionario
+### El sujeto revolucionario
 
 El sujeto revolucionario es el grupo social que realiza o puede llevar a cabo la revolución. Durante la modernidad, la concepción más ampliamente aceptada era que el proletariado, la clase trabajadora, era el máximo exponente del sujeto revolucionario; actualmente, con el crecimiento de los trabajos en el sector terciario en Europa, la externalización de las actividades industriales en países con menos controles laborales y medioambientales, y la exclusión de cada vez más capas de la población del trabajo asalariado, la conciencia de clase proletaria se encuentra bajo mínimos y ni siquiera se puede hablar propiamente del proletariado como tal.
 
@@ -92,7 +92,7 @@ Pensamos que la conjugación de la potencia de las ideas revolucionarias y la gr
 
 En este sentido, es necesario desarrollar buenas actitudes convivenciales, restaurar el buen trato con los demás y potenciar la empatía y la comprensión entre iguales. Las buenas actitudes también incluyen la sinceridad, la autocrítica y la crítica constructiva, desde el respeto y el amor pero sin caer en un"buenrollismo"anestésico que no nos permite avanzar. Asimismo, es fundamental que no sólo luchemos para construir nuevas estructuras a nivel exterior sino también, a nivel individual e interior, repensar qué dinámicas negativas estamos reproduciendo: enfrentamientos personales, actitudes intransigentes, falta de compromiso y humildad, victimismo, etc. son problemas que minan nuestro potencial y es necesario que cada uno seamos conscientes de los propios, y que nos comprometamos a cambiarlos y ayudarnos mutuamente a cambiarlos para poder tener una actitud más constructiva, abierta y honesta, una actitud verdaderamente revolucionaria[^9].
 
-###Hacia una revolución integral
+### Hacia una revolución integral
 
 Si bien en algunos momentos se ha tenido en cuenta la necesidad de un cambio personal y al mismo tiempo de estructuras, normalmente se ha hecho mucho más énfasis en uno de los dos. Creemos que es necesario una superación del falso dilema entre cambio social o cambio personal, ya que ambos cambios, el exterior y el interior van de la mano y deben avanzar en paralelo. No podemos pretender hacer ninguna modificación sustancial del orden establecido si no nos auto-construimos al mismo tiempo como sujetos con habilidades, voluntad y riqueza interior.
 
@@ -100,11 +100,11 @@ El vacío interior es un problema especialmente grave hoy, se ha perdido cualqui
 
 Además, hay que considerar que el cambio sistémico debe abarcar todos los niveles de la existencia personal y colectiva y aplicarse a todas las dimensiones de la vida, modificándolas sustancialmente en un sentido emancipador.
 
-###Amplitud de miras
+### Amplitud de miras
 
 Nuestras metas no pueden estar guiadas simplemente por lo que creemos más realizable; dotarnos de metas como la revolución, que pueden parecer irrealizables, nos proporciona la orientación que deben seguir nuestros actos si queremos hacer de este mundo un lugar habitable. Debemos ser conscientes de que realizar la revolución de la que estamos hablando, construir esta nueva humanidad contra la barbarie imperante con los medios e inercia del **status quo** actual es altamente difícil, pero es al mismo tiempo un reto ineludible &mdash;estamos en una encrucijada histórica como humanidad, de consecuencias imprevisibles&mdash; y válido por sí mismo, independientemente del resultado que logremos. Debemos armarnos de responsabilidad histórica y grandeza de miras, ir a por todas y no ponernos nosotros mismos más límites que los que ya tenemos.
 
-###Estrategia[^11]
+### Estrategia[^11]
 
 Entendemos la estrategia como la concepción general y el plan de acción concreto para alcanzar unos objetivos desde un punto de partida. En este caso la estrategia a desarrollar es la de hacer una revolución democrática integral en el siglo XXI; una estrategia basada en la realidad actual y los aprendizajes del pasado. Seguidamente esbozamos algunas humildes propuestas en este sentido:
 
@@ -126,7 +126,7 @@ Entendemos la estrategia como la concepción general y el plan de acción concre
 Por otro lado, la violencia física, la represión, la imposición, etc. son sus armas, son parte de su mundo. Nosotros tenemos otro paradigma y por lo tanto tenemos que buscar minimizar la violencia y, éticamente, maximizar el respeto hacia toda vida humana, usándola sólo cuando sirva a la consecución de este fin, cuando sea la única vía que nos quede para reducir la violencia sistémica. En este sentido, nos sentimos afines a un principio básico de la estrategia que nos recordaba Sun Tzu _"La mejor batalla es la que se gana sin combatir"_.  
 No obstante, no podemos obviar que las élites, al querer mantener y perpetuar el sistema establecido, atacarán y perfeccionarán las formas de represión hacia quien lo ponga en cuestionamiento. Es más, es muy probable que a medida que seamos más en la tarea revolucionaria la violencia sea más contundente. Por lo tanto, vemos necesario pensar y ensayar formas para defender todo lo que estamos construyendo y encontrar las mejores maneras de confrontar el aparato represor del Estado, adecuándonos a los contextos que vamos viviendo, pero sin hacer de la violencia el centro de la tarea revolucionaria.
 
-###Algunas tácticas
+### Algunas tácticas
 
 De acuerdo con estas líneas generales de la estrategia proponemos un esbozo de algunas tácticas que podemos llevar a cabo en nuestros territorios desde ahora. Pensamos que siempre que podamos debemos plantear tácticas que dependan al máximo de nuestra acción, ya que estas serán las más realizables, centrarnos en qué haremos nosotros y no en que pediremos o qué derechos tenemos que reclamar. Por brevedad sólo explicamos algunas tácticas a las que pensamos que habría que dar más impulso en el estadio actual[^14]:
 

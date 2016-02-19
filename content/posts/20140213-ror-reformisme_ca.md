@@ -10,7 +10,7 @@ files:
     - ['PDF en castellano', 'ror_reformisme_es.pdf']
 ---
 
-##1. Sobre el reformisme
+## 1. Sobre el reformisme
 
 Entenem per **reformistes** els plantejaments que **tenen com a objectiu reformar l'actual marc institucional i de valors sense proposar cap marc institucional alternatiu**. El reformisme es pot dur a terme mitjançant una varietat de tàctiques que van des de l'intent de conquerir el poder de l'Estat fins al propòsit de canviar les institucions exercint pressió per part de les organitzacions de la "societat civil", etc. Més concretament, l'antiga estratègia socialdemòcrata era reformista (perquè tenia l'objectiu de "socialitzar" progressivament les institucions existents i la propietat) així com ho són els plantejaments de "profunditzar o radicalitzar la democràcia" per "fer-la més participativa" o els moviments socials parcials que, sense menystenir la importància de les qüestions que volen abordar, no impugnen la globalitat del sistema ni tenen una proposta coherent per a reemplaçar-lo en la seva totalitat (per exemple els moviments per la igualtat de gènere, els moviments en defensa del medi natural, els moviments per a la protecció de la cultura i la llengua, etc.).
 
@@ -18,7 +18,7 @@ Per contra, entenem per **revolucionaris** aquells plantejaments que **tenen l'o
 
 Així doncs, podem dir que "reformisme o no reformisme" és una dicotomia que va associada als fins i no als mitjans. En aquest sentit, existeixen molts projectes com alguns que acabem de citar, que poden ser o no reformistes en funció dels seus objectius. Molts d'aquests projectes es poden realitzar com a part d'una estratègia més àmplia per bastir un moviment emancipador global i ser, per tant, tàctiques emancipadores[^1].
 
-##2. El fracàs del reformisme en tant que estratègia
+## 2. El fracàs del reformisme en tant que estratègia
 
 En les darreres dècades hem viscut nombrosos intents fracassats d'aplicar estratègies reformistes per intentar canviar la societat. Un exemple paradigmàtic d'aquest fracàs el podem constatar en l'evolució dels partits socialdemòcrates, en particular després dels trenta anys de consens socialdemòcrata a bona part del món (1945-1975). Aquests partits van acabar renunciant als seus "ideals" (plena ocupació, extensió de l'Estat de benestar, redistribució de la riquesa, etc.) i incorporant-se totalment al consens neoliberal, convertint-se en els actuals partits social-liberals[^2]. Davant d'això podem concloure que aquestes estratègies no només no ens condueixen a una societat basada en l'autonomia[^3], sinó que fins i tot a efectes pràctics acaben enfortint les pròpies institucions oligàrquiques i els sistemes de valors corresponents. Això és degut a que l'estratègia reformista és en si mateixa insuficient, utòpica i a-històrica, a part d'indesitjable.
 
@@ -28,7 +28,7 @@ Per altra banda, és **a-històrica** perquè ignora que actualment la dinàmica
 
 Per últim, l'estratègia reformista és **indesitjable** perquè ni en el millor dels casos pot portar a una consciència de l'amplitud dels canvis que és menester tirar endavant per provocar un canvi social real. Per exemple, diversos sectors (sovint associats a corrents trotskistes) sostenen que les demandes reformistes poden fer-se amb fins revolucionaris, perquè el més que probable incompliment d'aquestes per part de les elits del poder pot produir –segons ells– una radicalització de la consciència que a la vegada pot portar a una situació revolucionària. No obstant, tot i tenir certa lògica aparent, aquest tipus d'argumentacions són pernicioses per dos motius: en primer lloc perquè es basen en una concepció instrumentalista del poble que oblida –sense voler o deliberadament– que el camí a una societat realment democràtica[^5] implica transparència; en segon lloc per què a la pràctica condueixen a un afebliment del pensament antisistèmic a mig termini, a causa de l'oblit progressiu que inevitablement provoca una pràctica tan allunyada dels objectius suposadament revolucionaris. En canvi, en una estratègia revolucionària, els objectius són explícits i els mitjans o tàctiques que es fan servir són coherents amb aquests objectius, ja que s'entén que **_no es pot superar l'alienació amb mitjans alienants_**.
 
-##3. El reformisme avui: cap a la seva superació
+## 3. El reformisme avui: cap a la seva superació
 
 Si bé hem argumentat la impossibilitat de qualsevol estratègia reformista de resoldre la crisi multidimensional que ens afecta, creiem que moltes iniciatives reformistes comparteixen característiques positives, com el fet de dedicar cert temps de la vida a intentar millorar la societat –i no a l'interès particular– , de mirar la realitat amb ull crític o d'estar obert a debatre sobre com millorar-la. Ens volem distanciar, d'aquesta manera, dels sectors "revolucionaris" puristes que només critiquen a tort i a dret sense proposar alternatives, perquè estem convençuts que **el projecte revolucionari només pot construir-se des del diàleg crític constructiu entre les persones que constitueixen el poble**. Per tant, el que intentem fer aquí és una crítica constructiva, que permeti que el potencial de moltes persones que  estan –o en un futur poden estar– involucrades en iniciatives de caràcter reformista es pugui aplicar en una direcció veritablement transformadora i alliberadora.
 

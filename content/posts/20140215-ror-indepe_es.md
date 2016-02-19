@@ -4,7 +4,7 @@ keywords: [independencia, autodeterminación, pueblo, Estado catalán,
           autogobierno]
 ---
 
-##Introducción
+## Introducción
 
 En los últimos años hemos sido testigos de un auge independentista en la sociedad catalana, que se ha visualizado en diferentes movilizaciones masivas. En Cataluña ha culminado con el anuncio de la convocatoria de un referéndum el próximo 9 de noviembre para consultar a la ciudadanía sobre la formación de un Estado catalán.
 
@@ -18,7 +18,7 @@ Con expresiones y vocablos como "derecho a decidir", "autodeterminación de los 
 
 Desde este texto intentaremos indagar en aquello que podría implicar la creación de un Estado propio para debatir y averiguar desde la base cuál o cuáles estrategias queremos seguir a la hora de construir una sociedad verdaderamente democrática –de verdadero autogobierno- y ejercer consecuentemente nuestro derecho de autodeterminación como pueblo.
 
-##Relación entre Estado y capitalismo
+## Relación entre Estado y capitalismo
 
 ¿Cuál es la razón de ser de la figura del Estado? Como ya hicimos referencia en el "Manifiesto No-Si", _"el Estado-nación es un aparato de dominación y de coerción profesional que se instauró socavando y desmantelando las instituciones realmente democráticas de la sociedad popular tradicional, como el Consejo Abierto y el Comunal en la Península Ibérica. (...) No hay un solo Estado en el mundo que no esté manchado de sangre, lleno de injusticia, erigido en base al engaño y a la explotación de los seres humanos y la naturaleza"_.
 
@@ -30,7 +30,7 @@ Desde la izquierda independentista, incluso de la que se autodenomina "anticapit
 
 Así mismo, como ya hemos visto en el debate sobre reformismo, los discursos de la izquierda "radical" y de la socialdemocracia por los cuales se defiende el retorno a un Estado de bienestar como el anterior a la crisis suponen caer en retórica utópica y a-histórica, ya que el funcionamiento de un Estado donde prevalga el asistencialismo social iría en contra de las dinámicas de mercado internacionalizado y a la larga estaría abogado al fracaso[^5].
 
-##El papel del Estado como "garante de la cultura"
+## El papel del Estado como "garante de la cultura"
 
 Uno de los argumentos principales que se esgrime en la defensa de la creación de un Estado catalán es la necesidad de proteger la cultura y lengua catalana contra los ataques del imperialismo español. Este argumento nos genera muchas dudas ya que se propone la creación de un Estado como solución; en el caso de la lengua, no hace falta ir más allá de la Península Ibérica para ver ejemplos de aquello que implica "oficializar" o "normativizar" una lengua por parte del Estado –que muchas veces se trata de imponer como oficial el dialecto hegemónico o de hacer una mezcla artificial de dialectos que no tiene contrapartida oral en la sociedad- en perjuicio de los otros dialectos que serán considerados subordinados o derivados del oficial[^6]. Esto da lugar a una jerarquización y centralización cultural impuesta de forma heterónoma por el ente estatal. Pero, ¿cuál es la razón de ser de esta estratagema estatal?
 

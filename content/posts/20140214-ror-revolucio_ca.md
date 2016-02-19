@@ -14,7 +14,7 @@ files:
 > "La misèria és el símptoma, el mal l'esclavitud."  
 > _I. Puente_
 
-##Perquè parlar de revolució avui[^1]
+## Perquè parlar de revolució avui[^1]
 
 Avui l'ordre establert es troba en qüestionament. Cada cop més persones ens adonem de les misèries a què ens condueix, de com ens separa dels nostres iguals, de com ens encadena a formes de vida pernicioses i ens impedeix realitzar-nos plenament. Per fer front a aquesta situació estan sorgint arreu iniciatives per intentar modificar el sistema actual i per frenar els seus efectes perversos. La majoria d'elles pretenen canviar d'alguna manera o altra la legalitat vigent, tractant d'introduir regulacions per millorar les dinàmiques imperants i tornar al funcionament del sistema _abans de la crisi_ o bé aconseguir més redistribució de la riquesa i més participació ciutadana, però mantenint intacta l'essència oligàrquica de les estructures actuals.
 
@@ -22,7 +22,7 @@ Tot i això, com podem constatar històricament[^2], els intents de reformar l'a
 
 A banda, és fonamental tenir en compte que allò que cal canviar no són només unes certes formes polítiques o econòmiques, sinó tot allò que aquestes porten implícit i que es tradueix en una determinada forma de relacionar-nos, educar-nos, curar-nos, etc. És a dir,  és necessari canviar també la forma de viure i d'entendre la vida. Per això pensem que és imprescindible recuperar la voluntat i la tasca revolucionària: construir nous valors i formes d'organitzar-nos, tot acabant amb els valors hegemònics i les institucions actuals.
 
-##Què entenem per revolució?
+## Què entenem per revolució?
 
 Per començar, és important aclarir què entenem quan parlem de **revolució**, terme sovint confós amb el de **revolta**, per evitar malentesos i disposar d'un llenguatge compartit:
 
@@ -30,20 +30,20 @@ Per començar, és important aclarir què entenem quan parlem de **revolució**,
 
 **Revolta**: un alçament, més o menys espontani, contra l'autoritat establerta, un moment d'agitació i avalot per intentar desfer-se de l'opressió imperant[^3].
 
-###De quina revolució estem parlant?
+### De quina revolució estem parlant?
 
 Quan parlem de realitzar una revolució, estem pensant en realitzar un canvi profund de les estructures i valors de dominació actuals, substituint-les progressivament per unes estructures i valors basats en una veritable democràcia en tots els àmbits, en  l'autonomia individual i col·lectiva, on els individus i les comunitats tinguin la possibilitat de determinar-se  directament a si mateixos. Es tracta d'impulsar una revolució contrària a qualsevol forma de dominació, ja siguin estructures polítiques oligàrquiques, l'opressió dels éssers humans per altres éssers humans, la desigualtat econòmica, l'explotació de la natura, etc. No pensem en fer una revolució només per acabar amb l'ordre establert avui, sinó també en una revolució que generi estructures, processos i relacions que minimitzin al màxim la dominació. En les següents seccions es comenten diverses reflexions sobre aquesta revolució i com pensar-la i realitzar-la avui.
 
-##Reflexions generals per una revolució
+## Reflexions generals per una revolució
 
 > "La revolució és una força, una voluntat, un deure que és atemporal."  
 > _Anònim_
 
-###Aprendre de la història, sentir-se part d'ella
+### Aprendre de la història, sentir-se part d'ella
 
 L'anhel de la revolució, de canvi fonamental de l'ordre establert, de lluitar per la igualtat i contra la dominació és una constant que trobem al llarg de la història. Canviar les nostres formes de vida, d'una forma no marginal sinó que pugui esdevenir hegemònica, implica processos de magnitud i durada històrica d'una gran dificultat. Per això, per poder fer la revolució avui, pensem que és imprescindible conèixer, interpretar i intentar aprendre dels intents passats, del llegat dels nostres avantpassats i de les seves lluites, continuant amb aquesta tasca històrica. Per aprendre realment de la història caldrà també entendre'ns part d'ella, pensant i adaptant les formes de fer als nous contextos i situacions.
 
-###Les males herbes s'han d'arrencar d'arrel
+### Les males herbes s'han d'arrencar d'arrel
 
 El poble, amb pedres, armes o únicament amb els seus cossos, s'ha mobilitzat històricament contra l'Estat i les altres institucions de dominació tot denunciant alguna o diverses de les seves nefastes conseqüències. Aquestes accions d'impugnació més o menys explícita de l'ordre establert són legítimes i donen força col·lectiva en realitzar-les, alhora que ens situen obertament enfrontats a les estructures i valors vigents. Tot i això, aquestes accions estan normalment centrades en atacar els símptomes i no permeten una veritable superació dels problemes[^4]; en la majoria de casos el sistema en té prou per aturar les mobilitzacions populars amb un canvi de màscara, solucionant (molts cops només aparentment) el símptoma que provoca el descontentament, fent un rentat de cara però  sense tocar l'essència del seu funcionament i mantenint un règim de dominació que esdevé així més suportable.
 
@@ -51,7 +51,7 @@ En altres ocasions s'ha intentat portar a terme un canvi profund de l'ordre esta
 
 En els dos casos exposats, ens trobem amb un problema que impossibilita un canvi com el proposat: la manca de desenvolupament del factor conscient en les persones. Per poder establir una societat autònoma es requereixen persones mínimament autònomes i per tant hem de construir l'autonomia tant a nivell dels individus com de les institucions, hem d'arrencar les males herbes d'arrel, extraient-les també del nostre interior, forjat en el procés de socialització d'una societat malalta. Així, si bé moltes vegades s'ha associat la revolució amb períodes breus de temps, pensem que per tal que una veritable revolució sigui possible ens cal almenys el temps i l'esforç suficients per consolidar una ferma consciència revolucionària.
 
-###Assajant noves formes de viure, construint una nova societat
+### Assajant noves formes de viure, construint una nova societat
 
 Un dels intents històrics que trobem més encertats de construir una societat basada en l'autonomia és la revolució espanyola de 1936. Pensem que d'aquesta experiència podem extreure'n diversos aprenentatges de cara a l'actuació revolucionària en els nostres dies.  Un dels més destacables és la construcció d'una societat paral·lela, en forma de cooperatives, cultura associativa, salut i educació autogestionària, etc. com a forma d'assajar noves maneres de funcionar amb uns valors coherents amb la societat que anhelem.
 
@@ -59,26 +59,26 @@ Al mateix temps, aquesta construcció ens permet fer-nos més forts i generar au
 
 Aquesta construcció paral·lela no només ha de centrar-se en l'economia, en l'organització de la producció i el consum, sinó, i amb la mateixa importància, en la cultura, els mitjans de comunicació, l'educació, la política, etc. Cal que construïm noves formes de funcionar, noves institucions en tots els àmbits que puguin ser camí, visió i embrió de la nova societat.
 
-###Poder i institucions polítiques
+### Poder i institucions polítiques
 
 Un altre factor que podem aprendre de la revolució espanyola, és la necessitat d'una concepció clara sobre el poder i les institucions polítiques. El moviment popular organitzat que va frenar el cop feixista i va fer la revolució al 1936 va estar preparant-se amb èxit durant dècades per gestionar pràcticament tots els sectors de la vida social (des de l'abastiment d'aliments fins a la defensa). Sense menystenir la impressionant tasca d'autogestió en diversos àmbits que van desenvolupar els companys d'aquell temps, no podem obviar que no van tenir com a moviment prou claredat ni tàctiques entorn a la gestió de l'àmbit polític com per anar desenvolupant una forma d'organització política paral·lela que no deixés espai pel paper de l'Estat[^6].
 
 Entenem el poder polític com la capacitat d'organitzar allò col·lectiu. Aquest poder sempre existirà, en major o menor mesura, i el que hem de fer és trobar les formes per tal que aquest no estigui concentrat, ni es pugui concentrar, generar les institucions que ens permetin que es reparteixi de la forma més igualitària possible. No negar el poder polític, ni entrar a gestionar-lo de forma concentrada, sinó gestionar-lo de forma horitzontal ja que negar-lo significa deixar-lo en mans dels que volen gestionar-lo de forma heterònoma. És fonamental doncs que evitem els "buits de poder", l'autonomia s'ha de desenvolupar en tots els àmbits per poder estendre's.
 
-###"La revolució serà global o no serà"
+### "La revolució serà global o no serà"
 
 El parell Estat-Capital és un sistema altament expansiu i agressiu. Així doncs, és d'esperar que quan en un territori les espurnes de la llibertat i l'autonomia es comencin a expandir, altres territoris organitzats amb les velles formes heterònomes, ataquin el territori revolucionari, per tal de mantenir l'ordre mundial i re-establir un règim de dominació. Per això és important estendre les idees i pràctiques revolucionàries per a que arribin a tots els racons del món i fer xarxa entre totes les persones, moviments i projectes que estan lluitant arreu contra l'ordre de dominació vigent.
 
-###No esperar la revolució, crear-la
+### No esperar la revolució, crear-la
 
 Hem d'esforçar-nos per a crear les condicions propícies per a la revolució, no esperar-la sinó voler-la, per a convertir-la en una possibilitat real. Així, _"la revolució és ja una possibilitat real quan és pensada des de si mateixa, com a projecte transformador i rupturista de la realitat immediata, per adequar els mitjans precisos disponibles en el present per a la seva realització amb èxit. La revolució ja és una possibilitat des del moment en què l'acció està encaminada a la seva consecució"_[^7]. Efectivament, el pensament i el sentiment són passos previs a l'acció, si no pensem i sentim la revolució no serem capaços de realitzar-la mai. No per casualitat _"portem un món nou als nostres cors i aquest món està creixent en aquest moment"_. Hem de pensar, sentir i crear la realitat que volem, trobar les formes concretes de passar de la idea, de l'anhel a la realitat.
 
-##Elements per una revolució al segle XXI
+## Elements per una revolució al segle XXI
 
 > "Las revoluciones no son hijas del estomago, son hijas del pensamiento."  
 > _Soledad Gustavo_
 
-###L'avui
+### L'avui
 
 Per pensar i fer la revolució és inevitable analitzar la situació en què ens trobem en cada moment. Actualment ens trobem en un món hiperindustrialitzat, depredador de recursos, regit per una salvatge economia de mercat i grans Estats, institucions que es disfressen de garants de la seguretat i la llibertat, però que en realitat no són més que màscares per mantenir uns règims de dominació i d'explotació. En aquests territoris sobreviuen individus individualitzats i individualistes, alienats i còmplices del sistema, que en la seva majoria no és qüestionen l'ordre establert sinó que opten per una apatia i un victimisme conformista.
 
@@ -86,7 +86,7 @@ Avui el món està en crisi. A occident es desplomen els valors d'una civilitzac
 
 Així, se'ns obre una finestra d'oportunitat, un moment en què es fan molt evidents les contradiccions del propi sistema i la incapacitat de l'Estat i el mercat per cobrir les necessitats humanes més bàsiques. Aquesta finestra s'obre després de dècades de desenvolupament de l'Estat de benestar a occident, d'omplir les panxes tot buidant l'esperit, d'aniquilar les comunitats i els seus llaços d'ajuda mútua deixant només individus aïllats i insociables[^8]. Davant d'aquest panorama ens preguntem: qui pot fer la revolució avui?
 
-###El subjecte revolucionari
+### El subjecte revolucionari
 
 El subjecte revolucionari és el grup social que realitza o pot portar a terme la revolució. Durant la modernitat la concepció més àmpliament acceptada era que el proletariat, la classe treballadora,  era el màxim exponent del subjecte revolucionari; actualment, amb el creixement dels treballs en el sector terciari a Europa, l'externalització de les activitats industrials a països amb menys controls laborals i mediambientals, i l'exclusió de cada cop més capes de la població del treball assalariat, la consciència de classe proletària es troba sota mínims i ni tant sols es pot parlar pròpiament del proletariat com a tal.
 
@@ -98,7 +98,7 @@ Pensem que la conjugació de la potència de les idees revolucionàries i la gra
 
 En aquest sentit, és necessari desenvolupar bones actituds convivencials, restaurar el bon tracte amb els altres i potenciar l'empatia i la comprensió entre iguals. Les bones actituds també inclouen la sinceritat, l'autocrítica i la crítica constructiva, des del respecte i l'amor però sense caure en un "bonrotllisme" anestèsic que no ens permet avançar. Així mateix, és fonamental que no només lluitem per construir noves estructures a nivell exterior sinó també que a nivell individual i interior repensem quines dinàmiques negatives estem reproduint: enfrontaments personals, actituds intransigents, falta de compromís i humilitat, victimisme, etc. són problemes que minen el nostre potencial i cal que cadascú sigui conscient dels propis i ens comprometem a canviar-los i ajudar-nos mútuament, a canviar-los per tal de poder tenir una actitud més constructiva, oberta i honesta, una actitud veritablement revolucionària[^9].
 
-###Cap a una  revolució integral
+### Cap a una  revolució integral
 
 Si bé en alguns moments s'ha tingut en compte la necessitat d'un canvi personal i alhora d'estructures, normalment s'ha fet molt més èmfasi en un dels dos. Creiem que és necessari una superació del fals dilema entre canvi social o canvi personal, ja que tots dos canvis, l'exterior i l'interior van donats de la mà i han d'avançar en paral·lel. No podem pretendre fer cap modificació substancial de l'ordre establert si no ens auto-construïm al mateix temps com a subjectes amb habilitats, voluntat i riquesa interior.
 
@@ -106,11 +106,11 @@ La buidesa interior és un problema especialment greu avui, s'ha perdut qualsevo
 
 A més, cal considerar que el canvi sistèmic ha d'abastar tots els nivells de l'existència personal i col·lectiva i aplicar-se a totes les dimensions de la vida, modificant-les substancialment en un sentit emancipador.
 
-###Grandesa de mires
+### Grandesa de mires
 
 Les nostres metes no poden estar guiades simplement per allò que creiem més realitzable; dotar-nos de metes com la revolució, que poden semblar irrealitzables, ens proporciona l'orientació que han de seguir els nostres actes si volem fer d'aquest món un lloc habitable. Hem de ser conscients que fer la revolució de la qual estem parlant, construir aquesta nova humanitat contra la barbàrie imperant amb els mitjans i inèrcia de **l'status quo** actual és altament difícil, però és al mateix temps un repte ineludible –estem en una cruïlla històrica com a humanitat, de conseqüències imprevisibles– i vàlid per si mateix, independentment del resultat que assolim. Ens hem d'omplir de responsabilitat històrica i grandesa de mires, anar a per totes i no posar-nos nosaltres mateixos més límits dels que ja tenim.
 
-###Estratègia[^11]
+### Estratègia[^11]
 
 Entenem l'estratègia com la concepció general i el pla d'acció concret per assolir uns objectius des d'un punt de partida. En aquest cas, l'estratègia a desenvolupar és la de fer una revolució democràtica integral al segle xxi; una estratègia basada en la realitat actual i els aprenentatges del passat. Seguidament n'esbossem algunes humils propostes:
 
@@ -132,7 +132,7 @@ Entenem l'estratègia com la concepció general i el pla d'acció concret per as
 Altrament, la violència física, la repressió, la imposició, etc. són les seves armes, són part del seu món. Nosaltres tenim un altre paradigma i per tant hem de buscar minimitzar la violència i, èticament, maximitzar el respecte cap a tota vida humana, usant la violència física només quan aquesta serveixi a la consecució d'aquest fi, quan sigui l'única via que ens quedi per reduir la violència sistèmica. En aquest sentit, ens sentim afins a un principi bàsic de l'estratègia que ens recordava Sun Tzu _"la millor batalla és la que es guanya sense lliurar-se"_.  
 No obstant, no podem obviar que les elits, al voler mantenir i perpetuar el sistema establert, atacaran i perfeccionaran les formes de repressió cap a qui el posi en qüestionament. És més, és molt probable que a mesura que siguem més en aquesta tasca revolucionària, la violència sigui més contundent. Per tant, veiem necessari pensar i assajar formes per defensar tot allò que estem construint i trobar les millors maneres de confrontar l'aparell repressor de l'Estat, tot adequant-nos als contextos que anem vivint, però sense fer de la violència el centre de la tasca revolucionària.
 
-###Algunes tàctiques
+### Algunes tàctiques
 
 D'acord amb aquestes línies generals de l'estratègia proposem un esbós d'algunes tàctiques que podem portar a terme als nostres territoris des d'ara mateix. Pensem que sempre que puguem hem de plantejar tàctiques que depenguin al màxim de la nostra acció, ja que aquestes seran les més realitzables, centrar-nos en què farem nosaltres i no en què demanarem o quins drets hem de reclamar. Per fer-ho breu expliquem només algunes tàctiques sobre les que pensem que caldria donar més impuls en l'estadi actual[^14]:
 

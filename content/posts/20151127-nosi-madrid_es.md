@@ -5,7 +5,7 @@ subtitle: |
           Ateneo La Idea, 23/10/2015
 ---
 
-##Presentación
+## Presentación
 
 Hola, en primer lugar dar las gracias a los compañeros del Ateneo La Idea[^1] por su invitación. Me llamo Laia, y formo parte de un colectivo denominado Grupo de Reflexión para la Autonomía[^2]. El grupo empezó con otro nombre para el estudio y la difusión del proyecto de la Democracia Inclusiva (DI)[^3], una propuesta de transición hacia una sociedad ecológica y realmente democrática en lo político, económico y social. A raíz del estallido del 15M y de diversas influencias que nos fueron inspirando, decidimos dejar de promocionar directamente el proyecto de la DI y pasamos a definirnos con la terminología más amplia de "autonomía", entendida como la autogestión y la auto-determinación sobre todos los aspectos de la vida personal y colectiva en un sentido emancipador, ecológico y de cambio de valores i transformación individual, aparte de la construcción de instituciones alternativas y democráticas de organización social. En la actualidad, aparte de reflexionar, auto-formarnos y promover grupos de estudio sobre cuestiones diversas, también hemos empezado a poner en práctica nuestras ideas a través del impulso o la participación en diversas experiencias como la creación de ateneos cooperativos de barrio o comunidades convivenciales en el mundo rural, aparte de la coordinación y el contacto con distintos movimientos e iniciativas para determinar una estrategia conjunta de transformación social a largo plazo, así como plantearnos nuevos paradigmas ideológicos i filosóficos que nos permitan entendernos y entender la vida en el siglo XXI.
 
@@ -13,7 +13,7 @@ Hola, en primer lugar dar las gracias a los compañeros del Ateneo La Idea[^1] p
 [^2]: <http://www.grupreflexioautonomia.org/es/>
 [^3]: <http://democraciainclusiva.org/eindex.htm>
 
-##Contextualización
+## Contextualización
 
 Respecto a la cuestión de la independencia y el nacionalismo, en diciembre de 2013 sacamos un manifiesto en el momento en que las elites catalanas anunciaron un referéndum para noviembre de 2014. Las preguntas del referéndum eran: "Quieres que Cataluña sea un Estado?" en caso afirmativo, "Quieres que Cataluña sea independiente?". Las únicas formas de contestar a esta pregunta blindada por las elites eran Sí-No (opción estatista-federal), No-No (mantener el status quo), y Sí-Sí (independendencia con creación de Estado propio). La única respuesta no contemplanda era el No-Sí, la opción libertaria que implicaría que no queremos ningún Estado pero si que queremos la independencia. Esta opción quedaba totalmente excluída y nosotros quisimos darle la vuelta a esta situación de marginalidad de la posibilidad de cuestionar el Estado catalán y su necesidad y señalar que la independencia real no pasa por la construcción de una estructura de dominación como el Estado-Nación. Por esto, el manifiesto que escribimos llevaba por título: _"Manifiesto por el No-Sí: la revolución, sin Estado-Nación es la solución"_[^4].
 
@@ -29,7 +29,7 @@ En septiembre de 2014 iniciamos una nueva campaña en el mismo sentido, esta vez
 [^8]: <http://silviatomas.net>
 [^9]: <http://www.no-si.cat/news/independència-sense-estat-jornades-de-reflexio,-formacio-i-debat/>
 
-##Ideas y posicionamientos
+## Ideas y posicionamientos
 
 Pues bien, cual es la posición que defendemos en estos manifiestos y campañas, y que seguimos manteniendo?
 
@@ -51,7 +51,7 @@ En el segundo manifiesto,
 
 - En relación al referéndum poníamos sobre la mesa tres posiciones "coherentes" con el No-Sí, dejando libertad personal a la gente para obrar como creyera conveniente. Así, proponíamos por un lado la abstención activa, por otro lado el voto No-Si que era un voto no validado, y por último el Sí-Sí como mal menor dentro del marco actual que no nos deja otra opción, de un modo pragmático pero que no afecta en nuestras energías políticas del día a día que consideramos que están en otro lugar, ni a nuestras convicciones de fondo que conocen las limitaciones i problemas de las vias estatalistas. Nuestra posción respecto al voto es aquella que ya defendió en su momento el conocido Ricardo Mella en su texto "Vota, pero escucha" arguyendo que _"me da igual lo que hagas el día de las elecciones, lo importante es lo que hagas los otros 364 días del año"_.
 
-##Valoración del presente y proyectivas de futuro
+## Valoración del presente y proyectivas de futuro
 
 Respecto al presente y al futuro, como nos posicionamos y como pensamos seguir?
 
@@ -77,6 +77,6 @@ Finalmente, en líneas más generales y estratégicas pensamos que haría falta:
 
 - Proponer y construir una nueva vía para el pueblo de Cataluña y para todos los pueblos de la península y más allá, una vía creíble y viable de la cual ya están emergiendo, dispersos aquí y allá, muchos elementos que podrían ser sus bases.
 
-##Conclusión
+## Conclusión
 
 Según creo, Cataluña puede hacer honor a su tradición radical, innovadora, colectivista y popular para proponer alternativas reales de organización social para el siglo XXI, más allá de la típica y falsa "independencia" estatalista para la que quieren que luchemos. Aquí entramos de lleno en la cuestión del anarquismo y de su pleno sentido vinculado también a un discurso de respeto al hecho nacional sin caer en el nacionalismo. Creo que esto es, en parte, lo que necesitamos actualmente y que es algo radicalmente rompedor con el orden establecido porque no hay partido que lo defienda en estos términos: sólo el pueblo puede impulsar el camino del antiestatismo, el pluralismo, la convivencialidad y el amor, el decrecimiento y la connexión con la tierra y la recuperación y regeneración de una verdadera cultura popular. Este es el camino a seguir y ojalá Cataluña pueda ser una inspiración para el más allá, y que no dejemos que nuestras élites de uno u otro color nos distraigan con pugnas inútiles. La inspiración de Rojava en el Kurdistan sirio también tiene mucho que aportarnos. Necesitamos que los libertarios ibéricos entiendan a Cataluña del mismo modo que los anarquistas turcos entienden en principio el proceso del Kurdistan, que no lo nieguen por sus factores específicos, sino que lo apoyen como un catalizador del cambio para todos.

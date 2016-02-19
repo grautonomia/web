@@ -9,7 +9,7 @@ files:
     - ['PDF en castellano', 'ror_indepe_es.pdf']
 ---
 
-##Introducció
+## Introducció
 
 En els últims anys hem estat testimonis d'un auge independentista dins la societat catalana, que s'ha visualitzat en diferents mobilitzacions massives. A Catalunya ha culminat en l'anunci de la convocatòria d'un referèndum el proper 9 de novembre per consultar a la ciutadania sobre la formació d'un Estat català.
 
@@ -23,7 +23,7 @@ Amb expressions i vocables com "dret a decidir", "autodeterminació dels pobles"
 
 Des d'aquest text intentarem indagar en allò que podria implicar la creació d'un Estat propi per debatre i esbrinar des de la base quina o quines estratègies volem seguir a l'hora de construir una societat veritablement democràtica –de veritable autogovern- i exercir conseqüentment el nostre dret d'autodeterminació com a poble.
 
-##Relació entre Estat i capitalisme
+## Relació entre Estat i capitalisme
 
 Quina és la raó de ser de la figura de l'Estat? Com ja vam fer referència al "Manifest No-Sí", _"l'Estat-nació és un apa­rell de domi­nació i de coerció pro­fes­si­o­nal que es va ins­tau­rar sos­ca­vant i des­man­te­llant les ins­ti­tu­ci­ons real­ment democràtiques de la soci­e­tat popu­lar tra­di­ci­o­nal, com ara el Con­sell Obert i el Comu­nal a la Península Ibèrica. (...) No hi ha un sol Estat al món que no esti­gui tacat de sang, far­cit d'injustícia, eri­git en base a l'engany i a l'explo­tació dels éssers humans i de la natura"_.
 
@@ -35,7 +35,7 @@ Des de l'esquerra independentista, fins i tot la que s'autoanomena "anticapitali
 
 Així mateix, com ja hem vist en el debat sobre reformisme, els discursos de l'esquerra "radical" i de la socialdemocràcia pels quals es defensa el retorn a un Estat de benestar com l'anterior a la crisi suposen caure en retòrica utòpica i a-històrica, ja que el funcionament d'un Estat on prevalgués l'assistencialisme social aniria en contra de les dinàmiques de mercat internacionalitzat i a la llarga estaria abocat al fracàs[^5].
 
-##El paper de l'Estat com a "garant de la cultura"
+## El paper de l'Estat com a "garant de la cultura"
 
 Un dels arguments principals que s'esgrimeix en la defensa de la creació d'un Estat català és la necessitat de protegir la cultura i llengua catalana contra els atacs de l'imperialisme espanyol. Aquest argument ens genera molts dubtes ja que es proposa la creació d'un Estat com a solució; en el cas de la llengua, no cal anar més enllà de la Península Ibèrica per veure exemples d'allò que implica "oficialitzar" o "normativitzar" una llengua per part de l'Estat –que moltes vegades es tracta d'imposar com a oficial el dialecte hegemònic o de fer una barreja artificial de dialectes que no té contrapartida oral en la societat- en perjudici dels altres dialectes que seran considerats subordinats o derivats de l'oficial[^6]. Això dóna lloc a una jerarquització  i centralització cultural imposada de forma heterònoma per l'ens estatal. Però, quina és la raó de ser d'aquesta estratagema estatal?
 
@@ -47,7 +47,7 @@ Trobem a faltar, en canvi, des de moltes veus de l'esquerra independentista i de
 
 Veiem doncs, que l'única defensa veritable i explícita de la cultura popular i de la llengua pròpia és la que es dóna en el marc del projecte revolucionari, de la creació de comunitats lliures i democràtiques, que vagin en contra de la natura uniformadora i anihiladora de la diversitat que representen els Estats.
 
-##La democràcia com a horitzó
+## La democràcia com a horitzó
 
 Davant les vicissituds que el context en què vivim ens presenta, ens trobem amb el repte històric de dedicar les nostres forces a idear, construir i "destruir construint"[^10] una societat veritablement democràtica on puguem acabar amb els mals que assoten el món, com ara les desigualtats, la dominació, la pobresa i la violència, i anar cimentant les bases per organitzar-nos d'acord amb els valors que volem com a eixos transversals de les nostres relacions i de les nostres vides, com ara la igualtat, l'autonomia, la pau i la llibertat.
 

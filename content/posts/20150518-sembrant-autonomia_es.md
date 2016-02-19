@@ -4,7 +4,7 @@ subtitle: Experiencia de los Grupos de Estudio de Democracia Inclusiva de
           Cataluña y el Grupo de Acción de Democracia Inclusiva de Cataluña
 ---
 
-##Introducción[^1]
+## Introducción[^1]
 
 [^1]: Este artículo se basa, en parte, en una autobiografía inedita que empezamos a escribir hace un tiempo con Blai Dalmau, la cual pretende explicar con mayor detalle nuestra evolución personal, política e intelectual en los últimos años.
 
@@ -16,7 +16,7 @@ Las iniciativas educativas autogestionadas y con contenidos radicales eran prác
 
 La experiencia de los Grupos de Estudio de DI (GEDI's) y la creación del paralelo y subsiguiente [Grupo de Acción de Democracia Inclusiva (GADI) de Cataluña](http://democracia-inclusiva.blogspot.com.es) fueron iniciativas que tuvieron muchos frutos y de las cuales intentamos aún aprender errores y aciertos, por la cual cosa las expongo, a grandes rasgos, a continuación, por si puede ser útil a otras personas que se planteen la creación de grupos de estudio en el sentido de la Revolución Integral.
 
-##Constitución y desarrollo de los grupos
+## Constitución y desarrollo de los grupos
 
 ![](hacia-di.jpg#thumb)
 
@@ -38,7 +38,7 @@ De los grupos de estudio que impulsamos en distintos puntos de la geografía cat
 
 El desierto revolucionario en qué nos encontrabámos parecía empezar a reverdecer y con ello movilizaciones como las del 15-M de 2011 llevaron a las plazas de forma más o menos ímplicita o intuïtiva algunas de las ideas y propuestas que constituían el corazón central del proyecto de la Democracia Inclusiva que veníamos promoviendo, especialmente, las asambleas y la democracia directa como forma de autogestionar los asuntos públicos, impugnando las instituciones políticas representativas y los partidos. Allí estuvimos, en las plazas, realizando charlas y intervenciones, aportando material reflexivo y constructivo, pero aún con un discurso demasiado minoritario y poco articulado como para poder contribuir sustancialmente a que el estallido del 15-M desenmbocase en una sustantiva transformación social y personal en el camino hacia un nuevo sistema. Un año más tarde publicamos un análisis sobre el 15-M en la publicación masiva ["Rebelaos!"](https://www.rebelaos.net) con el título _"De la autoorganización en las plazas a la construcción de una nueva soberanía popular"_.
 
-##Análisis de aciertos y limitaciones
+## Análisis de aciertos y limitaciones
 
 En primer lugar, voy a poner sobre la mesa algunos aciertos y puntos fuertes de tales grupos, así como los elementos que según mi modo de ver fueron clave para que tuvieran el impacto que tuvieron:
 
@@ -71,11 +71,11 @@ En algunos momentos la diferente implicación o liderazgo entre los miembros cau
 
 [^3]: Podéis encontrar el comunicado en el cual explicábamos nuestra decisión aquí: <http://democracia-inclusiva.blogspot.com.es/2012/11/cesamos-la-intervencion-politica-y-nos.html>.
 
-##Resultados
+## Resultados
 
 Como he comentado, en total, varias decenas de personas pudieron participar en estos grupos de estudio y acción, realizando tareas de autogestión del conocimento que les llevaron a mejorar sustancialemente su visión política del mundo y de su entorno, y aportarla a sus respectivos proyectos y allegados. Así pues, creo que los conocimientos adquiridos han significado una importante evolución personal e intelectual para muchos y un gran impulso a proyectos relacionados con las ideas estudiadas. Así, por un lado, hay personas que han seguido avanzando en el desarrollo, ampliación y pulimiento de las ideas, para constituir un nuevo paradigma y nuevos grupos de estudio en sintonia con nuestras evoluciones ideológicas y que actualicen y amplien nuestra visión del mundo (este es el caso particularmente de Blai, con el [paradigma Vitalista Integral](http://www.provital.cat)); por otro lado, hay quién ha impulsado proyectos cooperativos y populares en su barrio (como Eduard, en el [Ateneu Cooperatiu La Base](http://www.labase.info)); otros que han creado comunidades convivenciales pro-comunales (como [Can Tonal de Vallbona](http://cantonal.net)) e intentan influir en candidaturas municipalistas para radicalizarlas; otros tienen proyectos editoriales y/o blogs; otros se han implicado en la [Cooperativa Integral Catalana](http://cooperativa.cat) para tratar de aportar ideas organizativas y formación ideológica de manera más o menos informal; hay también quién intenta contribuir al desarrollo del concepto de [Revolución Integral](http://revolucionintegral.org) o a una [red internacional](http://integrarevolucio.net) que trabaje en este sentido; están los impulsores iniciales de la [Xarxa d'Estudis per a l'Autonomia](https://xarxadestudis.wordpress.com), quienes, habiendo experimentado el aprendizaje autogestionado en el marco de los GEDIs, decidieron extenderlo en forma de red, fomentando así la creación de grupos de estudio de diversa índole y tematica, etc.
 
-##Conclusión
+## Conclusión
 
 Este texto se ha escrito sobre todo con la finalidad de compartir la experiencia vivida y los aprendizajes generados con la esperanza de que pueda ser útil y inspirador para otras personas o colectivos transformadores que se planteen el desarrollo de herramientas formativas y educativas como parte integrante de un proceso revolucionario. Me parece que la importancia de las ideas e ideales, del desarrollo del factor consciente, en los procesos de cambio no siempre es tenida en cuenta en la medida que sería adecuada, pues la urgencia de muchas situaciones nos hace priorizar actuaciones más visibles y "prácticas" dejando en un segundo plano la reflexión y la difusión de ideas. Pienso que hay que apostar por vincular ideología y prácticas, aunando reflexiones que podemos generar a partir de nuestras vivencias concretas con ideas generales y globales que nos ayuden a analizar y orientarnos en el mundo en el que vivimos.
 
