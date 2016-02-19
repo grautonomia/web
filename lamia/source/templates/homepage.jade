@@ -8,12 +8,14 @@ block body
                     h1= __('gra_full')
                     img.bird(src='/assets/bird.png')
 
-                ul.posts.large-block-grid-2
-                    - var posts = find({ locale: locale, type: 'post' }).sort({ date: -1 }).all()
-                    each post, index in posts
-                        li.post(class=Math.floor(index/2) >= Math.floor(posts.length/2) ? 'last-row' : '')
-                            h3: a(href='/'+post.path)= post.title
+                ul.articles.large-block-grid-2
+                    - var articles = find({ locale: locale, type: 'article' }).sort({ date: -1 }).all()
+                    each article, index in articles
+                        li.article(class=Math.floor(index/2) >= Math.floor(articles.length/2) ? 'last-row' : '')
+                            h3: a(href='/'+article.path)= article.title
                             p.meta-data
-                                span: <i class="fa fa-fw fa-calendar"></i> #{isoDate(post.date)}
-                                span: <i class="fa fa-fw fa-clock-o"></i> #{__('x_minutes', post.readingTime)}
-                            p!= post.snippet
+                                span: <i class="fa fa-fw fa-calendar"></i> #{isoDate(article.date)}
+                                span: <i class="fa fa-fw fa-clock-o"></i> #{__('x_minutes', article.readingTime)}
+                                if article.allow_comments
+                                    span: <i class="fa fa-fw fa-comment"></i> <a data-disqus-identifier="#{article.disqus_id}">0</a>
+                            p!= article.snippet

@@ -129,17 +129,19 @@
         }
     }
 
-    p:first-child, h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p, ul + p, blockquote + p, figure + p {
+    p:first-child, h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p, ul + p, blockquote + p, .lamia-image + p {
         text-indent: 0;
     }
 
     // Figure between paragraphs
-    p + figure.image-thumb + p {
+    p + .image-thumb + p {
         text-indent: 1.5em;
     }
 
     // Images
-    figure {
+    .lamia-image {
+        text-indent: 0;
+
         img {
             border: 1px solid $light-grey-color;
         }
@@ -159,7 +161,7 @@
     }
 
     // Foonotes
-    a.footnoteRef {
+    .footnote-ref a {
         border-bottom: none;
         color: $primary-color;
         margin-left: $quarter-padding / 2;

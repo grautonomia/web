@@ -2,7 +2,7 @@ i18n:
     default: ca
     locales: [ca, es]
 urls:
-    posts/*: :locale/:slug
+    articles/*: :locale/:slug
     pages/*: :locale/page/:slug
 redirect:
     /ca/: /

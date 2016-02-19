@@ -35,7 +35,7 @@ module.exports.postMarkdown = function (ms, config) {
     ms.use(snippet({ maxLength: 450 }));
     ms.use(wordcount({ raw: true }));
     ms.use(fileMetadata([
-        { pattern: 'posts/*', preserve: true, metadata: { layout: 'post.jade', allow_comments: true, type: 'post', authors: ['GRA'] } },
+        { pattern: 'articles/*', preserve: true, metadata: { layout: 'article.jade', allow_comments: true, type: 'article', authors: ['GRA'] } },
         { pattern: 'pages/*', preserve: true, metadata: { layout: 'page.jade', type: 'page' } },
     ]));
 };
