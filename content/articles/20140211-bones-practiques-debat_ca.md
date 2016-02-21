@@ -4,8 +4,8 @@ disqus_id: article_practiques
 title:     Bones pràctiques pel debat emancipador
 keywords:  []
 files:
-    - ['PDF en català',     'practiques_ca.pdf']
-    - ['PDF en castellano', 'practiques_es.pdf']
+    - ['PDF en català',     'bones-practiques_ca.pdf']
+    - ['PDF en castellano', 'bones-practiques_es.pdf']
 ---
 
 L'autonomia, en contraposició a l'heteronomia, cal que sigui escollida conscientment, no pot ser donada ni imposada. Així, només es pot fonamentar en la consciència crítica de les persones que volen esdevenir autònomes, que a la vegada depèn del grau &mdash;a nivell quantitatiu però sobretot qualitatiu&mdash; de comunicació entre aquestes. És per això que el debat, entenent-lo com un procés cooperatiu-sinèrgic de pensament i coneixement, és un element primordial per avançar cap a la societat que anhelem, així com per fer front a la dominació.
