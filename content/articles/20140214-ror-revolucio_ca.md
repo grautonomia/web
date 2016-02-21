@@ -1,11 +1,11 @@
 ---
-draft:     false
-disqus_id: article_rorrevolucio
-image:     social
-title:     Pensant la revolució avui
-subtitle:  Construir un nou món – Acabar amb l'ordre establert
-keywords:  [moviment, revolució, estratègia, subjecte revolucionari, transició,
-           tàctiques, reflexió, pensament, 1936, violència]
+draft:      false
+disqus_id:  article_rorrevolucio
+social_img: true
+title:      Pensant la revolució avui
+subtitle:   Construir un nou món – Acabar amb l'ordre establert
+keywords:   [moviment, revolució, estratègia, subjecte revolucionari, transició,
+            tàctiques, reflexió, pensament, 1936, violència]
 files:
     - ['PDF en català',     'ror_revolucio_ca.pdf']
     - ['PDF en castellano', 'ror_revolucio_es.pdf']

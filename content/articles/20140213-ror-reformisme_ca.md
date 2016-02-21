@@ -1,10 +1,10 @@
 ---
-draft:     false
-disqus_id: article_rorreformisme
-image:     social
-title:     "Reformisme: refundació o superació?"
-keywords:  [reformisme, estat de benestar, hiperactivisme, immediatisme,
-           conformisme, socialdemocràcia, revolució]
+draft:      false
+disqus_id:  article_rorreformisme
+social_img: true
+title:      "Reformisme: refundació o superació?"
+keywords:   [reformisme, estat de benestar, hiperactivisme, immediatisme,
+            conformisme, socialdemocràcia, revolució]
 files:
     - ['PDF en català',     'ror_reformisme_ca.pdf']
     - ['PDF en castellano', 'ror_reformisme_es.pdf']

@@ -21,19 +21,17 @@
     meta.schema      = {}
     meta.schema.type = type == 'article' ? 'http://schema.org/Article' : 'http://schema.org/WebPage'
 
-    if (!!image) {
-        var social_img = meta.base_url +'/assets/articles/'+ id +'/'+ image
-
-        meta.facebook.img = social_img +'_slarge.jpg'
+    if (social_img) {
+        meta.facebook.img = meta.base_url +socialImage(id, 'large')
         meta.twitter.card = 'summary_large_image'
-        meta.twitter.img  = social_img +'_smedium.jpg'
-        meta.schema.img   = social_img +'_slarge.jpg'
+        meta.twitter.img  = meta.base_url +socialImage(id, 'medium')
+        meta.schema.img   = meta.base_url +socialImage(id, 'large')
     } else {
-        meta.facebook.img = meta.base_url +'/assets/avatar_slarge.jpg'
+        meta.facebook.img = meta.base_url +'/assets/avatar_large.jpg'
         meta.twitter.card = 'summary'
-        meta.twitter.img  = meta.base_url +'/assets/avatar_ssmall.jpg'
-        meta.schema.img   = meta.base_url +'/assets/avatar_slarge.jpg'
-    }
+        meta.twitter.img  = meta.base_url +'/assets/avatar_small.jpg'
+        meta.schema.img   = meta.base_url +'/assets/avatar_large.jpg'
+    }    
 
 doctype html
 html(lang="#{locale}" itemscope itemtype=meta.schema.type)

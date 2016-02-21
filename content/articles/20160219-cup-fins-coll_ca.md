@@ -1,6 +1,5 @@
 ---
 draft:    false
-image:    social
 title:    "La CUP: fins al coll en política"
 authors:  [Peter Gelderloos]
 subtitle: "En renunciar a la seva capacitat per actuar com una força independent, la CUP està repetint un esquema conegut pels partits d'esquerra: quedar-se atrapada en la política institucional"

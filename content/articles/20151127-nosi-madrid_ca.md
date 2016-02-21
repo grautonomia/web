@@ -1,10 +1,10 @@
 ---
-draft:    false
-image:    social
-title:    Nacionalismes, independentismes i anarquisme
-subtitle: |
-          Xerrada a Madrid
-          Ateneu La Idea, 23/10/2015
+draft:      false
+social_img: true
+title:      Nacionalismes, independentismes i anarquisme
+subtitle:   |
+            Xerrada a Madrid
+            Ateneu La Idea, 23/10/2015
 ---
 
 ## Presentació
