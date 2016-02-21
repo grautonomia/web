@@ -1,0 +1,11 @@
+{
+    "type": "s3",
+    "config": {
+        "params": {
+            "Bucket": "www.grupreflexioautonomia.org"
+        },
+        "accessKeyId":     "",
+        "secretAccessKey": "",
+        "region":          "eu-west-1"
+    }
+}
