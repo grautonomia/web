@@ -26,5 +26,3 @@ assets:
         wide:
             class: image-wide
             width: 624
-disqus: ~
-deploy: ~
