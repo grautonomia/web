@@ -83,6 +83,10 @@
         text-align: justify;
         line-height: 1.85em;
         font-size: rem-calc(16);
+
+        sup {
+            line-height: 1em;
+        }
     }
 
     ul, ol {
