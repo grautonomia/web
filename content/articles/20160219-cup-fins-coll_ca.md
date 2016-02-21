@@ -6,6 +6,8 @@ subtitle: "En renunciar a la seva capacitat per actuar com una força independen
 note:     Article publicat originalment en anglès en [ROAR Magazine](https://roarmag.org/essays/cup-catalonia-spain-elections/).
 ---
 
+![](cup-fins-coll.jpg#wide)
+
 Una de les majors controvèrsies dels moviments socials anticapitalistes durant els últims anys ha estat el gran gir que ha protagonitzat una part del moviment, tot virant de projectes autònoms i auto-organitzats, de protestes contestatàries que reclamen espai de forma directa, cap a les institucions.
 
 Aquí, en general, el moviment anticapitalista rebutja la política electoral, i no ve pas de nou. Quan el règim de Franco necessità democratitzar-se per tal de poder-se unir a la Comunitat Econòmica Europea, socialistes i comunistes formaren governs i encaixaren mans amb feixistes, tot esperant les eleccions que els durien al poder, en una «Transició» que va permetre la supervivència de moltes institucions franquistes, deixant-les intactes. L'aparell repressiu feixista, ara en mans d'auto-proclamades demòcrates, es llançà contra totes aquelles que amb la seva lluita havien jugat un paper clau per forçar la fi del règim i que havien rebutjat aquest pacte amb el diable.
