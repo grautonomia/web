@@ -1,6 +1,7 @@
 ---
 title:    Sólo el pueblo salva al pueblo
 keywords: [Autonomía, Asamblea, Reflexión]
+authors:  [Reflexiones para la emancipación]
 note:     Texto publicado originalmente por el colectivo _Reflexiones para la
           emancipación_.
 ---

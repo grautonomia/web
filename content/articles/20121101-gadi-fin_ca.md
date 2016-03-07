@@ -2,6 +2,7 @@
 draft:          true
 disqus_id:      article_gadifin
 allow_comments: false
+authors:        [GADI]
 title:          Últim comunicat del GADI Catalunya
 subtitle:       Cessem la intervenció política i ens focalitzem en la formació,
                 la reflexió i la refundació durant un any
