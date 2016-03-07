@@ -94,9 +94,9 @@ html(lang="#{locale}" itemscope itemtype=meta.schema.type)
                         if locale != 'ca' && typeof(lang('ca').path) != 'undefined'
                             li: a(href='/'+ lang('ca').path) Català
                     ul.menu.right
-                        li: a(href='/'+findOne({ id: 'index' }).lang(locale).path)= __('menu_index')
+                        li: a(href='/'+findOne({ id: 'index' }).lang(locale).path)= __('menu_articles')
+                        li: a(href='/'+findOne({ id: 'others' }).lang(locale).path)= __('menu_others')
                         li: a(href='/'+findOne({ id: 'about' }).lang(locale).path)= __('menu_about')
-                        //-li: a(href='#') Projectes
                         //-li: a(href='#') Enlaces
 
 

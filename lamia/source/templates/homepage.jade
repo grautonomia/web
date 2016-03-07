@@ -9,7 +9,7 @@ block body
                     img.bird(src='/assets/bird.png')
 
                 ul.articles.large-block-grid-2
-                    - var articles = find({ locale: locale, type: 'article' }).sort({ date: -1 }).all()
+                    - var articles = find({ locale: locale, type: 'article', tags: { $in: show_tags } }).sort({ date: -1 }).all()
                     each article, index in articles
                         li.article(class=Math.floor(index/2) >= Math.floor(articles.length/2) ? 'last-row' : '')
                             h3: a(href='/'+article.path)= article.title

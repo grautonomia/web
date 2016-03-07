@@ -1,4 +1,5 @@
 ---
-title:  Inicio
-layout: homepage.jade
+title:     Inicio
+show_tags: [gra]
+layout:    homepage.jade
 ---
