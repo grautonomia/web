@@ -19,4 +19,4 @@ block body
                 ul.articles
                     - var articles = find({ type: 'article', locale: locale }).sort({ date: -1 }).limit(5).all()
                     each article in articles
-                        li: <a href=article.path>#{article.title}</a>
+                        li: a(href='/'+ article.path)= article.title
