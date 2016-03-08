@@ -1,7 +1,7 @@
 ---
 draft:    false
 title:    "El Kurdistan con Cataluña (I - Bakur)"
-subtitle: "Idees-força del Confederalisme Democràtic de cara a construïr una força revolucionària a Catalunya"
+subtitle: "Idees-força del Confederalisme Democràtic de cara a construir una força revolucionària a Catalunya"
 note:     |
           **Versión en castellano no disponible**, pero si quieres [mandanos la traducción](mailto:gra@pimienta.org).
 ---

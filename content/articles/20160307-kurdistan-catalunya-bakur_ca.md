@@ -1,7 +1,7 @@
 ---
 draft:    false
 title:    "El Kurdistan amb Catalunya (I - Bakur)"
-subtitle: "Idees-força del Confederalisme Democràtic de cara a construïr una força revolucionària a Catalunya"
+subtitle: "Idees-força del Confederalisme Democràtic de cara a construir una força revolucionària a Catalunya"
 ---
 
 > "(...) com podríem alçar el vol cap a l'univers d'allò que anomenem la _"vida lliure"_, basat en la integració dels sentits, per a que la vida torni a ser colmada amb les nostres utopies i la seva màgia, que són aspectes expulsats i aniquilats en la vida moderna capitalista, sota l'absoluta hegemonia de les estructures materials."
