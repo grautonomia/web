@@ -1,4 +1,9 @@
 $(function () {
+    $('[data-toggle-menu]').click(function (e) {
+        e.preventDefault();
+        $('[data-menu]').slideToggle();
+    });
+
     // Article references handling
     var footnotes    = $('.footnotes');
     var footnotesSep = $('.footnotes-sep');

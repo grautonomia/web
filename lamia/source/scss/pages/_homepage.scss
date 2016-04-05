@@ -6,7 +6,7 @@
 .homepage {
     .intro {
         position: relative;
-        padding: 3em 0 4em;
+        padding: 0 0 1em;
         @include bottom-separator;
 
         h1 {
@@ -23,6 +23,12 @@
             right: 0px;
             bottom: 0px;
             z-index: 9;
+        }
+    }
+
+    @media #{$medium-up} {
+        .intro {
+            padding: 3em 0 4em;
         }
     }
 

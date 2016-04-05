@@ -88,18 +88,19 @@ html(lang="#{locale}" itemscope itemtype=meta.schema.type)
             .row
                 .columns(class=(type == 'article') ? 'medium-9 large-8 medium-centered' : 'large-12')
                     h1.title.left: a(href='/'+findOne({ id: 'index' }).lang(locale).path) GRA
-                    ul.locales.right
-                        if locale != 'es' && typeof(lang('es').path) != 'undefined'
-                            li: a(href='/'+ lang('es').path) Castellano
-                        if locale != 'ca' && typeof(lang('ca').path) != 'undefined'
-                            li: a(href='/'+ lang('ca').path) Català
-                    ul.menu.right
-                        li: a(href='/'+findOne({ id: 'index' }).lang(locale).path)= __('menu_articles')
-                        li: a(href='/'+findOne({ id: 'others' }).lang(locale).path)= __('menu_others')
-                        li: a(href='/'+findOne({ id: 'events' }).lang(locale).path)= __('menu_events')
-                        li: a(href='/'+findOne({ id: 'about' }).lang(locale).path)= __('menu_about')
-                        //-li: a(href='#') Enlaces
-
+                    a(href="#" data-toggle-menu).show-for-small.hamburger.right <i class="fa fa-fw fa-bars"></i>
+                    div.right.menu-container(data-menu)
+                        ul.menu
+                            li: a(href='/'+findOne({ id: 'index' }).lang(locale).path)= __('menu_articles')
+                            li: a(href='/'+findOne({ id: 'others' }).lang(locale).path)= __('menu_others')
+                            li: a(href='/'+findOne({ id: 'events' }).lang(locale).path)= __('menu_events')
+                            li: a(href='/'+findOne({ id: 'about' }).lang(locale).path)= __('menu_about')
+                            //-li: a(href='#') Enlaces
+                        ul.locales
+                            if locale != 'es' && typeof(lang('es').path) != 'undefined'
+                                li: a(href='/'+ lang('es').path) Castellano
+                            if locale != 'ca' && typeof(lang('ca').path) != 'undefined'
+                                li: a(href='/'+ lang('ca').path) Català
 
         .content
             block body

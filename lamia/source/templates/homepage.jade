@@ -6,7 +6,7 @@ block body
             .wrapper
                 .intro
                     h1= __('gra_full')
-                    img.bird(src='/assets/bird.png')
+                    img.show-for-medium-up.bird(src='/assets/bird.png')
 
                 - var events = find({ locale: locale, type: 'event', timestamp: { $gte: Date.now() } }).all()
                 if events.length

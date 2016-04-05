@@ -25,8 +25,34 @@ hr {
         line-height: $height;
     }
 
+    @media #{$small-only} {
+        .menu-container {
+            display: none;
+            width: 100%;
+            margin-bottom: $half-padding;
+
+            ul {
+                //width: 100%;
+                display: block;
+                margin-bottom: 0;
+
+                li {
+                    display: block;
+                    //width: 100%;
+
+                    a {
+                        display: block;
+                        //width: 100%;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+
     ul {
         margin-left: 0;
+        display: inline-block;
 
         li {
             list-style: none;
@@ -46,6 +72,10 @@ hr {
                 }
             }
         }
+    }
+
+    .hamburger {
+        font-size: 2em;
     }
 }
 
@@ -74,11 +104,17 @@ hr {
 
 .wrapper {
     background-color: #fff;
-    padding: 50px;
+    padding: 25px;
     border-right: 1px solid darken($light-primary-color, 5%);
     border-bottom: 1px solid darken($light-primary-color, 5%);
     border-radius: 3px;
     margin-bottom: $base-padding;
+}
+
+@media #{$medium-up} {
+    .wrapper {
+        padding: 50px;
+    }
 }
 
 .footer {
