@@ -14,6 +14,7 @@
     "hyphenation-patterns": "git://github.com/doup/hyphenation-patterns#28f1c31ed1c5d7dd2053f9cbb0874b0a5a052ff9",
     "hypher": "^0.2.3",
     "jsdom": "^8.0.4",
+    "lamia": "^0.1.0",
     "metalsmith-filemetadata": "^1.0.0",
     "metalsmith-snippet": "^2.0.0",
     "metalsmith-word-count": "0.0.4",
