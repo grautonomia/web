@@ -1,0 +1,25 @@
+extends ./page.jade
+
+block main
+    .events-page
+        h1.no-meta-data= title
+        
+        - var events = find({ locale: locale, type: 'event', timestamp: { $gte: Date.now() } }).all()
+        if events.length
+            each event in events
+                .event(id=event.hrefId)
+                    h3= event.title
+                    .meta-data
+                        span: <i class="fa fa-fw fa-calendar"></i> #{isoDate(event.date)}
+                    div!= markdown(event.contents)
+        else
+            p= __('no_events')
+                                
+        - var events = find({ locale: locale, type: 'event', timestamp: { $lt: Date.now() } }).sort({ date: -1 }).all()
+        if events.length
+            .old-events
+                h2= __('old_events')
+                ul
+                    each event in events
+                        li.event
+                            h4 <span class="date"><i class="fa fa-fw fa-calendar"></i> #{isoDate(event.date)}</span> #{event.title}

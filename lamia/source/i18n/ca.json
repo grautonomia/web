@@ -22,5 +22,8 @@
 	"notes_show": "Mostrar notes",
 	"notes_hide": "Amagar notes",
 	"menu_others": "Altres autors",
-	"menu_articles": "Articles"
+	"menu_articles": "Articles",
+	"menu_events": "Activitats",
+	"old_events": "Activitats passades",
+	"no_events": "No hi ha activitats."
 }

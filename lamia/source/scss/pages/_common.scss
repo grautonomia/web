@@ -1,0 +1,33 @@
+.articles .article, .events-page .event {
+    .meta-data {
+        color: $grey-color;
+        font-family: $header-font-family;
+        font-weight: 300;
+        padding-bottom: ($quarter-padding / 2);;
+        margin-bottom: $quarter-padding;
+        border-bottom: 1px solid $light-grey-color;
+
+        span {
+            margin-right: $quarter-padding;
+        }
+
+        .draft {
+            background-color: #c50024;
+            padding: 1px 6px 1px 2px;
+            border-radius: 3px;
+            color: #fff;
+            font-size: 0.9em;
+        }
+
+        // Disqus counter
+        a {
+            color: $grey-color;
+            cursor: default;
+            border-bottom: none;
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+}

@@ -16,6 +16,8 @@ block body
                                 li <i class="fa fa-fw fa-calendar"></i> #{isoDate(date)}
                                 li <i class="fa fa-fw fa-clock-o"></i> #{__('x_minutes', readingTime)}
                                 li <i class="fa fa-fw fa-user"></i> #{authors.join(', ')}
+                                if draft
+                                    li.draft: <i class="fa fa-fw fa-pencil"></i> DRAFT
 
                             ul.right
                                 if allow_comments

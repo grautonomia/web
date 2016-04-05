@@ -1,0 +1,16 @@
+.events-page {
+    .old-events {
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                margin-bottom: $quarter-padding;
+
+                h4 {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

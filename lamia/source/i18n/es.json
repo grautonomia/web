@@ -22,5 +22,8 @@
 	"notes_show": "Mostrar notas",
 	"notes_hide": "Ocultar notas",
 	"menu_others": "Otros autores",
-	"menu_articles": "Artículos"
+	"menu_articles": "Artículos",
+	"menu_events": "Actividades",
+	"old_events": "Actividades pasadas",
+	"no_events": "No hay actividades."
 }

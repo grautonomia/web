@@ -1,3 +1,6 @@
+base_url: http://www.grupreflexioautonomia.org
+data_files:
+    - events/*
 i18n:
     default: ca
     locales: [ca, es]

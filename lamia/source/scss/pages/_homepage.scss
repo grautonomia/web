@@ -1,9 +1,13 @@
+@mixin bottom-separator {
+    margin-bottom: $half-padding;
+    border-bottom: 1px solid $light-grey-color;
+}
+
 .homepage {
     .intro {
         position: relative;
         padding: 3em 0 4em;
-        margin-bottom: $half-padding;
-        border-bottom: 1px solid $light-grey-color;
+        @include bottom-separator;
 
         h1 {
             position: relative;
@@ -19,6 +23,36 @@
             right: 0px;
             bottom: 0px;
             z-index: 9;
+        }
+    }
+
+    .events {
+        @include bottom-separator;
+
+        h2 {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #666;
+        }
+
+        ul {
+            margin: 0;
+
+            li {
+                list-style-type: none;
+
+                h3 {
+                    font-size: 1em;
+                    letter-spacing: 0.1em;
+                    text-transform: uppercase;
+
+                    .date {
+                        color: $grey-color;
+                        margin-right: $quarter-padding;
+                    }
+                }
+            }
         }
     }
 
@@ -50,30 +84,6 @@
                 text-align: left;
                 line-height: 1.3em;
                 margin-bottom: ($quarter-padding / 2);
-            }
-
-            .meta-data {
-                color: $grey-color;
-                font-family: $header-font-family;
-                font-weight: 300;
-                padding-bottom: ($quarter-padding / 2);;
-                margin-bottom: $quarter-padding;
-                border-bottom: 1px solid $light-grey-color;
-
-                span {
-                    margin-right: $quarter-padding;
-                }
-
-                // Disqus counter
-                a {
-                    color: $grey-color;
-                    cursor: default;
-                    border-bottom: none;
-
-                    &:hover {
-                        background-color: transparent;
-                    }
-                }
             }
 
             p {

@@ -5,8 +5,9 @@ block body
         .large-8.columns
             .wrapper
                 section.text-content
-                    h1.no-meta-data= title
-                    div!= contents
+                    block main
+                        h1.no-meta-data= title
+                        div!= contents
 
         aside.large-4.columns
             .wrapper
